@@ -1,109 +1,84 @@
 import os
 import numpy as np
-from itertools import chain
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 import tensorflow as tf
 from tensorflow import keras
 from keras import layers
-
-class VAE_REC(keras.Model):
-    """Variational Autoencoder (VAE) implementation.
-
-    This class defines a Variational Autoencoder model using TensorFlow and Keras.
-    The VAE consists of an encoder, a decoder, and a sampling layer for the latent space.
-
-    Args:
-        input_shape (tuple): The shape of the input data.
-        latent_dim (int): The dimension of the latent space (default is 2).
-
-    Attributes:
-        latent_dim (int): The dimension of the latent space.
-        encoder (tf.keras.Model): The encoder model.
-        decoder (tf.keras.Model): The decoder model.
-
-    Methods:
-        build_encoder(input_shape, latent_dim): Build the encoder model.
-        sampling(args): Sample from the latent space.
-        build_decoder(input_shape): Build the decoder model.
-        train_step
-        compile_and_train(data, num_epochs, batch_size): Compile and train the VAE.
-    """
-    def __init__(self, input_shape, kl_weight, learning_rate, labels, latent_dim=2):
-        super(VAE_REC, self).__init__()
+from train_vae_rec_model import VAE_REC, KL_WEIGHT, LEARNING_RATE, ARRAY_LENGTH 
+class TNN_MULTILABEL(keras.Model):
+    def __init__(self, output_shape, learning_rate, labels_weights, latent_dim=2):
+        super().__init__()
         self.latent_dim = latent_dim
-        self.encoder = self.build_encoder(input_shape, latent_dim)
-        self.decoder = self.build_decoder(input_shape)
-        self.kl_weight = kl_weight
+        self.classifier = self.build_classifier(output_shape)
         self.learning_rate = learning_rate
-        self.labels = labels
-        self.mass_label = labels[0]
-        self.stress_label = labels[1]
-        self.frequencies_label = labels[2]
-        self.wave_label = labels[3]
+        self.labels_weights = labels_weights
         self.total_loss_tracker = keras.metrics.Mean(name="total_loss")
-        self.reconstruction_loss_tracker = keras.metrics.Mean(
-            name="reconstruction_loss"
-        )
-        self.kl_loss_tracker = keras.metrics.Mean(name="kl_loss")
+        self.displacement_loss_tracker = keras.metrics.Mean(name="mass_loss")
+        self.mass_loss_tracker = keras.metrics.Mean(name="stress_loss")
+        self.frequency_loss_tracker = keras.metrics.Mean(name="frequency_loss")
+        self.wave_time_loss_tracker = keras.metrics.Mean(name="wave_time_loss")
 
-    def build_encoder(self, input_shape, latent_dim):
-        encoder_inputs = keras.Input(shape = input_shape)
-        x = layers.Dense(64, activation = 'relu')(encoder_inputs)
-        x = layers.Dense(32, activation = 'relu')(x)
-        x = layers.Dense(16, activation="relu")(x)
-        z_mean = layers.Dense(latent_dim, name = "z_mean")(x)
-        z_log_var = layers.Dense(latent_dim, name = "z_log_var")(x)
-        z = self.sampling([z_mean, z_log_var])
-        encoder = keras.Model(encoder_inputs, [z_mean, z_log_var, z], name="ENC")
-        return encoder
-
-    def sampling(self, args):
-        z_mean, z_log_var = args
-        batch = tf.shape(z_mean)[0]
-        dim = tf.shape(z_mean)[1]
-        epsilon = tf.random.normal(shape=(batch, dim)) # mean is 0 and sigma = 1
-        return z_mean + tf.exp(0.5 * z_log_var) * epsilon
-
-    def build_decoder(self, input_shape):
+    def build_classifier(self, output_shape):
         # shape accepts a tuple of dimension
-        decoder_inputs = keras.Input(shape = (self.latent_dim+len(self.labels),))
-        x = layers.Dense(16, activation = "relu")(decoder_inputs)
-        x = layers.Dense(32, activation="relu")(x)
-        x = layers.Dense(64, activation = "relu")(x)
-        decoder_outputs = layers.Dense(input_shape, activation = "relu")(x)
-        decoder = keras.Model(decoder_inputs, decoder_outputs, name = "DEC")
-        return decoder
+        classifier_inputs = keras.Input(shape = (self.latent_dim, ))
+        x = layers.Dense(8, activation = "relu")(classifier_inputs)
+        x = layers.Dropout(0.2)(x)
+        x = layers.Dense(16, activation="relu")(x)
+        x = layers.Dropout(0.2)(x)
+        x = layers.Dense(32, activation = "relu")(x)
+        classifier_outputs = layers.Dense(output_shape, activation = "softmax")(x)
+        classifier = keras.Model(classifier_inputs, classifier_outputs, name = "Multilabel_Classifier")
+        return classifier
 
     def call(self, inputs, training=None, mask=None):
-        _, _, z = self.encoder(inputs)
-        reconstructed = self.decoder(z)
-        return reconstructed
+        return self.classifier(inputs)
 
     @property
     def metrics(self):
         return [
             self.total_loss_tracker,
-            self.reconstruction_loss_tracker,
-            self.kl_loss_tracker,
+            self.displacement_loss_tracker,
+            self.mass_loss_tracker,
+            self.frequency_loss_tracker,
+            self.wave_time_loss_tracker,
         ]
 
     def train_step(self, data):
         with tf.GradientTape() as tape:
-            z_mean, z_log_var, z = self.encoder(data)
-            reconstruction = self.decoder(z)
-            reconstruction_loss = keras.losses.mse(data, reconstruction)
-            kl_loss = -0.5 * (1 + z_log_var - tf.square(z_mean) - tf.exp(z_log_var))
-            kl_loss = tf.reduce_mean(tf.reduce_sum(kl_loss, axis=1))
-            total_loss = reconstruction_loss + kl_loss
+            x, y = data
+            x = tf.expand_dims(x, axis=0)
+            y_pred = self.classifier(x)
+            y = tf.expand_dims(y, axis = 0)
+            tf.print(tf.shape(y), tf.shape(y_pred))
+            displacement_loss = keras.losses.mean_squared_error(y_pred[:, 0], y[:, 0])*self.labels_weights[0]
+            mass_loss = keras.losses.mean_squared_error(y_pred[:, 1], y[:, 1])*self.labels_weights[1]
+            frequency_loss = keras.losses.mean_squared_error(y_pred[:, 2], y[:, 2])*self.labels_weights[2]
+            wave_time_loss = keras.losses.mean_squared_error(y_pred[:, 3], y[:, 3])*self.labels_weights[3]
+            total_loss = (displacement_loss + mass_loss + frequency_loss + wave_time_loss)
         grads = tape.gradient(total_loss, self.trainable_weights)
         self.optimizer.apply_gradients(zip(grads, self.trainable_weights))
         self.total_loss_tracker.update_state(total_loss)
-        self.reconstruction_loss_tracker.update_state(reconstruction_loss)
-        self.kl_loss_tracker.update_state(kl_loss)
+        self.displacement_loss_tracker.update_state(displacement_loss)
+        self.mass_loss_tracker.update_state(mass_loss)
+        self.frequency_loss_tracker.update_state(frequency_loss)
+        self.wave_time_loss_tracker.update_state(wave_time_loss)
         return {
-            "loss": self.total_loss_tracker.result(),
-            "reconstruction_loss": self.reconstruction_loss_tracker.result(),
-            "kl_loss": self.kl_loss_tracker.result(),
+            "Total": self.total_loss_tracker.result(),
+            "displacement": self.displacement_loss_tracker.result(),
+            "mass": self.mass_loss_tracker.result(),
+            "frequency": self.frequency_loss_tracker.result(),
+            "wave_time": self.wave_time_loss_tracker.result(),
         }
+    
+    def test_step(self, data):
+        x, y = data
+        x = tf.expand_dims(x, axis=0)
+        y = tf.expand_dims(y, axis = 0)
+        y_pred = self(x, training=False)
+        self.compiled_loss(y, y_pred, regularization_losses=self.losses)
+        self.compiled_metrics.update_state(y, y_pred)
+        return {m.name: m.result() for m in self.metrics}
 
 def get_data_from_dataset(dataset_path):
     """
@@ -239,7 +214,7 @@ def data_scaling(dataset):
     
     return normalized_dataset, array_min, array_max
 
-def split_train_test_dataset(vectors, labels, test_size, shuffle=True, seed=None):
+def split_dataset(vectors, labels, test_size, val_size, shuffle=True, seed=None):
     """
     Splits the dataset into training and test sets using TensorFlow.
 
@@ -257,9 +232,11 @@ def split_train_test_dataset(vectors, labels, test_size, shuffle=True, seed=None
     # Calculate the size of the test set
     num_samples = len(vectors)
     num_test_samples = int(test_size * num_samples)
-    print("The length of the training dataset is:", num_samples-num_test_samples)
+    num_val_samples = int(val_size * num_samples)
+    print("The length of the training dataset is:", num_samples-num_test_samples-num_val_samples)
     print("The length of the test dataset is:", num_test_samples)
-    
+    print("The length of the validation dataset is:", num_val_samples)
+
     # Check if the Frequencies are an array or a single value (User choice)
     if all(len(elem) > 1 for elem in labels[2]):
         new_labels = labels[0:2]
@@ -270,50 +247,95 @@ def split_train_test_dataset(vectors, labels, test_size, shuffle=True, seed=None
         labels = new_labels
 
     tf_vectors = tf.convert_to_tensor(vectors)
+    labels = np.concatenate(labels, axis=1)
     tf_labels = tf.convert_to_tensor(labels)
     
     # Create a TensorFlow dataset for the data and labels
-    dataset = tf.data.Dataset.from_tensor_slices((tf_vectors, *tf_labels))
+    dataset = tf.data.Dataset.from_tensor_slices((tf_vectors, tf_labels))
 
     # Shuffle the dataset if requested
     if shuffle:
         dataset = dataset.shuffle(buffer_size=num_samples, seed=seed)
 
     # Split the dataset into training and test sets
-    train_dataset = dataset.skip(num_test_samples)
-    test_dataset = dataset.take(num_test_samples)
+    train_dataset = dataset.skip(num_test_samples+num_val_samples)
+    test_val_dataset = dataset.take(num_test_samples+num_val_samples)
+    test_dataset = test_val_dataset.skip(num_val_samples)
+    validation_dataset = test_val_dataset.take(num_val_samples)
 
-    return train_dataset, test_dataset
+    return train_dataset, test_dataset, validation_dataset
+
+def plot_dataset(data, labels):
+    z_axis = ["displacement","mass","frequency","wave_time"]
+    for idx, label in enumerate(labels):
+        cmap = plt.get_cmap('viridis')
+        label_colors = [cmap(label_value) for label_value in label]
+        fig = plt.figure()
+        plt.scatter(data[:,0], data[:,1], c=label_colors)
+        plt.colorbar()
+        plt.xlabel('x')
+        plt.ylabel('y')
+        plt.title(z_axis[idx])
+        plt.show()
+
+def save_weights_on_user_input(model, output_weight_path):
+    print("Training Finished")
+    ans = input("Are the results satisfactory?(y/n)")
+    if ans.lower() == "y":
+        model.save_weights(output_weight_path)
 
 if __name__ == "__main__":
     ### PATH MANAGEMENT ###
-    
     # Get the folder containing the script
     script_folder = os.path.dirname(os.path.abspath(__file__))
 
     # Define relative paths for training input folder
     dataset_path = os.path.join(script_folder, "..", "..", "data", "training", "multilabel_dataset.txt")
+    weights_path = os.path.join(script_folder, "..", "..", "models", "VAE_REC", "vae.weights.h5")
+    output_weights_path = os.path.join(script_folder, "..", "..", "models", "TNN", "tnn_multilabel.weights.h5")
     
     ### HYPERPARAMETER ###
-    
-    NUM_EPOCHS = 100
-    BATCH_SIZE = 20
-    KL_WEIGHT = 0.05
-    LEARNING_RATE = 0.005
+    # ML stands for Multilabel
+    NUM_EPOCHS_ML = 50
+    BATCH_SIZE_ML = 20
+    LEARNING_RATE_ML = 0.05
+    LABELS_WEIGHTS = [10,1,10,1]
     
     ### MODEL TRAINING ###
     # Retrieve data from abaqus dataset txt file
     vectors, labels = get_data_from_dataset(dataset_path)
     
+    # Loading the VAE used for the pretrain
+    vae_rec = VAE_REC(ARRAY_LENGTH, KL_WEIGHT, LEARNING_RATE)
+    vae_rec.load_weights(weights_path)
+    _, _, z = vae_rec.encoder(vectors)
+    
     # Select the frequencies of interest from the interval [1, 5]
-    natural_frequencies = [1, 2]
+    natural_frequencies = [1]
     labels[2] = select_frequencies(labels[2], natural_frequencies)
     
     # Scale to [0, 1] interval the labels, vectors are scaled previously
     labels_scaled, labels_min, labels_max = data_scaling(labels)
+    labels_shape = len(labels)
     
-    print(labels_scaled)
     # Split train and test model
-    TEST_SIZE = 0.2
-    split_train_test_dataset(vectors, labels_scaled, TEST_SIZE)
+    TEST_SIZE = 0.1
+    VALIDATION_SIZE = 0.1
+    train_dataset, test_dataset, val_dataset= split_dataset(z, labels_scaled, TEST_SIZE, VALIDATION_SIZE)
+    # plot_dataset(z, labels_scaled)
     
+    # Creating an Early Stopping for regularization (added to dropout in the NN)
+    early_stopping = tf.keras.callbacks.EarlyStopping(
+        monitor='val_loss',
+        patience=5,
+        restore_best_weights=True
+    )
+    
+    # Creating the Neural Network for classification
+    model_multilabel = TNN_MULTILABEL(labels_shape, LEARNING_RATE_ML, LABELS_WEIGHTS)
+    model_multilabel.compile(optimizer = tf.keras.optimizers.Adam(LEARNING_RATE_ML))
+    model_multilabel.fit(
+        train_dataset, epochs=NUM_EPOCHS_ML, batch_size=BATCH_SIZE_ML, 
+        validation_data=val_dataset, callbacks=[early_stopping]
+        )
+    save_weights_on_user_input(model_multilabel, output_weights_path)

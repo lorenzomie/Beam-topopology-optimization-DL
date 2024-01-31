@@ -2,7 +2,7 @@
 #
 # Abaqus/CAE Release 2020 replay file
 # Internal Version: 2019_09_13-19.49.31 163176
-# Run by Lorenzo Miele on Mon Jan 15 21:04:19 2024
+# Run by Lorenzo Miele on Wed Jan 31 15:01:12 2024
 #
 
 # from driverUtils import executeOnCaeGraphicsStartup
@@ -10,8 +10,8 @@
 #: Executing "onCaeGraphicsStartup()" in the site directory ...
 from abaqus import *
 from abaqusConstants import *
-session.Viewport(name='Viewport: 1', origin=(1.23438, 1.25), width=181.7, 
-    height=124)
+session.Viewport(name='Viewport: 1', origin=(1.11979, 1.12269), width=164.833, 
+    height=111.37)
 session.viewports['Viewport: 1'].makeCurrent()
 from driverUtils import executeOnCaeStartup
 executeOnCaeStartup()

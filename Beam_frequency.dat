@@ -1,0 +1,604 @@
+1
+
+   Abaqus 2020                                  Date 31-Jan-2024   Time 15:01:04
+   For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes SIMULIA Corp.
+                           1301 Atwood Avenue, Suite 101W
+                              Johnston, RI 02919, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine FRIDAY 
+                          you are authorized to run
+                          Abaqus/Foundation until 31-Dec-2055
+
+                          Your site id is:  
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.3ds.com/products/simulia/locations/
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                       Abaqus 2020                       * 
+                *                                                         * 
+                *          BUILD ID: 2019_09_13-19.49.31 163176           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using                         * 
+                *  release Abaqus 2020 manuals                            * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Node
+  *Element, type=B31
+  *Nset, nset=ASSEMBLY_BEAM_SET-0
+  *Nset, nset=ASSEMBLY_BEAM_SET-1
+  *Nset, nset=ASSEMBLY_BEAM_SET-10
+  *Nset, nset=ASSEMBLY_BEAM_SET-11
+  *Nset, nset=ASSEMBLY_BEAM_SET-12
+  *Nset, nset=ASSEMBLY_BEAM_SET-13
+  *Nset, nset=ASSEMBLY_BEAM_SET-14
+  *Nset, nset=ASSEMBLY_BEAM_SET-15
+  *Nset, nset=ASSEMBLY_BEAM_SET-16
+  *Nset, nset=ASSEMBLY_BEAM_SET-17
+  *Nset, nset=ASSEMBLY_BEAM_SET-18
+  *Nset, nset=ASSEMBLY_BEAM_SET-19
+  *Nset, nset=ASSEMBLY_BEAM_SET-2
+  *Nset, nset=ASSEMBLY_BEAM_SET-20
+  *Nset, nset=ASSEMBLY_BEAM_SET-21
+  *Nset, nset=ASSEMBLY_BEAM_SET-22
+  *Nset, nset=ASSEMBLY_BEAM_SET-23
+  *Nset, nset=ASSEMBLY_BEAM_SET-24
+  *Nset, nset=ASSEMBLY_BEAM_SET-25
+  *Nset, nset=ASSEMBLY_BEAM_SET-26
+  *Nset, nset=ASSEMBLY_BEAM_SET-27
+  *Nset, nset=ASSEMBLY_BEAM_SET-28
+  *Nset, nset=ASSEMBLY_BEAM_SET-29
+  *Nset, nset=ASSEMBLY_BEAM_SET-3
+  *Nset, nset=ASSEMBLY_BEAM_SET-30
+  *Nset, nset=ASSEMBLY_BEAM_SET-31
+  *Nset, nset=ASSEMBLY_BEAM_SET-32
+  *Nset, nset=ASSEMBLY_BEAM_SET-33
+  *Nset, nset=ASSEMBLY_BEAM_SET-34
+  *Nset, nset=ASSEMBLY_BEAM_SET-35
+  *Nset, nset=ASSEMBLY_BEAM_SET-36
+  *Nset, nset=ASSEMBLY_BEAM_SET-37
+  *Nset, nset=ASSEMBLY_BEAM_SET-38
+  *Nset, nset=ASSEMBLY_BEAM_SET-39
+  *Nset, nset=ASSEMBLY_BEAM_SET-4
+  *Nset, nset=ASSEMBLY_BEAM_SET-40
+  *Nset, nset=ASSEMBLY_BEAM_SET-41
+  *Nset, nset=ASSEMBLY_BEAM_SET-42
+  *Nset, nset=ASSEMBLY_BEAM_SET-43
+  *Nset, nset=ASSEMBLY_BEAM_SET-44
+  *Nset, nset=ASSEMBLY_BEAM_SET-45
+  *Nset, nset=ASSEMBLY_BEAM_SET-46
+  *Nset, nset=ASSEMBLY_BEAM_SET-47
+  *Nset, nset=ASSEMBLY_BEAM_SET-48
+  *Nset, nset=ASSEMBLY_BEAM_SET-49
+  *Nset, nset=ASSEMBLY_BEAM_SET-5
+  *Nset, nset=ASSEMBLY_BEAM_SET-50
+  *Nset, nset=ASSEMBLY_BEAM_SET-51
+  *Nset, nset=ASSEMBLY_BEAM_SET-52
+  *Nset, nset=ASSEMBLY_BEAM_SET-53
+  *Nset, nset=ASSEMBLY_BEAM_SET-54
+  *Nset, nset=ASSEMBLY_BEAM_SET-55
+  *Nset, nset=ASSEMBLY_BEAM_SET-56
+  *Nset, nset=ASSEMBLY_BEAM_SET-57
+  *Nset, nset=ASSEMBLY_BEAM_SET-58
+  *Nset, nset=ASSEMBLY_BEAM_SET-59
+  *Nset, nset=ASSEMBLY_BEAM_SET-6
+  *Nset, nset=ASSEMBLY_BEAM_SET-60
+  *Nset, nset=ASSEMBLY_BEAM_SET-61
+  *Nset, nset=ASSEMBLY_BEAM_SET-62
+  *Nset, nset=ASSEMBLY_BEAM_SET-63
+  *Nset, nset=ASSEMBLY_BEAM_SET-64
+  *Nset, nset=ASSEMBLY_BEAM_SET-65
+  *Nset, nset=ASSEMBLY_BEAM_SET-66
+  *Nset, nset=ASSEMBLY_BEAM_SET-67
+  *Nset, nset=ASSEMBLY_BEAM_SET-68
+  *Nset, nset=ASSEMBLY_BEAM_SET-69
+  *Nset, nset=ASSEMBLY_BEAM_SET-7
+  *Nset, nset=ASSEMBLY_BEAM_SET-70
+  *Nset, nset=ASSEMBLY_BEAM_SET-71
+  *Nset, nset=ASSEMBLY_BEAM_SET-72
+  *Nset, nset=ASSEMBLY_BEAM_SET-73
+  *Nset, nset=ASSEMBLY_BEAM_SET-74
+  *Nset, nset=ASSEMBLY_BEAM_SET-75
+  *Nset, nset=ASSEMBLY_BEAM_SET-76
+  *Nset, nset=ASSEMBLY_BEAM_SET-77
+  *Nset, nset=ASSEMBLY_BEAM_SET-78
+  *Nset, nset=ASSEMBLY_BEAM_SET-79
+  *Nset, nset=ASSEMBLY_BEAM_SET-8
+  *Nset, nset=ASSEMBLY_BEAM_SET-80
+  *Nset, nset=ASSEMBLY_BEAM_SET-81
+  *Nset, nset=ASSEMBLY_BEAM_SET-82
+  *Nset, nset=ASSEMBLY_BEAM_SET-83
+  *Nset, nset=ASSEMBLY_BEAM_SET-84
+  *Nset, nset=ASSEMBLY_BEAM_SET-85
+  *Nset, nset=ASSEMBLY_BEAM_SET-86
+  *Nset, nset=ASSEMBLY_BEAM_SET-87
+  *Nset, nset=ASSEMBLY_BEAM_SET-88
+  *Nset, nset=ASSEMBLY_BEAM_SET-89
+  *Nset, nset=ASSEMBLY_BEAM_SET-9
+  *Nset, nset=ASSEMBLY_BEAM_SET-90
+  *Nset, nset=ASSEMBLY_BEAM_SET-91
+  *Nset, nset=ASSEMBLY_BEAM_SET-92
+  *Nset, nset=ASSEMBLY_BEAM_SET-93
+  *Nset, nset=ASSEMBLY_BEAM_SET-94
+  *Nset, nset=ASSEMBLY_BEAM_SET-95
+  *Nset, nset=ASSEMBLY_BEAM_SET-96
+  *Nset, nset=ASSEMBLY_BEAM_SET-97
+  *Nset, nset=ASSEMBLY_BEAM_SET-98
+  *Nset, nset=ASSEMBLY_BEAM_SET-99
+  *Elset, elset=ASSEMBLY_BEAM_SET-0
+  *Elset, elset=ASSEMBLY_BEAM_SET-1
+  *Elset, elset=ASSEMBLY_BEAM_SET-10
+  *Elset, elset=ASSEMBLY_BEAM_SET-11
+  *Elset, elset=ASSEMBLY_BEAM_SET-12
+  *Elset, elset=ASSEMBLY_BEAM_SET-13
+  *Elset, elset=ASSEMBLY_BEAM_SET-14
+  *Elset, elset=ASSEMBLY_BEAM_SET-15
+  *Elset, elset=ASSEMBLY_BEAM_SET-16
+  *Elset, elset=ASSEMBLY_BEAM_SET-17
+  *Elset, elset=ASSEMBLY_BEAM_SET-18
+  *Elset, elset=ASSEMBLY_BEAM_SET-19
+  *Elset, elset=ASSEMBLY_BEAM_SET-2
+  *Elset, elset=ASSEMBLY_BEAM_SET-20
+  *Elset, elset=ASSEMBLY_BEAM_SET-21
+  *Elset, elset=ASSEMBLY_BEAM_SET-22
+  *Elset, elset=ASSEMBLY_BEAM_SET-23
+  *Elset, elset=ASSEMBLY_BEAM_SET-24
+  *Elset, elset=ASSEMBLY_BEAM_SET-25
+  *Elset, elset=ASSEMBLY_BEAM_SET-26
+  *Elset, elset=ASSEMBLY_BEAM_SET-27
+  *Elset, elset=ASSEMBLY_BEAM_SET-28
+  *Elset, elset=ASSEMBLY_BEAM_SET-29
+  *Elset, elset=ASSEMBLY_BEAM_SET-3
+  *Elset, elset=ASSEMBLY_BEAM_SET-30
+  *Elset, elset=ASSEMBLY_BEAM_SET-31
+  *Elset, elset=ASSEMBLY_BEAM_SET-32
+  *Elset, elset=ASSEMBLY_BEAM_SET-33
+  *Elset, elset=ASSEMBLY_BEAM_SET-34
+  *Elset, elset=ASSEMBLY_BEAM_SET-35
+  *Elset, elset=ASSEMBLY_BEAM_SET-36
+  *Elset, elset=ASSEMBLY_BEAM_SET-37
+  *Elset, elset=ASSEMBLY_BEAM_SET-38
+  *Elset, elset=ASSEMBLY_BEAM_SET-39
+  *Elset, elset=ASSEMBLY_BEAM_SET-4
+  *Elset, elset=ASSEMBLY_BEAM_SET-40
+  *Elset, elset=ASSEMBLY_BEAM_SET-41
+  *Elset, elset=ASSEMBLY_BEAM_SET-42
+  *Elset, elset=ASSEMBLY_BEAM_SET-43
+  *Elset, elset=ASSEMBLY_BEAM_SET-44
+  *Elset, elset=ASSEMBLY_BEAM_SET-45
+  *Elset, elset=ASSEMBLY_BEAM_SET-46
+  *Elset, elset=ASSEMBLY_BEAM_SET-47
+  *Elset, elset=ASSEMBLY_BEAM_SET-48
+  *Elset, elset=ASSEMBLY_BEAM_SET-49
+  *Elset, elset=ASSEMBLY_BEAM_SET-5
+  *Elset, elset=ASSEMBLY_BEAM_SET-50
+  *Elset, elset=ASSEMBLY_BEAM_SET-51
+  *Elset, elset=ASSEMBLY_BEAM_SET-52
+  *Elset, elset=ASSEMBLY_BEAM_SET-53
+  *Elset, elset=ASSEMBLY_BEAM_SET-54
+  *Elset, elset=ASSEMBLY_BEAM_SET-55
+  *Elset, elset=ASSEMBLY_BEAM_SET-56
+  *Elset, elset=ASSEMBLY_BEAM_SET-57
+  *Elset, elset=ASSEMBLY_BEAM_SET-58
+  *Elset, elset=ASSEMBLY_BEAM_SET-59
+  *Elset, elset=ASSEMBLY_BEAM_SET-6
+  *Elset, elset=ASSEMBLY_BEAM_SET-60
+  *Elset, elset=ASSEMBLY_BEAM_SET-61
+  *Elset, elset=ASSEMBLY_BEAM_SET-62
+  *Elset, elset=ASSEMBLY_BEAM_SET-63
+  *Elset, elset=ASSEMBLY_BEAM_SET-64
+  *Elset, elset=ASSEMBLY_BEAM_SET-65
+  *Elset, elset=ASSEMBLY_BEAM_SET-66
+  *Elset, elset=ASSEMBLY_BEAM_SET-67
+  *Elset, elset=ASSEMBLY_BEAM_SET-68
+  *Elset, elset=ASSEMBLY_BEAM_SET-69
+  *Elset, elset=ASSEMBLY_BEAM_SET-7
+  *Elset, elset=ASSEMBLY_BEAM_SET-70
+  *Elset, elset=ASSEMBLY_BEAM_SET-71
+  *Elset, elset=ASSEMBLY_BEAM_SET-72
+  *Elset, elset=ASSEMBLY_BEAM_SET-73
+  *Elset, elset=ASSEMBLY_BEAM_SET-74
+  *Elset, elset=ASSEMBLY_BEAM_SET-75
+  *Elset, elset=ASSEMBLY_BEAM_SET-76
+  *Elset, elset=ASSEMBLY_BEAM_SET-77
+  *Elset, elset=ASSEMBLY_BEAM_SET-78
+  *Elset, elset=ASSEMBLY_BEAM_SET-79
+  *Elset, elset=ASSEMBLY_BEAM_SET-8
+  *Elset, elset=ASSEMBLY_BEAM_SET-80
+  *Elset, elset=ASSEMBLY_BEAM_SET-81
+  *Elset, elset=ASSEMBLY_BEAM_SET-82
+  *Elset, elset=ASSEMBLY_BEAM_SET-83
+  *Elset, elset=ASSEMBLY_BEAM_SET-84
+  *Elset, elset=ASSEMBLY_BEAM_SET-85
+  *Elset, elset=ASSEMBLY_BEAM_SET-86
+  *Elset, elset=ASSEMBLY_BEAM_SET-87
+  *Elset, elset=ASSEMBLY_BEAM_SET-88
+  *Elset, elset=ASSEMBLY_BEAM_SET-89
+  *Elset, elset=ASSEMBLY_BEAM_SET-9
+  *Elset, elset=ASSEMBLY_BEAM_SET-90
+  *Elset, elset=ASSEMBLY_BEAM_SET-91
+  *Elset, elset=ASSEMBLY_BEAM_SET-92
+  *Elset, elset=ASSEMBLY_BEAM_SET-93
+  *Elset, elset=ASSEMBLY_BEAM_SET-94
+  *Elset, elset=ASSEMBLY_BEAM_SET-95
+  *Elset, elset=ASSEMBLY_BEAM_SET-96
+  *Elset, elset=ASSEMBLY_BEAM_SET-97
+  *Elset, elset=ASSEMBLY_BEAM_SET-98
+  *Elset, elset=ASSEMBLY_BEAM_SET-99
+  *Nset, nset=ASSEMBLY_LOAD_SET
+  *material, name=ABS
+  *density
+  *elastic
+  *material, name=PET
+  *density
+  *elastic
+  *material, name=PLA
+  *density
+  *elastic
+  *beamsection, elset=ASSEMBLY_BEAM_SET-0, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-1, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-2, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-3, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-4, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-5, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-6, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-7, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-8, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-9, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-10, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-11, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-12, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-13, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-14, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-15, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-16, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-17, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-18, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-19, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-20, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-21, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-22, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-23, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-24, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-25, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-26, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-27, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-28, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-29, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-30, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-31, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-32, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-33, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-34, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-35, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-36, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-37, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-38, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-39, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-40, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-41, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-42, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-43, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-44, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-45, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-46, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-47, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-48, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-49, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-50, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-51, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-52, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-53, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-54, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-55, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-56, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-57, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-58, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-59, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-60, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-61, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-62, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-63, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-64, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-65, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-66, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-67, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-68, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-69, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-70, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-71, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-72, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-73, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-74, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-75, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-76, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-77, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-78, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-79, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-80, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-81, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-82, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-83, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-84, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-85, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-86, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-87, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-88, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-89, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-90, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-91, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-92, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-93, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-94, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-95, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-96, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-97, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-98, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-99, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *boundary
+  *boundary
+  *output, field, variable=PRESELECT
+  *output, field, variable=PRESELECT
+  *output, field, variable=PRESELECT
+  *Step, name=MyFrequencyStep, nlgeom=NO, perturbation
+  *frequency, eigensolver=LANCZOS, normalization=MASS, sim=YES, acousticcoupling=ON
+  *output, field, variable=PRESELECT
+  *Step, name=MyFrequencyStep, nlgeom=NO, perturbation
+  *Step, name=MyFrequencyStep, nlgeom=NO, perturbation
+  *frequency, eigensolver=LANCZOS, normalization=MASS, sim=YES, acousticcoupling=ON
+  *frequency, eigensolver=LANCZOS, normalization=MASS, sim=YES, acousticcoupling=ON
+  *boundary
+  *output, field, variable=PRESELECT
+  *endstep
+  *Step, name=MyFrequencyStep, nlgeom=NO, perturbation
+  *frequency, eigensolver=LANCZOS, normalization=MASS, sim=YES, acousticcoupling=ON
+  *frequency, eigensolver=LANCZOS, normalization=MASS, sim=YES, acousticcoupling=ON
+  *boundary
+  *endstep
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                   500
+          NUMBER OF NODES IS                                     1501
+          NUMBER OF NODES DEFINED BY THE USER                     501
+          NUMBER OF INTERNAL NODES GENERATED BY THE PROGRAM      1000
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                 3006
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   0.0000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =   0.0000    
+       WALLCLOCK TIME (SEC) =          0
+1
+
+   Abaqus 2020                                  Date 31-Jan-2024   Time 15:01:06
+   For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     C A L C U L A T I O N   O F   E I G E N V A L U E S
+
+                                            F O R   N A T U R A L   F R E Q U E N C I E S
+
+
+
+                                                                                          
+
+     THE LANCZOS EIGENSOLVER IS USED FOR THIS ANALYSIS
+     SYSTEM DATA WILL BE WRITTEN TO THE .SIM FILE
+
+     Abaqus WILL COMPUTE UNCOUPLED
+      STRUCTURAL AND ACOUSTIC MODES
+     NUMBER OF EIGENVALUES                     10
+     HIGHEST FREQUENCY OF INTEREST                  1.00000E+18
+     MAXIMUM NUMBER OF STEPS WITHIN RUN               35
+     BLOCK SIZE FOR LANCZOS PROCEDURE                  7
+     THE EIGENVECTORS ARE SCALED SO THAT 
+      THE GENERALIZED MASS IN EACH VECTOR IS UNITY
+
+     THIS IS A LINEAR PERTURBATION STEP.
+     ALL LOADS ARE DEFINED AS CHANGE IN LOAD TO THE REFERENCE STATE
+
+
+
+                    TOTAL MASS OF MODEL
+
+                      1.2800000E-04
+
+
+                    LOCATION OF THE CENTER OF MASS OF THE MODEL
+
+                       495.3906           0.000000           0.000000    
+
+
+                    MOMENTS OF INERTIA ABOUT THE ORIGIN
+                           I(XX)               I(YY)               I(ZZ)
+
+                      2.1333333E-03       42.18944           42.18944    
+
+
+                    PRODUCTS OF INERTIA ABOUT THE ORIGIN
+                           I(XY)               I(XZ)               I(YZ)
+
+                       0.000000           0.000000         -1.3642421E-20
+
+
+                    MOMENTS OF INERTIA ABOUT THE CENTER OF MASS
+                           I(XX)               I(YY)               I(ZZ)
+
+                      2.1333333E-03       10.77672           10.77672    
+
+
+                    PRODUCTS OF INERTIA ABOUT THE CENTER OF MASS
+                           I(XY)               I(XZ)               I(YZ)
+
+                       0.000000           0.000000         -1.3642421E-20
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION           (MB)               (MB)
+  
+     1          8.47E+05               19                 40
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALLY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+                              E I G E N V A L U E    O U T P U T     
+
+ MODE NO      EIGENVALUE              FREQUENCY         GENERALIZED MASS   COMPOSITE MODAL DAMPING            
+                             (RAD/TIME)   (CYCLES/TIME)
+
+
+       1       261.97         16.186         2.5760         1.0000         0.0000    
+       2       261.97         16.186         2.5760         1.0000         0.0000    
+       3       9921.8         99.608         15.853         1.0000         0.0000    
+       4       9921.8         99.608         15.853         1.0000         0.0000    
+       5       76801.         277.13         44.107         1.0000         0.0000    
+       6       76801.         277.13         44.107         1.0000         0.0000    
+       7      2.91171E+05     539.60         85.880         1.0000         0.0000    
+       8      2.91171E+05     539.60         85.880         1.0000         0.0000    
+       9      8.10826E+05     900.46         143.31         1.0000         0.0000    
+      10      8.10826E+05     900.46         143.31         1.0000         0.0000    
+
+
+          P A R T I C I P A T I O N   F A C T O R S
+
+ MODE NO    X-COMPONENT    Y-COMPONENT    Z-COMPONENT    X-ROTATION     Y-ROTATION     Z-ROTATION 
+
+       1     -3.05011E-19    8.73194E-03   -1.86491E-09    7.50038E-19    1.36322E-06     6.3829    
+       2      2.14831E-20    1.86491E-09    8.73194E-03    1.07714E-18    -6.3829        1.36322E-06
+       3     -5.82825E-18    4.88913E-03   -7.94176E-07   -7.50039E-19    1.77230E-04     1.0911    
+       4      3.90130E-18   -7.94176E-07   -4.88913E-03   -4.58628E-19     1.0911       -1.77230E-04
+       5      5.27478E-18    9.19507E-06    2.91112E-03    4.56254E-17   -0.40996        1.29490E-03
+       6     -1.02219E-17    2.91112E-03   -9.19507E-06   -1.88565E-17    1.29490E-03    0.40996    
+       7     -6.58704E-17   -8.68867E-05   -2.11258E-03   -6.22075E-17    0.21902       -9.00772E-03
+       8     -4.07536E-16    2.11258E-03   -8.68867E-05   -4.22975E-16    9.00772E-03    0.21902    
+       9     -1.43764E-16   -9.41611E-05    1.60418E-03    1.62711E-16   -0.13193       -7.74391E-03
+      10      2.02000E-16   -1.60418E-03   -9.41611E-05   -2.49502E-16    7.74391E-03   -0.13193    
+
+
+                    E F F E C T I V E   M A S S
+
+ MODE NO    X-COMPONENT    Y-COMPONENT    Z-COMPONENT    X-ROTATION     Y-ROTATION     Z-ROTATION 
+
+       1      9.30317E-38    7.62468E-05    3.47788E-18    5.62557E-37    1.85838E-12     40.742    
+       2      4.61524E-40    3.47788E-18    7.62468E-05    1.16024E-36     40.742        1.85838E-12
+       3      3.39684E-35    2.39035E-05    6.30716E-13    5.62559E-37    3.14106E-08     1.1904    
+       4      1.52201E-35    6.30716E-13    2.39035E-05    2.10340E-37     1.1904        3.14106E-08
+       5      2.78233E-35    8.45493E-11    8.47463E-06    2.08168E-33    0.16807        1.67677E-06
+       6      1.04487E-34    8.47463E-06    8.45493E-11    3.55568E-34    1.67677E-06    0.16807    
+       7      4.33891E-33    7.54929E-09    4.46298E-06    3.86977E-33    4.79677E-02    8.11390E-05
+       8      1.66086E-31    4.46298E-06    7.54929E-09    1.78908E-31    8.11390E-05    4.79677E-02
+       9      2.06680E-32    8.86632E-09    2.57340E-06    2.64748E-32    1.74054E-02    5.99682E-05
+      10      4.08039E-32    2.57340E-06    8.86632E-09    6.22512E-32    5.99682E-05    1.74054E-02
+
+ TOTAL        2.32078E-31    1.15678E-04    1.15678E-04    2.73943E-31     42.166         42.166    
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+                              ANALYSIS COMPLETE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =  0.30000    
+       SYSTEM TIME (SEC)    =   0.0000    
+       TOTAL CPU TIME (SEC) =  0.30000    
+       WALLCLOCK TIME (SEC) =          1

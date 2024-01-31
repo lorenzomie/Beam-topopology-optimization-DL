@@ -193,9 +193,7 @@ def create_multilabel_dataset(dataset, script_name, frequency_script_path,
 
         # Run the Abaqus script to perform the simulation
         run_abaqus_script(script_name)  # The script eliminates the output txt file before writing it
-        time.sleep(1)
         run_abaqus_script(frequency_script_path)
-        time.sleep(1)
         run_abaqus_script(wave_script_path)
 
         # Read the output values (displacement and weight) from the Abaqus simulation

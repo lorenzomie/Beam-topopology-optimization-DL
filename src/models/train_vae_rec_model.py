@@ -8,6 +8,12 @@ ARRAY_LENGTH = 100 # This number is not changeable without changing the abaqus s
 MATERIALS_NUMBER = 3 # This number is not changeable without changing the abaqus script
 DIM = 10000
 
+# Hyperparameter tuning
+NUM_EPOCHS = 100
+BATCH_SIZE = 50
+KL_WEIGHT = 0.05
+LEARNING_RATE = 0.005
+
 class VAE_REC(keras.Model):
     """Variational Autoencoder (VAE) implementation.
 
@@ -156,12 +162,6 @@ if __name__ == "__main__":
     # Generate the dataset
     dataset = create_dataset(dimension=DIM)
     print(dataset)
-
-    # Hyperparameter tuning
-    NUM_EPOCHS = 100
-    BATCH_SIZE = 50
-    KL_WEIGHT = 0.05
-    LEARNING_RATE = 0.005
 
     # Convert the dataset to a TensorFlow dataset
     dataset = tf.data.Dataset.from_tensor_slices(dataset)
