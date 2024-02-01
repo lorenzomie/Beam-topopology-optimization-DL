@@ -50,9 +50,9 @@ class VAE_REC(keras.Model):
         self.kl_loss_tracker = keras.metrics.Mean(name="kl_loss")
 
     def build_encoder(self, input_shape, latent_dim):
-        encoder_inputs = keras.Input(shape = input_shape)
-        x = layers.Dense(128, activation = 'silu')(encoder_inputs)
-        x = layers.Dense(64, activation = 'silu')(x)
+        encoder_inputs = keras.Input(shape = (input_shape,))
+        x = layers.Dense(64, activation = 'silu')(encoder_inputs)
+        x = layers.Dense(32, activation = 'silu')(x)
         x = layers.Dense(16, activation="silu")(x)
         z_mean = layers.Dense(latent_dim, name = "z_mean")(x)
         z_log_var = layers.Dense(latent_dim, name = "z_log_var")(x)
@@ -71,8 +71,8 @@ class VAE_REC(keras.Model):
         # shape accepts a tuple of dimension
         decoder_inputs = keras.Input(shape = (self.latent_dim,))
         x = layers.Dense(16, activation = "silu")(decoder_inputs)
-        x = layers.Dense(64, activation="silu")(x)
-        x = layers.Dense(128, activation = "silu")(x)
+        x = layers.Dense(32, activation="silu")(x)
+        x = layers.Dense(64, activation = "silu")(x)
         decoder_outputs = layers.Dense(input_shape, activation = "sigmoid")(x)
         decoder = keras.Model(decoder_inputs, decoder_outputs, name = "DEC")
         return decoder
@@ -166,7 +166,7 @@ if __name__ == "__main__":
     # Convert the dataset to a TensorFlow dataset
     dataset = tf.data.Dataset.from_tensor_slices(dataset)
     train_dataset = dataset.shuffle(DIM).batch(BATCH_SIZE)
-
+    print(train_dataset)
     # Create the VAE model
     vae = VAE_REC(ARRAY_LENGTH, KL_WEIGHT, LEARNING_RATE)
 
