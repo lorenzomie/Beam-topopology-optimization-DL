@@ -1417,88 +1417,88 @@
  100, 101, 498, 499, 500, 501
 *Elset, elset=set-99, generate
  496,  500,    1
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-0, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-0, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-1, material=PET, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-1, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
 *Beam Section, elset=set-2, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-3, material=PET, temperature=GRADIENTS, section=RECT
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-3, material=PLA, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-4, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
-*Beam Section, elset=set-4, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-5, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-5, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
 *Beam Section, elset=set-6, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-7, material=PET, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-8, material=PET, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-9, material=PET, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-7, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
-*Beam Section, elset=set-10, material=ABS, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-11, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-8, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
-*Beam Section, elset=set-12, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-9, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-10, material=PLA, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-11, material=PLA, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-12, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
 *Beam Section, elset=set-13, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-14, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-14, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
 *Beam Section, elset=set-15, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-16, material=PET, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-16, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
 *Beam Section, elset=set-17, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-18, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-19, material=PET, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
 ** Section: ABS_section  Profile: square
-*Beam Section, elset=set-20, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-18, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-19, material=PLA, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-20, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
@@ -1509,24 +1509,24 @@
 *Beam Section, elset=set-22, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-23, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
 ** Section: PET_section  Profile: square
-*Beam Section, elset=set-23, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-24, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
-*Beam Section, elset=set-24, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-25, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-25, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
 *Beam Section, elset=set-26, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-27, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-27, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
@@ -1537,28 +1537,28 @@
 *Beam Section, elset=set-29, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-30, material=PET, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
 ** Section: ABS_section  Profile: square
-*Beam Section, elset=set-30, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-31, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-32, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
-*Beam Section, elset=set-31, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-33, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-32, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-34, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-33, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-34, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-35, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-35, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
@@ -1573,120 +1573,120 @@
 *Beam Section, elset=set-38, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-39, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-39, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
 *Beam Section, elset=set-40, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-41, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-41, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-42, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
-*Beam Section, elset=set-42, material=ABS, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-43, material=PLA, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-43, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
 *Beam Section, elset=set-44, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-45, material=ABS, temperature=GRADIENTS, section=RECT
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-45, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
 *Beam Section, elset=set-46, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-47, material=ABS, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-47, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
 *Beam Section, elset=set-48, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-49, material=ABS, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-50, material=ABS, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
 ** Section: PET_section  Profile: square
-*Beam Section, elset=set-51, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-49, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
-*Beam Section, elset=set-52, material=PLA, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-50, material=PLA, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-51, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
-*Beam Section, elset=set-53, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-52, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-54, material=PET, temperature=GRADIENTS, section=RECT
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-53, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-55, material=PET, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-54, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-55, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
 *Beam Section, elset=set-56, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-57, material=PET, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-57, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-58, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
-*Beam Section, elset=set-58, material=PLA, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-59, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
-*Beam Section, elset=set-59, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-60, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
-*Beam Section, elset=set-60, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-61, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
-*Beam Section, elset=set-61, material=PET, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-62, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-63, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-62, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
-*Beam Section, elset=set-64, material=PET, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-63, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
-*Beam Section, elset=set-65, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-64, material=ABS, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-65, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
 *Beam Section, elset=set-66, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-67, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-67, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
@@ -1697,44 +1697,44 @@
 *Beam Section, elset=set-69, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-70, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-70, material=PET, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-71, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
-*Beam Section, elset=set-71, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-72, material=ABS, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-72, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
 *Beam Section, elset=set-73, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-74, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-74, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
 *Beam Section, elset=set-75, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-76, material=ABS, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-76, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
 *Beam Section, elset=set-77, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-78, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-78, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-79, material=ABS, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-79, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: ABS_section  Profile: square
@@ -1745,8 +1745,8 @@
 *Beam Section, elset=set-81, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-82, material=ABS, temperature=GRADIENTS, section=RECT
+** Section: PLA_section  Profile: square
+*Beam Section, elset=set-82, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
@@ -1757,24 +1757,24 @@
 *Beam Section, elset=set-84, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-85, material=ABS, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-85, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-86, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-86, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
 *Beam Section, elset=set-87, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-88, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-88, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-89, material=PLA, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-89, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
@@ -1785,12 +1785,12 @@
 *Beam Section, elset=set-91, material=PLA, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-92, material=PET, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-92, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PET_section  Profile: square
-*Beam Section, elset=set-93, material=PET, temperature=GRADIENTS, section=RECT
+** Section: ABS_section  Profile: square
+*Beam Section, elset=set-93, material=ABS, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PET_section  Profile: square
@@ -1801,20 +1801,20 @@
 *Beam Section, elset=set-95, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
-** Section: PLA_section  Profile: square
-*Beam Section, elset=set-96, material=PLA, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-97, material=ABS, temperature=GRADIENTS, section=RECT
-10., 10.
-0.,0.,-1.
-** Section: ABS_section  Profile: square
-*Beam Section, elset=set-98, material=ABS, temperature=GRADIENTS, section=RECT
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-96, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 ** Section: PLA_section  Profile: square
-*Beam Section, elset=set-99, material=PLA, temperature=GRADIENTS, section=RECT
+*Beam Section, elset=set-97, material=PLA, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-98, material=PET, temperature=GRADIENTS, section=RECT
+10., 10.
+0.,0.,-1.
+** Section: PET_section  Profile: square
+*Beam Section, elset=set-99, material=PET, temperature=GRADIENTS, section=RECT
 10., 10.
 0.,0.,-1.
 *End Instance

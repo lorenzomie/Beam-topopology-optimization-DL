@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 31-Jan-2024   Time 15:01:04
+   Abaqus 2020                                  Date 31-Jan-2024   Time 22:35:49
    For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
 
 
@@ -286,106 +286,106 @@
   *material, name=PLA
   *density
   *elastic
-  *beamsection, elset=ASSEMBLY_BEAM_SET-0, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-1, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-0, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-1, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-2, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-3, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-4, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-5, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-3, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-4, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-5, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-6, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-7, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-8, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-9, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-10, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-11, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-12, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-7, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-8, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-9, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-10, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-11, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-12, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-13, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-14, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-14, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-15, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-16, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-16, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-17, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-18, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-19, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-20, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-18, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-19, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-20, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-21, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-22, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-23, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-24, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-25, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-23, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-24, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-25, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-26, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-27, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-27, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-28, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-29, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-30, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-31, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-32, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-33, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-34, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-35, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-30, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-31, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-32, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-33, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-34, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-35, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-36, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-37, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-38, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-39, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-39, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-40, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-41, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-42, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-43, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-41, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-42, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-43, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-44, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-45, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-45, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-46, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-47, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-47, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-48, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-49, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-50, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-51, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-52, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-53, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-54, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-55, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-49, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-50, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-51, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-52, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-53, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-54, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-55, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-56, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-57, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-58, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-59, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-60, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-61, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-62, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-63, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-64, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-65, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-57, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-58, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-59, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-60, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-61, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-62, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-63, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-64, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-65, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-66, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-67, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-67, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-68, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-69, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-70, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-71, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-72, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-70, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-71, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-72, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-73, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-74, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-74, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-75, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-76, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-76, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-77, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-78, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-79, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-78, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-79, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-80, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-81, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-82, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-82, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-83, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-84, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-85, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-86, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-85, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-86, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-87, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-88, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-89, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-88, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-89, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-90, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-91, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-92, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-93, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-92, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-93, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-94, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *beamsection, elset=ASSEMBLY_BEAM_SET-95, temperature=GRADIENTS, material=PET, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-96, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-97, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-98, temperature=GRADIENTS, material=ABS, section=RECTANGULAR
-  *beamsection, elset=ASSEMBLY_BEAM_SET-99, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-96, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-97, temperature=GRADIENTS, material=PLA, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-98, temperature=GRADIENTS, material=PET, section=RECTANGULAR
+  *beamsection, elset=ASSEMBLY_BEAM_SET-99, temperature=GRADIENTS, material=PET, section=RECTANGULAR
   *boundary
   *boundary
   *output, field, variable=PRESELECT
@@ -427,13 +427,13 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =   0.0000    
+       USER TIME (SEC)      =  0.20000    
        SYSTEM TIME (SEC)    =   0.0000    
-       TOTAL CPU TIME (SEC) =   0.0000    
+       TOTAL CPU TIME (SEC) =  0.20000    
        WALLCLOCK TIME (SEC) =          0
 1
 
-   Abaqus 2020                                  Date 31-Jan-2024   Time 15:01:06
+   Abaqus 2020                                  Date 31-Jan-2024   Time 22:35:56
    For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
 
                                                                                                STEP    1  INCREMENT    1
@@ -467,36 +467,36 @@
 
                     TOTAL MASS OF MODEL
 
-                      1.2800000E-04
+                      1.2680000E-04
 
 
                     LOCATION OF THE CENTER OF MASS OF THE MODEL
 
-                       495.3906           0.000000           0.000000    
+                       505.6151           0.000000           0.000000    
 
 
                     MOMENTS OF INERTIA ABOUT THE ORIGIN
                            I(XX)               I(YY)               I(ZZ)
 
-                      2.1333333E-03       42.18944           42.18944    
+                      2.1133333E-03       42.97917           42.97917    
 
 
                     PRODUCTS OF INERTIA ABOUT THE ORIGIN
                            I(XY)               I(XZ)               I(YZ)
 
-                       0.000000           0.000000         -1.3642421E-20
+                       0.000000           0.000000         -1.3514523E-20
 
 
                     MOMENTS OF INERTIA ABOUT THE CENTER OF MASS
                            I(XX)               I(YY)               I(ZZ)
 
-                      2.1333333E-03       10.77672           10.77672    
+                      2.1133333E-03       10.56317           10.56317    
 
 
                     PRODUCTS OF INERTIA ABOUT THE CENTER OF MASS
                            I(XY)               I(XZ)               I(YZ)
 
-                       0.000000           0.000000         -1.3642421E-20
+                       0.000000           0.000000         -1.3514523E-20
   
                    M E M O R Y   E S T I M A T E
   
@@ -543,50 +543,50 @@
                              (RAD/TIME)   (CYCLES/TIME)
 
 
-       1       261.97         16.186         2.5760         1.0000         0.0000    
-       2       261.97         16.186         2.5760         1.0000         0.0000    
-       3       9921.8         99.608         15.853         1.0000         0.0000    
-       4       9921.8         99.608         15.853         1.0000         0.0000    
-       5       76801.         277.13         44.107         1.0000         0.0000    
-       6       76801.         277.13         44.107         1.0000         0.0000    
-       7      2.91171E+05     539.60         85.880         1.0000         0.0000    
-       8      2.91171E+05     539.60         85.880         1.0000         0.0000    
-       9      8.10826E+05     900.46         143.31         1.0000         0.0000    
-      10      8.10826E+05     900.46         143.31         1.0000         0.0000    
+       1       233.60         15.284         2.4325         1.0000         0.0000    
+       2       233.60         15.284         2.4325         1.0000         0.0000    
+       3       9290.0         96.385         15.340         1.0000         0.0000    
+       4       9290.0         96.385         15.340         1.0000         0.0000    
+       5       73513.         271.13         43.152         1.0000         0.0000    
+       6       73513.         271.13         43.152         1.0000         0.0000    
+       7      2.83522E+05     532.47         84.745         1.0000         0.0000    
+       8      2.83522E+05     532.47         84.745         1.0000         0.0000    
+       9      7.75424E+05     880.58         140.15         1.0000         0.0000    
+      10      7.75424E+05     880.58         140.15         1.0000         0.0000    
 
 
           P A R T I C I P A T I O N   F A C T O R S
 
  MODE NO    X-COMPONENT    Y-COMPONENT    Z-COMPONENT    X-ROTATION     Y-ROTATION     Z-ROTATION 
 
-       1     -3.05011E-19    8.73194E-03   -1.86491E-09    7.50038E-19    1.36322E-06     6.3829    
-       2      2.14831E-20    1.86491E-09    8.73194E-03    1.07714E-18    -6.3829        1.36322E-06
-       3     -5.82825E-18    4.88913E-03   -7.94176E-07   -7.50039E-19    1.77230E-04     1.0911    
-       4      3.90130E-18   -7.94176E-07   -4.88913E-03   -4.58628E-19     1.0911       -1.77230E-04
-       5      5.27478E-18    9.19507E-06    2.91112E-03    4.56254E-17   -0.40996        1.29490E-03
-       6     -1.02219E-17    2.91112E-03   -9.19507E-06   -1.88565E-17    1.29490E-03    0.40996    
-       7     -6.58704E-17   -8.68867E-05   -2.11258E-03   -6.22075E-17    0.21902       -9.00772E-03
-       8     -4.07536E-16    2.11258E-03   -8.68867E-05   -4.22975E-16    9.00772E-03    0.21902    
-       9     -1.43764E-16   -9.41611E-05    1.60418E-03    1.62711E-16   -0.13193       -7.74391E-03
-      10      2.02000E-16   -1.60418E-03   -9.41611E-05   -2.49502E-16    7.74391E-03   -0.13193    
+       1     -6.36292E-19    1.15250E-12    8.82382E-03    4.39975E-19    -6.4552        8.43129E-10
+       2     -1.99828E-19    8.82382E-03   -1.15250E-12   -2.85245E-18    8.43130E-10     6.4552    
+       3     -4.00234E-18    5.16101E-08    4.86110E-03   -2.44622E-17    -1.0441        1.10853E-05
+       4      3.43755E-18   -4.86110E-03    5.16101E-08    1.01808E-17   -1.10853E-05    -1.0441    
+       5      7.02576E-18    1.56343E-06   -2.84478E-03    4.11241E-17    0.38181        2.09834E-04
+       6     -5.68027E-18    2.84478E-03    1.56343E-06   -2.90386E-17   -2.09834E-04    0.38181    
+       7     -1.45908E-17   -7.94707E-06    2.00560E-03   -2.56303E-16   -0.19763       -7.83097E-04
+       8      2.77385E-17    2.00560E-03    7.94707E-06   -7.03769E-16   -7.83097E-04    0.19763    
+       9      3.61537E-16    1.24911E-04    1.57732E-03   -3.77864E-15   -0.12425        9.83974E-03
+      10      3.03364E-16   -1.57732E-03    1.24911E-04   -3.90064E-15   -9.83974E-03   -0.12425    
 
 
                     E F F E C T I V E   M A S S
 
  MODE NO    X-COMPONENT    Y-COMPONENT    Z-COMPONENT    X-ROTATION     Y-ROTATION     Z-ROTATION 
 
-       1      9.30317E-38    7.62468E-05    3.47788E-18    5.62557E-37    1.85838E-12     40.742    
-       2      4.61524E-40    3.47788E-18    7.62468E-05    1.16024E-36     40.742        1.85838E-12
-       3      3.39684E-35    2.39035E-05    6.30716E-13    5.62559E-37    3.14106E-08     1.1904    
-       4      1.52201E-35    6.30716E-13    2.39035E-05    2.10340E-37     1.1904        3.14106E-08
-       5      2.78233E-35    8.45493E-11    8.47463E-06    2.08168E-33    0.16807        1.67677E-06
-       6      1.04487E-34    8.47463E-06    8.45493E-11    3.55568E-34    1.67677E-06    0.16807    
-       7      4.33891E-33    7.54929E-09    4.46298E-06    3.86977E-33    4.79677E-02    8.11390E-05
-       8      1.66086E-31    4.46298E-06    7.54929E-09    1.78908E-31    8.11390E-05    4.79677E-02
-       9      2.06680E-32    8.86632E-09    2.57340E-06    2.64748E-32    1.74054E-02    5.99682E-05
-      10      4.08039E-32    2.57340E-06    8.86632E-09    6.22512E-32    5.99682E-05    1.74054E-02
+       1      4.04867E-37    1.32826E-24    7.78599E-05    1.93578E-37     41.670        7.10867E-19
+       2      3.99312E-38    7.78599E-05    1.32826E-24    8.13648E-36    7.10869E-19     41.670    
+       3      1.60187E-35    2.66361E-15    2.36303E-05    5.98400E-34     1.0902        1.22883E-10
+       4      1.18167E-35    2.36303E-05    2.66361E-15    1.03648E-34    1.22883E-10     1.0902    
+       5      4.93614E-35    2.44432E-12    8.09278E-06    1.69119E-33    0.14578        4.40302E-08
+       6      3.22655E-35    8.09278E-06    2.44432E-12    8.43238E-34    4.40302E-08    0.14578    
+       7      2.12891E-34    6.31560E-11    4.02243E-06    6.56910E-32    3.90575E-02    6.13240E-07
+       8      7.69423E-34    4.02243E-06    6.31560E-11    4.95291E-31    6.13240E-07    3.90575E-02
+       9      1.30709E-31    1.56028E-08    2.48795E-06    1.42781E-29    1.54385E-02    9.68205E-05
+      10      9.20297E-32    2.48795E-06    1.56028E-08    1.52150E-29    9.68205E-05    1.54385E-02
 
- TOTAL        2.32078E-31    1.15678E-04    1.15678E-04    2.73943E-31     42.166         42.166    
+ TOTAL        2.23831E-31    1.16109E-04    1.16109E-04    3.00574E-29     42.960         42.960    
 
 
           THE ANALYSIS HAS BEEN COMPLETED
@@ -598,7 +598,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =  0.30000    
+       USER TIME (SEC)      =  0.20000    
        SYSTEM TIME (SEC)    =   0.0000    
-       TOTAL CPU TIME (SEC) =  0.30000    
+       TOTAL CPU TIME (SEC) =  0.20000    
        WALLCLOCK TIME (SEC) =          1

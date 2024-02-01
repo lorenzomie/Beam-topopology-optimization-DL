@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 31-Jan-2024   Time 15:01:19
+   Abaqus 2020                                  Date 31-Jan-2024   Time 22:36:17
    For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -137,9 +137,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
 
@@ -160,21 +160,21 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.882E-04   TIME AVG. FORCE       3.882E-04
- LARGEST RESIDUAL FORCE             2.168E-19   AT NODE        501   DOF  2
+ AVERAGE FORCE                      3.721E-04   TIME AVG. FORCE       3.721E-04
+ LARGEST RESIDUAL FORCE             3.469E-18   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         1.540E-08   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         1.430E-08   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.540E-08   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        1.430E-08   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     7.480E-06   TIME AVG. MOMENT      7.480E-06
- LARGEST RESIDUAL MOMENT            2.168E-19   AT NODE        101   DOF  6
+ AVERAGE MOMENT                     7.387E-06   TIME AVG. MOMENT      7.387E-06
+ LARGEST RESIDUAL MOMENT            4.337E-19   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.557E-10   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.444E-10   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.557E-10   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.444E-10   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
@@ -205,21 +205,21 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.721E-03   TIME AVG. FORCE       2.055E-03
- LARGEST RESIDUAL FORCE            -1.735E-18   AT NODE        501   DOF  2
+ AVERAGE FORCE                      3.721E-03   TIME AVG. FORCE       2.047E-03
+ LARGEST RESIDUAL FORCE             1.388E-17   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         1.049E-07   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         9.739E-08   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        5.883E-08   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        5.462E-08   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     8.649E-04   TIME AVG. MOMENT      4.362E-04
- LARGEST RESIDUAL MOMENT            4.337E-19   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     8.109E-04   TIME AVG. MOMENT      4.091E-04
+ LARGEST RESIDUAL MOMENT           -1.735E-18   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.565E-09   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.451E-09   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.099E-09   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.019E-09   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
@@ -250,26 +250,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.594E-03   TIME AVG. FORCE       2.568E-03
- LARGEST RESIDUAL FORCE             5.204E-18   AT NODE        501   DOF  2
+ AVERAGE FORCE                      3.595E-03   TIME AVG. FORCE       2.563E-03
+ LARGEST RESIDUAL FORCE             2.082E-17   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         2.506E-07   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         2.327E-07   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.333E-08   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.        1.238E-08   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     2.436E-03   TIME AVG. MOMENT      1.103E-03
- LARGEST RESIDUAL MOMENT            6.858E-18   AT NODE        101   DOF  6
+ AVERAGE MOMENT                     2.443E-03   TIME AVG. MOMENT      1.087E-03
+ LARGEST RESIDUAL MOMENT            5.204E-18   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      6.676E-09   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      6.185E-09   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.612E-09   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.418E-09   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -4.772E-03 AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -6.533E-04 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -6.559E-04 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    1.250E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -296,26 +296,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      9.500E-03   TIME AVG. FORCE       4.301E-03
- LARGEST RESIDUAL FORCE             4.163E-17   AT NODE        101   DOF  2
+ AVERAGE FORCE                      8.907E-03   TIME AVG. FORCE       4.149E-03
+ LARGEST RESIDUAL FORCE             1.388E-17   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         9.430E-08   AT NODE        501   DOF  2
+ LARGEST INCREMENT OF DISP.         8.760E-08   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -4.918E-07   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -4.567E-07   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     2.785E-03   TIME AVG. MOMENT      1.523E-03
- LARGEST RESIDUAL MOMENT           -1.041E-17   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     2.663E-03   TIME AVG. MOMENT      1.481E-03
+ LARGEST RESIDUAL MOMENT           -1.236E-17   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.754E-08   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.623E-08   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.177E-09   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.024E-09   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -7.599E-02 AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   8.059E-03 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -7.600E-02 AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   8.067E-03 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    1.562E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -342,26 +342,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.511E-02   TIME AVG. FORCE       6.463E-03
- LARGEST RESIDUAL FORCE             3.469E-17   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.432E-02   TIME AVG. FORCE       6.184E-03
+ LARGEST RESIDUAL FORCE             2.776E-17   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -1.622E-06   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.        -1.507E-06   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -5.909E-07   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -5.485E-07   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     7.818E-03   TIME AVG. MOMENT      2.782E-03
- LARGEST RESIDUAL MOMENT            2.082E-17   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     7.520E-03   TIME AVG. MOMENT      2.689E-03
+ LARGEST RESIDUAL MOMENT           -2.082E-17   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.224E-08   AT NODE        500   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.135E-08   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -4.396E-08   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION    -4.072E-08   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -4.800E-02 AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.079E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.074E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    1.953E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -388,26 +388,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.462E-02   TIME AVG. FORCE       9.490E-03
- LARGEST RESIDUAL FORCE            -5.551E-17   AT NODE        101   DOF  2
+ AVERAGE FORCE                      2.463E-02   TIME AVG. FORCE       9.258E-03
+ LARGEST RESIDUAL FORCE             2.776E-17   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -8.697E-07   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.        -8.071E-07   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        4.478E-06   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        4.159E-06   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     1.133E-02   TIME AVG. MOMENT      4.206E-03
- LARGEST RESIDUAL MOMENT           -1.110E-16   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     1.064E-02   TIME AVG. MOMENT      4.013E-03
+ LARGEST RESIDUAL MOMENT            8.327E-17   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.235E-07   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.143E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -4.174E-08   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION    -3.888E-08   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.343     AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -7.146E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -7.154E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    2.441E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -434,26 +434,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.913E-02   TIME AVG. FORCE       1.087E-02
- LARGEST RESIDUAL FORCE             4.857E-17   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.768E-02   TIME AVG. FORCE       1.046E-02
+ LARGEST RESIDUAL FORCE             5.551E-17   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.562E-06   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         3.308E-06   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.701E-06   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.509E-06   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     1.917E-02   TIME AVG. MOMENT      6.343E-03
- LARGEST RESIDUAL MOMENT           -1.211E-16   AT NODE        101   DOF  6
+ AVERAGE MOMENT                     1.869E-02   TIME AVG. MOMENT      6.110E-03
+ LARGEST RESIDUAL MOMENT           -6.939E-17   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.208E-07   AT NODE        500   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.122E-07   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.823E-07   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.611E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.303     AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   9.406E-02 AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   9.423E-02 AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    3.052E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -480,26 +480,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      8.530E-03   TIME AVG. FORCE       1.058E-02
- LARGEST RESIDUAL FORCE             6.245E-17   AT NODE        101   DOF  2
+ AVERAGE FORCE                      8.321E-03   TIME AVG. FORCE       1.019E-02
+ LARGEST RESIDUAL FORCE            -3.123E-16   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         1.490E-06   AT NODE        501   DOF  2
+ LARGEST INCREMENT OF DISP.         1.384E-06   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -8.415E-06   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -7.814E-06   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     2.064E-02   TIME AVG. MOMENT      8.130E-03
- LARGEST RESIDUAL MOMENT            1.336E-16   AT NODE        101   DOF  6
+ AVERAGE MOMENT                     2.113E-02   TIME AVG. MOMENT      7.988E-03
+ LARGEST RESIDUAL MOMENT            3.053E-16   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.771E-07   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.560E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.826E-07   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.625E-07   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   5.750E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.116     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   5.749E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.117     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    3.815E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -526,26 +526,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.638E-02   TIME AVG. FORCE       1.233E-02
- LARGEST RESIDUAL FORCE            -1.110E-16   AT NODE        101   DOF  2
+ AVERAGE FORCE                      2.502E-02   TIME AVG. FORCE       1.184E-02
+ LARGEST RESIDUAL FORCE            -3.331E-16   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -1.060E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.        -9.841E-06   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -7.078E-06   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.       -6.572E-06   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.591E-02   TIME AVG. MOMENT      1.122E-02
- LARGEST RESIDUAL MOMENT           -6.661E-16   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     3.492E-02   TIME AVG. MOMENT      1.098E-02
+ LARGEST RESIDUAL MOMENT           -8.635E-16   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.789E-07   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -3.496E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.080E-06   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.941E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.169     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.189     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.190     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    4.768E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -572,26 +572,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.269E-02   TIME AVG. FORCE       1.437E-02
- LARGEST RESIDUAL FORCE            -1.249E-16   AT NODE        500   DOF  2
+ AVERAGE FORCE                      3.293E-02   TIME AVG. FORCE       1.395E-02
+ LARGEST RESIDUAL FORCE             3.192E-16   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.877E-06   AT NODE        501   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.437E-06   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.704E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        2.512E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     5.076E-02   TIME AVG. MOMENT      1.517E-02
- LARGEST RESIDUAL MOMENT            6.384E-16   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     5.699E-02   TIME AVG. MOMENT      1.558E-02
+ LARGEST RESIDUAL MOMENT            1.242E-15   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -8.605E-07   AT NODE        501   DOF  6
+ LARGEST INCREMENT OF ROTATION     -7.853E-07   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.194E-06   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.032E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.776     AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.479     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.476     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    5.960E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -618,26 +618,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      4.068E-02   TIME AVG. FORCE       1.676E-02
- LARGEST RESIDUAL FORCE             6.661E-16   AT NODE        501   DOF  2
+ AVERAGE FORCE                      4.005E-02   TIME AVG. FORCE       1.632E-02
+ LARGEST RESIDUAL FORCE             1.110E-15   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.168E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         2.950E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.834E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.564E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     8.178E-02   TIME AVG. MOMENT      2.123E-02
- LARGEST RESIDUAL MOMENT            1.998E-15   AT NODE        499   DOF  6
+ AVERAGE MOMENT                     8.106E-02   TIME AVG. MOMENT      2.153E-02
+ LARGEST RESIDUAL MOMENT            3.997E-15   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.156E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.931E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     4.321E-06   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION     3.989E-06   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.02     AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.904     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.896     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    7.451E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -664,26 +664,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.069E-02   TIME AVG. FORCE       1.792E-02
- LARGEST RESIDUAL FORCE             1.416E-15   AT NODE        501   DOF  2
+ AVERAGE FORCE                      3.219E-02   TIME AVG. FORCE       1.764E-02
+ LARGEST RESIDUAL FORCE            -2.637E-16   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.739E-05   AT NODE        501   DOF  2
+ LARGEST INCREMENT OF DISP.         3.457E-05   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -4.730E-05   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.       -4.420E-05   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.174       TIME AVG. MOMENT      3.399E-02
- LARGEST RESIDUAL MOMENT           -3.331E-15   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     0.192       TIME AVG. MOMENT      3.575E-02
+ LARGEST RESIDUAL MOMENT           -3.669E-15   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      6.026E-06   AT NODE        500   DOF  6
+ LARGEST INCREMENT OF ROTATION      5.451E-06   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -7.752E-06   AT NODE        501   DOF  6
+ LARGEST CORRECTION TO ROTATION    -7.266E-06   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.28     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.44     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.27     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.43     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    9.313E-06
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -710,26 +710,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.801E-02   TIME AVG. FORCE       1.947E-02
- LARGEST RESIDUAL FORCE            -7.459E-16   AT NODE        501   DOF  2
+ AVERAGE FORCE                      3.925E-02   TIME AVG. FORCE       1.931E-02
+ LARGEST RESIDUAL FORCE             1.027E-15   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.097E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         3.538E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -4.191E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.951E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.163       TIME AVG. MOMENT      4.391E-02
- LARGEST RESIDUAL MOMENT           -5.995E-15   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     0.191       TIME AVG. MOMENT      4.767E-02
+ LARGEST RESIDUAL MOMENT           -1.243E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      4.905E-06   AT NODE        100   DOF  6
+ LARGEST INCREMENT OF ROTATION      3.954E-06   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.130E-05   AT NODE        499   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.030E-05   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.52     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.82     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.85     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    1.164E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -756,26 +756,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.193E-02   TIME AVG. FORCE       2.036E-02
- LARGEST RESIDUAL FORCE            -1.192E-15   AT NODE        101   DOF  2
+ AVERAGE FORCE                      3.647E-02   TIME AVG. FORCE       2.053E-02
+ LARGEST RESIDUAL FORCE            -9.267E-16   AT NODE        498   DOF  1
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.974E-05   AT NODE        100   DOF  2
+ LARGEST INCREMENT OF DISP.         3.544E-05   AT NODE        100   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -6.355E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -5.621E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.122       TIME AVG. MOMENT      4.950E-02
- LARGEST RESIDUAL MOMENT            3.941E-15   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     0.145       TIME AVG. MOMENT      5.463E-02
+ LARGEST RESIDUAL MOMENT            1.128E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.369E-06   AT NODE        495   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.322E-06   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.460E-05   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.437E-05   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.35     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    2.80     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    2.89     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    1.455E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -802,26 +802,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.655E-02   TIME AVG. FORCE       2.077E-02
- LARGEST RESIDUAL FORCE             2.526E-15   AT NODE        500   DOF  2
+ AVERAGE FORCE                      2.878E-02   TIME AVG. FORCE       2.108E-02
+ LARGEST RESIDUAL FORCE            -1.207E-15   AT NODE        496   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.426E-05   AT NODE        496   DOF  2
+ LARGEST INCREMENT OF DISP.         3.752E-05   AT NODE        496   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        8.967E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        8.727E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.122       TIME AVG. MOMENT      5.430E-02
- LARGEST RESIDUAL MOMENT            5.052E-15   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     0.134       TIME AVG. MOMENT      5.995E-02
+ LARGEST RESIDUAL MOMENT            7.938E-15   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.789E-06   AT NODE         99   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.731E-06   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.451E-05   AT NODE        100   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.080E-05   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.76     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -3.56     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -3.51     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    1.819E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -848,26 +848,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.253E-02   TIME AVG. FORCE       2.088E-02
- LARGEST RESIDUAL FORCE            -3.131E-15   AT NODE        500   DOF  2
+ AVERAGE FORCE                      2.499E-02   TIME AVG. FORCE       2.133E-02
+ LARGEST RESIDUAL FORCE            -2.630E-15   AT NODE        498   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.579E-05   AT NODE         99   DOF  2
+ LARGEST INCREMENT OF DISP.         3.837E-05   AT NODE        493   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -7.712E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -8.248E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.129       TIME AVG. MOMENT      5.895E-02
- LARGEST RESIDUAL MOMENT           -7.716E-15   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     0.129       TIME AVG. MOMENT      6.426E-02
+ LARGEST RESIDUAL MOMENT           -1.128E-14   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.908E-06   AT NODE        491   DOF  6
+ LARGEST INCREMENT OF ROTATION      3.441E-06   AT NODE        490   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -2.105E-05   AT NODE        100   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.589E-05   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.10     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    5.49     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.11     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    5.35     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    2.274E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -894,26 +894,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.236E-02   TIME AVG. FORCE       2.097E-02
- LARGEST RESIDUAL FORCE            -2.151E-15   AT NODE        501   DOF  2
+ AVERAGE FORCE                      2.364E-02   TIME AVG. FORCE       2.146E-02
+ LARGEST RESIDUAL FORCE            -2.748E-15   AT NODE        100   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.355E-05   AT NODE        491   DOF  2
+ LARGEST INCREMENT OF DISP.         3.738E-05   AT NODE        490   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.036E-04   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.       -9.350E-05   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.119       TIME AVG. MOMENT      6.247E-02
- LARGEST RESIDUAL MOMENT            1.116E-14   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     0.115       TIME AVG. MOMENT      6.724E-02
+ LARGEST RESIDUAL MOMENT            1.581E-14   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.839E-06   AT NODE        487   DOF  6
+ LARGEST INCREMENT OF ROTATION      3.474E-06   AT NODE        486   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.478E-05   AT NODE        498   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.168E-05   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.71     AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -7.74     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.75     AND OCCURS AT NODE        101 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -7.47     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    2.842E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -940,26 +940,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.981E-02   TIME AVG. FORCE       2.090E-02
- LARGEST RESIDUAL FORCE            -2.887E-15   AT NODE        496   DOF  2
+ AVERAGE FORCE                      2.017E-02   TIME AVG. FORCE       2.139E-02
+ LARGEST RESIDUAL FORCE            -5.398E-15   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.208E-05   AT NODE        495   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.753E-05   AT NODE         95   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.240E-04   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.        1.170E-04   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.120       TIME AVG. MOMENT      6.566E-02
- LARGEST RESIDUAL MOMENT            7.994E-15   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     0.110       TIME AVG. MOMENT      6.960E-02
+ LARGEST RESIDUAL MOMENT           -2.154E-14   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.801E-06   AT NODE        483   DOF  6
+ LARGEST INCREMENT OF ROTATION      3.708E-06   AT NODE        482   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -2.609E-05   AT NODE        498   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.467E-05   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    4.64     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    10.4     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    9.93     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    3.553E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -981,31 +981,31 @@
        ELAPSED USER TIME (SEC)      =   0.0000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
        ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
-       ELAPSED WALLCLOCK TIME (SEC) =          1
+       ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.678E-02   TIME AVG. FORCE       2.069E-02
- LARGEST RESIDUAL FORCE             4.539E-15   AT NODE        498   DOF  2
+ AVERAGE FORCE                      1.711E-02   TIME AVG. FORCE       2.117E-02
+ LARGEST RESIDUAL FORCE             4.104E-15   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.594E-05   AT NODE        493   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.912E-05   AT NODE         94   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.280E-04   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.270E-04   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.113       TIME AVG. MOMENT      6.815E-02
- LARGEST RESIDUAL MOMENT           -1.088E-14   AT NODE        499   DOF  6
+ AVERAGE MOMENT                     9.926E-02   TIME AVG. MOMENT      7.116E-02
+ LARGEST RESIDUAL MOMENT            1.515E-14   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.923E-06   AT NODE        479   DOF  6
+ LARGEST INCREMENT OF ROTATION      4.116E-06   AT NODE        478   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.501E-05   AT NODE        498   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.531E-05   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -8.01     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -13.4     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -8.03     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -12.8     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    4.441E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -1032,26 +1032,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.491E-02   TIME AVG. FORCE       2.040E-02
- LARGEST RESIDUAL FORCE            -4.857E-15   AT NODE        500   DOF  2
+ AVERAGE FORCE                      1.511E-02   TIME AVG. FORCE       2.086E-02
+ LARGEST RESIDUAL FORCE             6.495E-15   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.247E-05   AT NODE        469   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.377E-05   AT NODE        469   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.340E-04   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.        1.358E-04   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     0.107       TIME AVG. MOMENT      7.008E-02
- LARGEST RESIDUAL MOMENT            1.127E-14   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     9.590E-02   TIME AVG. MOMENT      7.240E-02
+ LARGEST RESIDUAL MOMENT            1.926E-14   AT NODE        492   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      4.032E-06   AT NODE        474   DOF  6
+ LARGEST INCREMENT OF ROTATION      4.033E-06   AT NODE         94   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.280E-05   AT NODE         99   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.478E-05   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    12.5     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    17.0     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    12.6     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -16.8     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    5.551E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
@@ -1078,26 +1078,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.312E-02   TIME AVG. FORCE       2.005E-02
- LARGEST RESIDUAL FORCE            -1.197E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.329E-02   TIME AVG. FORCE       2.050E-02
+ LARGEST RESIDUAL FORCE             4.649E-15   AT NODE        496   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -6.177E-05   AT NODE        463   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.751E-05   AT NODE        463   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.296E-04   AT NODE        501   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.351E-04   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     9.945E-02   TIME AVG. MOMENT      7.148E-02
- LARGEST RESIDUAL MOMENT            1.782E-14   AT NODE        496   DOF  6
+ AVERAGE MOMENT                     9.339E-02   TIME AVG. MOMENT      7.340E-02
+ LARGEST RESIDUAL MOMENT            1.910E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      4.039E-06   AT NODE        469   DOF  6
+ LARGEST INCREMENT OF ROTATION      4.010E-06   AT NODE        469   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -3.224E-05   AT NODE        496   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.688E-05   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -18.6     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    23.6     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -18.7     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    23.9     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1123,26 +1123,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.182E-02   TIME AVG. FORCE       1.968E-02
- LARGEST RESIDUAL FORCE            -3.737E-15   AT NODE        499   DOF  2
+ AVERAGE FORCE                      1.192E-02   TIME AVG. FORCE       2.011E-02
+ LARGEST RESIDUAL FORCE            -5.041E-15   AT NODE        100   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -6.349E-05   AT NODE        457   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.706E-05   AT NODE        457   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.142E-04   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.139E-04   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     9.305E-02   TIME AVG. MOMENT      7.246E-02
- LARGEST RESIDUAL MOMENT           -1.368E-14   AT NODE        496   DOF  6
+ AVERAGE MOMENT                     8.752E-02   TIME AVG. MOMENT      7.404E-02
+ LARGEST RESIDUAL MOMENT           -1.305E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.659E-06   AT NODE        463   DOF  6
+ LARGEST INCREMENT OF ROTATION      3.338E-06   AT NODE        462   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     3.047E-05   AT NODE        496   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.132E-05   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    17.6     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -21.0     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    17.8     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -21.7     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1168,26 +1168,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.035E-02   TIME AVG. FORCE       1.927E-02
- LARGEST RESIDUAL FORCE             4.219E-15   AT NODE        488   DOF  2
+ AVERAGE FORCE                      1.030E-02   TIME AVG. FORCE       1.969E-02
+ LARGEST RESIDUAL FORCE            -4.906E-15   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -6.238E-05   AT NODE        451   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.851E-05   AT NODE        450   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.142E-04   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.        1.140E-04   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     8.714E-02   TIME AVG. MOMENT      7.310E-02
- LARGEST RESIDUAL MOMENT            1.737E-14   AT NODE        496   DOF  6
+ AVERAGE MOMENT                     8.280E-02   TIME AVG. MOMENT      7.442E-02
+ LARGEST RESIDUAL MOMENT            1.568E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.176E-06   AT NODE        444   DOF  6
+ LARGEST INCREMENT OF ROTATION     -3.053E-06   AT NODE        445   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -3.031E-05   AT NODE        496   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.994E-05   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -16.5     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    18.4     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -16.7     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    19.5     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1213,26 +1213,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      9.505E-03   TIME AVG. FORCE       1.886E-02
- LARGEST RESIDUAL FORCE             4.968E-15   AT NODE         97   DOF  2
+ AVERAGE FORCE                      9.409E-03   TIME AVG. FORCE       1.926E-02
+ LARGEST RESIDUAL FORCE            -7.633E-15   AT NODE         99   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -6.286E-05   AT NODE        445   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.558E-05   AT NODE        445   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.090E-04   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.104E-04   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     8.065E-02   TIME AVG. MOMENT      7.341E-02
- LARGEST RESIDUAL MOMENT           -1.146E-14   AT NODE        497   DOF  6
+ AVERAGE MOMENT                     7.612E-02   TIME AVG. MOMENT      7.449E-02
+ LARGEST RESIDUAL MOMENT            1.697E-14   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.461E-06   AT NODE        438   DOF  6
+ LARGEST INCREMENT OF ROTATION     -3.048E-06   AT NODE         85   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.891E-05   AT NODE        497   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.040E-05   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    15.3     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -15.9     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    15.5     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -17.3     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1258,26 +1258,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      8.526E-03   TIME AVG. FORCE       1.845E-02
- LARGEST RESIDUAL FORCE             5.954E-15   AT NODE        498   DOF  2
+ AVERAGE FORCE                      8.608E-03   TIME AVG. FORCE       1.883E-02
+ LARGEST RESIDUAL FORCE             7.508E-15   AT NODE        100   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.603E-05   AT NODE        439   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.921E-05   AT NODE        439   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.030E-04   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.        1.052E-04   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     7.586E-02   TIME AVG. MOMENT      7.351E-02
- LARGEST RESIDUAL MOMENT            1.264E-14   AT NODE        495   DOF  6
+ AVERAGE MOMENT                     7.269E-02   TIME AVG. MOMENT      7.442E-02
+ LARGEST RESIDUAL MOMENT           -2.169E-14   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.395E-06   AT NODE        432   DOF  6
+ LARGEST INCREMENT OF ROTATION     -3.127E-06   AT NODE        431   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -2.813E-05   AT NODE        497   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.027E-05   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -14.1     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    13.5     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -14.3     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    15.1     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1303,26 +1303,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      7.819E-03   TIME AVG. FORCE       1.804E-02
- LARGEST RESIDUAL FORCE             6.474E-15   AT NODE        486   DOF  2
+ AVERAGE FORCE                      7.973E-03   TIME AVG. FORCE       1.841E-02
+ LARGEST RESIDUAL FORCE            -8.223E-15   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.350E-05   AT NODE        433   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.522E-05   AT NODE        433   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -9.464E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.       -9.866E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     7.210E-02   TIME AVG. MOMENT      7.346E-02
- LARGEST RESIDUAL MOMENT           -1.267E-14   AT NODE        497   DOF  6
+ AVERAGE MOMENT                     6.899E-02   TIME AVG. MOMENT      7.421E-02
+ LARGEST RESIDUAL MOMENT            1.664E-14   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.477E-06   AT NODE         82   DOF  6
+ LARGEST INCREMENT OF ROTATION     -3.036E-06   AT NODE         82   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.638E-05   AT NODE        497   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.980E-05   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    12.8     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -13.0     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    13.0     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -13.8     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1348,26 +1348,26 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      7.280E-03   TIME AVG. FORCE       1.764E-02
- LARGEST RESIDUAL FORCE             1.099E-14   AT NODE        500   DOF  2
+ AVERAGE FORCE                      7.198E-03   TIME AVG. FORCE       1.800E-02
+ LARGEST RESIDUAL FORCE             6.533E-15   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.017E-05   AT NODE        427   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.343E-05   AT NODE        426   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        8.660E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.        9.087E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     6.728E-02   TIME AVG. MOMENT      7.323E-02
- LARGEST RESIDUAL MOMENT           -1.948E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     6.442E-02   TIME AVG. MOMENT      7.385E-02
+ LARGEST RESIDUAL MOMENT           -1.357E-14   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.336E-06   AT NODE        420   DOF  6
+ LARGEST INCREMENT OF ROTATION     -3.131E-06   AT NODE        419   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -2.386E-05   AT NODE        497   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.866E-05   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -11.6     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    13.1     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -11.7     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    13.9     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1393,26 +1393,27 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      6.701E-03   TIME AVG. FORCE       1.725E-02
- LARGEST RESIDUAL FORCE            -8.920E-15   AT NODE        100   DOF  2
+ AVERAGE FORCE                      6.747E-03   TIME AVG. FORCE       1.760E-02
+ LARGEST RESIDUAL FORCE            -1.625E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.767E-05   AT NODE        406   DOF  2
+ LARGEST INCREMENT OF DISP.         4.122E-05   AT NODE         77   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -7.814E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.       -8.153E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     6.444E-02   TIME AVG. MOMENT      7.291E-02
- LARGEST RESIDUAL MOMENT           -1.101E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     6.331E-02   TIME AVG. MOMENT      7.347E-02
+ LARGEST RESIDUAL MOMENT            1.682E-14   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.259E-06   AT NODE        414   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.770E-06   AT NODE         79   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.091E-05   AT NODE        497   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.709E-05   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    10.4     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -12.9     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    10.5     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -13.7     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+          TIME INCREMENT MAY NOW INCREASE TO    6.649E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
@@ -1421,7 +1422,7 @@
  STEP TIME COMPLETED       6.641E-04,  TOTAL TIME COMPLETED        6.641E-04
 
 
-  INCREMENT    29 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  5.551E-05
+  INCREMENT    29 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.649E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1438,36 +1439,35 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      6.208E-03   TIME AVG. FORCE       1.687E-02
- LARGEST RESIDUAL FORCE             1.009E-14   AT NODE        100   DOF  2
+ AVERAGE FORCE                      6.151E-03   TIME AVG. FORCE       1.720E-02
+ LARGEST RESIDUAL FORCE            -9.975E-15   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.624E-05   AT NODE        400   DOF  2
+ LARGEST INCREMENT OF DISP.         4.752E-05   AT NODE        399   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        6.860E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.        9.517E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     6.386E-02   TIME AVG. MOMENT      7.260E-02
- LARGEST RESIDUAL MOMENT            9.936E-15   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     6.227E-02   TIME AVG. MOMENT      7.309E-02
+ LARGEST RESIDUAL MOMENT            2.104E-14   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.822E-06   AT NODE        408   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.819E-06   AT NODE        407   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.791E-05   AT NODE        497   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.029E-05   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -9.27     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    12.6     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-          TIME INCREMENT MAY NOW INCREASE TO    6.939E-05
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -13.2     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    18.4     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  5.551E-05,  FRACTION OF STEP COMPLETED  7.196E-02
- STEP TIME COMPLETED       7.196E-04,  TOTAL TIME COMPLETED        7.196E-04
+ TIME INCREMENT COMPLETED  6.649E-05,  FRACTION OF STEP COMPLETED  7.306E-02
+ STEP TIME COMPLETED       7.306E-04,  TOTAL TIME COMPLETED        7.306E-04
 
 
-  INCREMENT    30 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.939E-05
+  INCREMENT    30 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.649E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1484,35 +1484,35 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      5.641E-03   TIME AVG. FORCE       1.650E-02
- LARGEST RESIDUAL FORCE            -8.351E-15   AT NODE        497   DOF  2
+ AVERAGE FORCE                      5.680E-03   TIME AVG. FORCE       1.682E-02
+ LARGEST RESIDUAL FORCE             6.210E-15   AT NODE        494   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.840E-05   AT NODE        394   DOF  2
+ LARGEST INCREMENT OF DISP.         4.945E-05   AT NODE        393   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -8.428E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.       -7.261E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     6.155E-02   TIME AVG. MOMENT      7.223E-02
- LARGEST RESIDUAL MOMENT           -1.141E-14   AT NODE        497   DOF  6
+ AVERAGE MOMENT                     5.896E-02   TIME AVG. MOMENT      7.261E-02
+ LARGEST RESIDUAL MOMENT            1.658E-14   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.106E-06   AT NODE         76   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.622E-06   AT NODE        400   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.117E-05   AT NODE        497   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.626E-05   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    12.5     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -18.1     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    11.5     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -17.3     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  6.939E-05,  FRACTION OF STEP COMPLETED  7.890E-02
- STEP TIME COMPLETED       7.890E-04,  TOTAL TIME COMPLETED        7.890E-04
+ TIME INCREMENT COMPLETED  6.649E-05,  FRACTION OF STEP COMPLETED  7.971E-02
+ STEP TIME COMPLETED       7.971E-04,  TOTAL TIME COMPLETED        7.971E-04
 
 
-  INCREMENT    31 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.939E-05
+  INCREMENT    31 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.649E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1529,35 +1529,35 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      5.230E-03   TIME AVG. FORCE       1.613E-02
- LARGEST RESIDUAL FORCE             8.538E-15   AT NODE        498   DOF  2
+ AVERAGE FORCE                      5.142E-03   TIME AVG. FORCE       1.644E-02
+ LARGEST RESIDUAL FORCE             1.573E-14   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.553E-05   AT NODE        388   DOF  2
+ LARGEST INCREMENT OF DISP.         4.556E-05   AT NODE        386   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        6.649E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.        6.401E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     6.002E-02   TIME AVG. MOMENT      7.184E-02
- LARGEST RESIDUAL MOMENT            1.054E-14   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     5.811E-02   TIME AVG. MOMENT      7.215E-02
+ LARGEST RESIDUAL MOMENT           -1.545E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.889E-06   AT NODE        379   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.555E-06   AT NODE         70   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.631E-05   AT NODE        100   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.384E-05   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -10.8     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    16.8     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -9.95     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    16.1     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  6.939E-05,  FRACTION OF STEP COMPLETED  8.584E-02
- STEP TIME COMPLETED       8.584E-04,  TOTAL TIME COMPLETED        8.584E-04
+ TIME INCREMENT COMPLETED  6.649E-05,  FRACTION OF STEP COMPLETED  8.636E-02
+ STEP TIME COMPLETED       8.636E-04,  TOTAL TIME COMPLETED        8.636E-04
 
 
-  INCREMENT    32 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.939E-05
+  INCREMENT    32 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.649E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1574,35 +1574,36 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      4.843E-03   TIME AVG. FORCE       1.578E-02
- LARGEST RESIDUAL FORCE            -1.150E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      4.785E-03   TIME AVG. FORCE       1.608E-02
+ LARGEST RESIDUAL FORCE            -1.140E-14   AT NODE        100   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.071E-05   AT NODE        381   DOF  2
+ LARGEST INCREMENT OF DISP.         4.390E-05   AT NODE        379   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -5.664E-05   AT NODE        500   DOF  2
+ LARGEST CORRECTION TO DISP.       -5.519E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     5.999E-02   TIME AVG. MOMENT      7.147E-02
- LARGEST RESIDUAL MOMENT           -1.492E-14   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     5.689E-02   TIME AVG. MOMENT      7.167E-02
+ LARGEST RESIDUAL MOMENT            1.676E-14   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.865E-06   AT NODE        372   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.535E-06   AT NODE        371   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.435E-05   AT NODE        100   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.191E-05   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    9.30     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -15.5     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    8.55     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -14.9     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+          TIME INCREMENT MAY NOW INCREASE TO    8.312E-05
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  6.939E-05,  FRACTION OF STEP COMPLETED  9.278E-02
- STEP TIME COMPLETED       9.278E-04,  TOTAL TIME COMPLETED        9.278E-04
+ TIME INCREMENT COMPLETED  6.649E-05,  FRACTION OF STEP COMPLETED  9.301E-02
+ STEP TIME COMPLETED       9.301E-04,  TOTAL TIME COMPLETED        9.301E-04
 
 
-  INCREMENT    33 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  6.939E-05
+  INCREMENT    33 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.312E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1619,36 +1620,35 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      4.470E-03   TIME AVG. FORCE       1.544E-02
- LARGEST RESIDUAL FORCE            -9.118E-15   AT NODE        499   DOF  2
+ AVERAGE FORCE                      4.387E-03   TIME AVG. FORCE       1.572E-02
+ LARGEST RESIDUAL FORCE            -1.197E-14   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.101E-05   AT NODE        374   DOF  2
+ LARGEST INCREMENT OF DISP.         5.313E-05   AT NODE        373   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -4.712E-05   AT NODE        499   DOF  2
+ LARGEST CORRECTION TO DISP.        6.377E-05   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     5.539E-02   TIME AVG. MOMENT      7.098E-02
- LARGEST RESIDUAL MOMENT           -7.855E-15   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     5.207E-02   TIME AVG. MOMENT      7.108E-02
+ LARGEST RESIDUAL MOMENT           -1.538E-14   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.890E-06   AT NODE         67   DOF  6
+ LARGEST INCREMENT OF ROTATION      3.010E-06   AT NODE        364   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.333E-05   AT NODE        493   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.505E-05   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    7.97     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    14.2     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-          TIME INCREMENT MAY NOW INCREASE TO    8.674E-05
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    11.3     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    20.7     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  6.939E-05,  FRACTION OF STEP COMPLETED  0.100    
- STEP TIME COMPLETED       9.972E-04,  TOTAL TIME COMPLETED        9.972E-04
+ TIME INCREMENT COMPLETED  8.312E-05,  FRACTION OF STEP COMPLETED  0.101    
+ STEP TIME COMPLETED       1.013E-03,  TOTAL TIME COMPLETED        1.013E-03
 
 
-  INCREMENT    34 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.674E-05
+  INCREMENT    34 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.312E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1665,35 +1665,35 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      4.157E-03   TIME AVG. FORCE       1.511E-02
- LARGEST RESIDUAL FORCE             9.022E-15   AT NODE        488   DOF  2
+ AVERAGE FORCE                      4.093E-03   TIME AVG. FORCE       1.538E-02
+ LARGEST RESIDUAL FORCE             1.213E-14   AT NODE        490   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.352E-05   AT NODE        367   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.573E-05   AT NODE        347   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        6.193E-05   AT NODE        499   DOF  2
+ LARGEST CORRECTION TO DISP.        4.856E-05   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     5.436E-02   TIME AVG. MOMENT      7.049E-02
- LARGEST RESIDUAL MOMENT           -7.973E-15   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     5.035E-02   TIME AVG. MOMENT      7.047E-02
+ LARGEST RESIDUAL MOMENT           -1.027E-14   AT NODE        492   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.267E-06   AT NODE        358   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.830E-06   AT NODE        357   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.787E-05   AT NODE        493   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.148E-05   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -11.1     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -19.7     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -10.2     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -18.5     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  8.674E-05,  FRACTION OF STEP COMPLETED  0.108    
- STEP TIME COMPLETED       1.084E-03,  TOTAL TIME COMPLETED        1.084E-03
+ TIME INCREMENT COMPLETED  8.312E-05,  FRACTION OF STEP COMPLETED  0.110    
+ STEP TIME COMPLETED       1.096E-03,  TOTAL TIME COMPLETED        1.096E-03
 
 
-  INCREMENT    35 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.674E-05
+  INCREMENT    35 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.312E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1710,80 +1710,35 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.889E-03   TIME AVG. FORCE       1.479E-02
- LARGEST RESIDUAL FORCE             1.468E-14   AT NODE        488   DOF  2
+ AVERAGE FORCE                      3.763E-03   TIME AVG. FORCE       1.505E-02
+ LARGEST RESIDUAL FORCE            -1.114E-14   AT NODE         99   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.212E-05   AT NODE         61   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.650E-05   AT NODE        339   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -5.132E-05   AT NODE         66   DOF  2
+ LARGEST CORRECTION TO DISP.       -4.482E-05   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     5.187E-02   TIME AVG. MOMENT      6.996E-02
- LARGEST RESIDUAL MOMENT            8.927E-15   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     4.847E-02   TIME AVG. MOMENT      6.984E-02
+ LARGEST RESIDUAL MOMENT           -1.070E-14   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.159E-06   AT NODE        350   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.627E-06   AT NODE        349   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.495E-05   AT NODE         99   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.705E-06   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    9.89     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    17.5     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    9.14     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    16.5     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  8.674E-05,  FRACTION OF STEP COMPLETED  0.117    
- STEP TIME COMPLETED       1.171E-03,  TOTAL TIME COMPLETED        1.171E-03
+ TIME INCREMENT COMPLETED  8.312E-05,  FRACTION OF STEP COMPLETED  0.118    
+ STEP TIME COMPLETED       1.179E-03,  TOTAL TIME COMPLETED        1.179E-03
 
 
-  INCREMENT    36 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.674E-05
-
-  NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
-  NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
-
-     CHECK POINT   START OF SOLVER    
-
-     CHECK POINT  END OF SOLVER       
-
-       ELAPSED USER TIME (SEC)      =   0.0000    
-       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
-       ELAPSED WALLCLOCK TIME (SEC) =          0
-
-               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
-
-
- AVERAGE FORCE                      3.611E-03   TIME AVG. FORCE       1.448E-02
- LARGEST RESIDUAL FORCE            -1.273E-14   AT NODE        485   DOF  2
-   INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.072E-05   AT NODE         59   DOF  2
-   INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -4.777E-05   AT NODE         64   DOF  2
-   INSTANCE: BEAM                                                                            
-          THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
-
- AVERAGE MOMENT                     5.069E-02   TIME AVG. MOMENT      6.943E-02
- LARGEST RESIDUAL MOMENT            1.100E-14   AT NODE        100   DOF  6
-   INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.794E-06   AT NODE        343   DOF  6
-   INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.403E-05   AT NODE         99   DOF  6
-   INSTANCE: BEAM                                                                            
-          THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
-
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -8.79     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -15.5     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-
- ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
-   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
-
- TIME INCREMENT COMPLETED  8.674E-05,  FRACTION OF STEP COMPLETED  0.126    
- STEP TIME COMPLETED       1.257E-03,  TOTAL TIME COMPLETED        1.257E-03
-
-
-  INCREMENT    37 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.674E-05
+  INCREMENT    36 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.312E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -1800,33 +1755,78 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.393E-03   TIME AVG. FORCE       1.418E-02
- LARGEST RESIDUAL FORCE             1.731E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      3.409E-03   TIME AVG. FORCE       1.473E-02
+ LARGEST RESIDUAL FORCE            -1.800E-14   AT NODE        498   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.998E-05   AT NODE         57   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.034E-05   AT NODE        333   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -4.294E-05   AT NODE        499   DOF  2
+ LARGEST CORRECTION TO DISP.        4.328E-05   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.874E-02   TIME AVG. MOMENT      6.887E-02
- LARGEST RESIDUAL MOMENT            9.736E-15   AT NODE        101   DOF  6
+ AVERAGE MOMENT                     4.632E-02   TIME AVG. MOMENT      6.918E-02
+ LARGEST RESIDUAL MOMENT           -1.223E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.557E-06   AT NODE        335   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.621E-06   AT NODE        341   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.308E-05   AT NODE         99   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.091E-06   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    7.77     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    13.7     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -8.14     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -14.7     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
           TIME INCREMENT MAY NOW INCREASE TO    1.000E-04
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  8.674E-05,  FRACTION OF STEP COMPLETED  0.134    
- STEP TIME COMPLETED       1.344E-03,  TOTAL TIME COMPLETED        1.344E-03
+ TIME INCREMENT COMPLETED  8.312E-05,  FRACTION OF STEP COMPLETED  0.126    
+ STEP TIME COMPLETED       1.263E-03,  TOTAL TIME COMPLETED        1.263E-03
+
+
+  INCREMENT    37 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
+
+  NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
+
+     CHECK POINT   START OF SOLVER    
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      3.181E-03   TIME AVG. FORCE       1.441E-02
+ LARGEST RESIDUAL FORCE            -1.122E-14   AT NODE        493   DOF  2
+   INSTANCE: BEAM                                                                            
+ LARGEST INCREMENT OF DISP.        -5.607E-05   AT NODE        324   DOF  2
+   INSTANCE: BEAM                                                                            
+ LARGEST CORRECTION TO DISP.        5.599E-05   AT NODE        329   DOF  2
+   INSTANCE: BEAM                                                                            
+          THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
+
+ AVERAGE MOMENT                     4.538E-02   TIME AVG. MOMENT      6.854E-02
+ LARGEST RESIDUAL MOMENT            1.311E-14   AT NODE        492   DOF  6
+   INSTANCE: BEAM                                                                            
+ LARGEST INCREMENT OF ROTATION     -2.668E-06   AT NODE        316   DOF  6
+   INSTANCE: BEAM                                                                            
+ LARGEST CORRECTION TO ROTATION     1.148E-05   AT NODE        493   DOF  6
+   INSTANCE: BEAM                                                                            
+          THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
+
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    10.2     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    18.4     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+
+ ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.136    
+ STEP TIME COMPLETED       1.363E-03,  TOTAL TIME COMPLETED        1.363E-03
 
 
   INCREMENT    38 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -1846,32 +1846,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.088E-03   TIME AVG. FORCE       1.388E-02
- LARGEST RESIDUAL FORCE             1.175E-14   AT NODE        484   DOF  2
+ AVERAGE FORCE                      2.939E-03   TIME AVG. FORCE       1.411E-02
+ LARGEST RESIDUAL FORCE             8.177E-15   AT NODE         99   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.541E-05   AT NODE         55   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.392E-05   AT NODE        317   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        5.325E-05   AT NODE         56   DOF  2
+ LARGEST CORRECTION TO DISP.        5.531E-05   AT NODE        320   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.702E-02   TIME AVG. MOMENT      6.829E-02
- LARGEST RESIDUAL MOMENT           -8.988E-15   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     4.409E-02   TIME AVG. MOMENT      6.790E-02
+ LARGEST RESIDUAL MOMENT           -1.966E-14   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.895E-06   AT NODE        307   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.546E-06   AT NODE        307   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.508E-05   AT NODE         99   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.963E-06   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -8.97     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -15.8     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -8.91     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -16.0     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.144    
- STEP TIME COMPLETED       1.444E-03,  TOTAL TIME COMPLETED        1.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.146    
+ STEP TIME COMPLETED       1.463E-03,  TOTAL TIME COMPLETED        1.463E-03
 
 
   INCREMENT    39 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -1891,32 +1891,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.882E-03   TIME AVG. FORCE       1.360E-02
- LARGEST RESIDUAL FORCE            -1.040E-14   AT NODE        496   DOF  2
+ AVERAGE FORCE                      2.741E-03   TIME AVG. FORCE       1.382E-02
+ LARGEST RESIDUAL FORCE            -1.958E-14   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.532E-05   AT NODE        309   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.233E-05   AT NODE        308   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        5.110E-05   AT NODE        313   DOF  2
+ LARGEST CORRECTION TO DISP.        4.741E-05   AT NODE        311   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.658E-02   TIME AVG. MOMENT      6.773E-02
- LARGEST RESIDUAL MOMENT           -9.624E-15   AT NODE        497   DOF  6
+ AVERAGE MOMENT                     4.368E-02   TIME AVG. MOMENT      6.728E-02
+ LARGEST RESIDUAL MOMENT            1.171E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.991E-06   AT NODE        299   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.611E-06   AT NODE        298   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.254E-05   AT NODE         99   DOF  6
+ LARGEST CORRECTION TO ROTATION     9.508E-06   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    7.77     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    13.7     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    7.71     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    13.8     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.154    
- STEP TIME COMPLETED       1.544E-03,  TOTAL TIME COMPLETED        1.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.156    
+ STEP TIME COMPLETED       1.563E-03,  TOTAL TIME COMPLETED        1.563E-03
 
 
   INCREMENT    40 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -1936,32 +1936,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.708E-03   TIME AVG. FORCE       1.333E-02
- LARGEST RESIDUAL FORCE             1.518E-14   AT NODE        479   DOF  2
+ AVERAGE FORCE                      2.588E-03   TIME AVG. FORCE       1.354E-02
+ LARGEST RESIDUAL FORCE            -1.733E-14   AT NODE        479   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.937E-05   AT NODE        301   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.682E-05   AT NODE        300   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        5.304E-05   AT NODE        304   DOF  2
+ LARGEST CORRECTION TO DISP.        4.465E-05   AT NODE        303   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.557E-02   TIME AVG. MOMENT      6.718E-02
- LARGEST RESIDUAL MOMENT           -1.112E-14   AT NODE        478   DOF  6
+ AVERAGE MOMENT                     4.298E-02   TIME AVG. MOMENT      6.667E-02
+ LARGEST RESIDUAL MOMENT           -1.145E-14   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.003E-06   AT NODE        292   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.494E-06   AT NODE        290   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.131E-05   AT NODE        494   DOF  6
+ LARGEST CORRECTION TO ROTATION    -8.684E-06   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -6.70     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -11.8     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -6.63     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -11.9     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.164    
- STEP TIME COMPLETED       1.644E-03,  TOTAL TIME COMPLETED        1.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.166    
+ STEP TIME COMPLETED       1.663E-03,  TOTAL TIME COMPLETED        1.663E-03
 
 
   INCREMENT    41 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -1981,32 +1981,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.493E-03   TIME AVG. FORCE       1.307E-02
- LARGEST RESIDUAL FORCE             1.041E-14   AT NODE        483   DOF  2
+ AVERAGE FORCE                      2.385E-03   TIME AVG. FORCE       1.327E-02
+ LARGEST RESIDUAL FORCE            -1.430E-14   AT NODE        484   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.561E-05   AT NODE         49   DOF  2
+ LARGEST INCREMENT OF DISP.         4.443E-05   AT NODE        271   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        5.118E-05   AT NODE        295   DOF  2
+ LARGEST CORRECTION TO DISP.        4.211E-05   AT NODE        294   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.481E-02   TIME AVG. MOMENT      6.663E-02
- LARGEST RESIDUAL MOMENT           -1.128E-14   AT NODE        482   DOF  6
+ AVERAGE MOMENT                     4.225E-02   TIME AVG. MOMENT      6.607E-02
+ LARGEST RESIDUAL MOMENT            9.479E-15   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.829E-06   AT NODE        283   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.467E-06   AT NODE         46   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.051E-05   AT NODE        494   DOF  6
+ LARGEST CORRECTION TO ROTATION     7.973E-06   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    5.75     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    10.7     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    5.67     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    10.2     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.174    
- STEP TIME COMPLETED       1.744E-03,  TOTAL TIME COMPLETED        1.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.176    
+ STEP TIME COMPLETED       1.763E-03,  TOTAL TIME COMPLETED        1.763E-03
 
 
   INCREMENT    42 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2026,32 +2026,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.386E-03   TIME AVG. FORCE       1.281E-02
- LARGEST RESIDUAL FORCE             1.807E-14   AT NODE        489   DOF  2
+ AVERAGE FORCE                      2.255E-03   TIME AVG. FORCE       1.300E-02
+ LARGEST RESIDUAL FORCE             1.401E-14   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.934E-05   AT NODE        285   DOF  2
+ LARGEST INCREMENT OF DISP.         4.504E-05   AT NODE        263   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        4.343E-05   AT NODE        286   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.911E-05   AT NODE        268   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.489E-02   TIME AVG. MOMENT      6.612E-02
- LARGEST RESIDUAL MOMENT            1.219E-14   AT NODE        475   DOF  6
+ AVERAGE MOMENT                     4.114E-02   TIME AVG. MOMENT      6.548E-02
+ LARGEST RESIDUAL MOMENT           -1.036E-14   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.757E-06   AT NODE        274   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.418E-06   AT NODE        273   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -9.884E-06   AT NODE        494   DOF  6
+ LARGEST CORRECTION TO ROTATION    -7.641E-06   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -4.90     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -9.92     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -4.82     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -9.37     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.184    
- STEP TIME COMPLETED       1.844E-03,  TOTAL TIME COMPLETED        1.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.186    
+ STEP TIME COMPLETED       1.863E-03,  TOTAL TIME COMPLETED        1.863E-03
 
 
   INCREMENT    43 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2071,32 +2071,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.301E-03   TIME AVG. FORCE       1.257E-02
- LARGEST RESIDUAL FORCE            -1.332E-14   AT NODE        475   DOF  2
+ AVERAGE FORCE                      2.187E-03   TIME AVG. FORCE       1.275E-02
+ LARGEST RESIDUAL FORCE             1.689E-14   AT NODE         98   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.836E-05   AT NODE        256   DOF  2
+ LARGEST INCREMENT OF DISP.         4.312E-05   AT NODE        254   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -4.001E-05   AT NODE        261   DOF  2
+ LARGEST CORRECTION TO DISP.        3.643E-05   AT NODE        276   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.381E-02   TIME AVG. MOMENT      6.560E-02
- LARGEST RESIDUAL MOMENT           -1.054E-14   AT NODE        476   DOF  6
+ AVERAGE MOMENT                     4.038E-02   TIME AVG. MOMENT      6.490E-02
+ LARGEST RESIDUAL MOMENT           -1.184E-14   AT NODE        489   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.529E-06   AT NODE        266   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.165E-06   AT NODE        265   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     8.826E-06   AT NODE        494   DOF  6
+ LARGEST CORRECTION TO ROTATION     7.187E-06   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    4.14     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    9.17     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    4.06     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    8.69     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.194    
- STEP TIME COMPLETED       1.944E-03,  TOTAL TIME COMPLETED        1.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.196    
+ STEP TIME COMPLETED       1.963E-03,  TOTAL TIME COMPLETED        1.963E-03
 
 
   INCREMENT    44 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2116,32 +2116,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.201E-03   TIME AVG. FORCE       1.233E-02
- LARGEST RESIDUAL FORCE            -1.634E-14   AT NODE        498   DOF  2
+ AVERAGE FORCE                      2.081E-03   TIME AVG. FORCE       1.251E-02
+ LARGEST RESIDUAL FORCE             1.310E-14   AT NODE        493   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.948E-05   AT NODE        247   DOF  2
+ LARGEST INCREMENT OF DISP.         4.668E-05   AT NODE         37   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.768E-05   AT NODE        252   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.391E-05   AT NODE        250   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.264E-02   TIME AVG. MOMENT      6.508E-02
- LARGEST RESIDUAL MOMENT           -1.093E-14   AT NODE        499   DOF  6
+ AVERAGE MOMENT                     3.931E-02   TIME AVG. MOMENT      6.431E-02
+ LARGEST RESIDUAL MOMENT           -1.125E-14   AT NODE        492   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.303E-06   AT NODE         40   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.252E-06   AT NODE        236   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -7.621E-06   AT NODE        495   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.395E-06   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -3.47     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -8.45     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -3.39     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -8.04     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.204    
- STEP TIME COMPLETED       2.044E-03,  TOTAL TIME COMPLETED        2.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.206    
+ STEP TIME COMPLETED       2.063E-03,  TOTAL TIME COMPLETED        2.063E-03
 
 
   INCREMENT    45 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2161,32 +2161,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.150E-03   TIME AVG. FORCE       1.210E-02
- LARGEST RESIDUAL FORCE             2.446E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      2.018E-03   TIME AVG. FORCE       1.228E-02
+ LARGEST RESIDUAL FORCE             1.348E-14   AT NODE        479   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.021E-05   AT NODE        239   DOF  2
+ LARGEST INCREMENT OF DISP.         4.692E-05   AT NODE        238   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.797E-05   AT NODE        243   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.763E-05   AT NODE         36   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.208E-02   TIME AVG. MOMENT      6.457E-02
- LARGEST RESIDUAL MOMENT            1.266E-14   AT NODE        477   DOF  6
+ AVERAGE MOMENT                     3.937E-02   TIME AVG. MOMENT      6.376E-02
+ LARGEST RESIDUAL MOMENT           -1.309E-14   AT NODE         96   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.380E-06   AT NODE        229   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.131E-06   AT NODE        228   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     6.874E-06   AT NODE        495   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.717E-06   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -2.96     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    7.76     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -3.06     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    7.41     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.214    
- STEP TIME COMPLETED       2.144E-03,  TOTAL TIME COMPLETED        2.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.216    
+ STEP TIME COMPLETED       2.163E-03,  TOTAL TIME COMPLETED        2.163E-03
 
 
   INCREMENT    46 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2206,32 +2206,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.141E-03   TIME AVG. FORCE       1.189E-02
- LARGEST RESIDUAL FORCE             1.441E-14   AT NODE        480   DOF  2
+ AVERAGE FORCE                      1.966E-03   TIME AVG. FORCE       1.205E-02
+ LARGEST RESIDUAL FORCE            -2.126E-14   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.736E-05   AT NODE        231   DOF  2
+ LARGEST INCREMENT OF DISP.         4.532E-05   AT NODE        230   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.603E-05   AT NODE        234   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.387E-05   AT NODE        233   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.420E-02   TIME AVG. MOMENT      6.412E-02
- LARGEST RESIDUAL MOMENT            1.393E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     4.069E-02   TIME AVG. MOMENT      6.326E-02
+ LARGEST RESIDUAL MOMENT           -1.452E-14   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.350E-06   AT NODE        220   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.147E-06   AT NODE        220   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -6.415E-06   AT NODE        495   DOF  6
+ LARGEST CORRECTION TO ROTATION    -5.297E-06   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.70     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -7.11     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.81     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -6.81     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.224    
- STEP TIME COMPLETED       2.244E-03,  TOTAL TIME COMPLETED        2.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.226    
+ STEP TIME COMPLETED       2.263E-03,  TOTAL TIME COMPLETED        2.263E-03
 
 
   INCREMENT    47 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2251,32 +2251,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      2.008E-03   TIME AVG. FORCE       1.168E-02
- LARGEST RESIDUAL FORCE             3.089E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.903E-03   TIME AVG. FORCE       1.184E-02
+ LARGEST RESIDUAL FORCE            -2.478E-14   AT NODE        498   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.857E-05   AT NODE        223   DOF  2
+ LARGEST INCREMENT OF DISP.         4.005E-05   AT NODE        222   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.502E-05   AT NODE        225   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.162E-05   AT NODE        225   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.451E-02   TIME AVG. MOMENT      6.371E-02
- LARGEST RESIDUAL MOMENT           -1.520E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     4.043E-02   TIME AVG. MOMENT      6.277E-02
+ LARGEST RESIDUAL MOMENT           -2.748E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.490E-06   AT NODE        212   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.095E-06   AT NODE        211   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     5.853E-06   AT NODE        495   DOF  6
+ LARGEST CORRECTION TO ROTATION     4.811E-06   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -2.45     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    6.50     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -2.57     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    6.24     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.234    
- STEP TIME COMPLETED       2.344E-03,  TOTAL TIME COMPLETED        2.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.236    
+ STEP TIME COMPLETED       2.363E-03,  TOTAL TIME COMPLETED        2.363E-03
 
 
   INCREMENT    48 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2296,32 +2296,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.984E-03   TIME AVG. FORCE       1.148E-02
- LARGEST RESIDUAL FORCE            -1.329E-14   AT NODE        478   DOF  2
+ AVERAGE FORCE                      1.837E-03   TIME AVG. FORCE       1.163E-02
+ LARGEST RESIDUAL FORCE            -2.277E-14   AT NODE        498   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.344E-05   AT NODE        193   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.117E-05   AT NODE        192   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.258E-05   AT NODE        217   DOF  2
+ LARGEST CORRECTION TO DISP.        2.904E-05   AT NODE        197   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.509E-02   TIME AVG. MOMENT      6.332E-02
- LARGEST RESIDUAL MOMENT            8.843E-15   AT NODE        474   DOF  6
+ AVERAGE MOMENT                     4.100E-02   TIME AVG. MOMENT      6.232E-02
+ LARGEST RESIDUAL MOMENT            1.524E-14   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.294E-06   AT NODE        204   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.078E-06   AT NODE        202   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -4.973E-06   AT NODE        495   DOF  6
+ LARGEST CORRECTION TO ROTATION    -4.324E-06   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.22     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -5.92     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    2.34     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -5.70     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.244    
- STEP TIME COMPLETED       2.444E-03,  TOTAL TIME COMPLETED        2.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.246    
+ STEP TIME COMPLETED       2.463E-03,  TOTAL TIME COMPLETED        2.463E-03
 
 
   INCREMENT    49 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2341,32 +2341,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.997E-03   TIME AVG. FORCE       1.128E-02
- LARGEST RESIDUAL FORCE            -2.332E-14   AT NODE        492   DOF  2
+ AVERAGE FORCE                      1.843E-03   TIME AVG. FORCE       1.143E-02
+ LARGEST RESIDUAL FORCE            -1.704E-14   AT NODE        488   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.757E-05   AT NODE        185   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.158E-05   AT NODE        184   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        3.225E-05   AT NODE        189   DOF  2
+ LARGEST CORRECTION TO DISP.        2.967E-05   AT NODE        189   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.573E-02   TIME AVG. MOMENT      6.296E-02
- LARGEST RESIDUAL MOMENT            1.333E-14   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     4.098E-02   TIME AVG. MOMENT      6.188E-02
+ LARGEST RESIDUAL MOMENT           -1.186E-14   AT NODE        489   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.330E-06   AT NODE        195   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.984E-06   AT NODE        194   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     4.206E-06   AT NODE        495   DOF  6
+ LARGEST CORRECTION TO ROTATION     3.862E-06   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -2.00     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    5.39     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -2.13     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    5.20     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.254    
- STEP TIME COMPLETED       2.544E-03,  TOTAL TIME COMPLETED        2.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.256    
+ STEP TIME COMPLETED       2.563E-03,  TOTAL TIME COMPLETED        2.563E-03
 
 
   INCREMENT    50 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2386,32 +2386,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.894E-03   TIME AVG. FORCE       1.109E-02
- LARGEST RESIDUAL FORCE            -2.153E-14   AT NODE        498   DOF  2
+ AVERAGE FORCE                      1.750E-03   TIME AVG. FORCE       1.124E-02
+ LARGEST RESIDUAL FORCE             2.216E-14   AT NODE        494   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.460E-05   AT NODE        177   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.204E-05   AT NODE        176   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        3.194E-05   AT NODE         21   DOF  2
+ LARGEST CORRECTION TO DISP.        2.797E-05   AT NODE        180   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.366E-02   TIME AVG. MOMENT      6.257E-02
- LARGEST RESIDUAL MOMENT            1.262E-14   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     3.941E-02   TIME AVG. MOMENT      6.143E-02
+ LARGEST RESIDUAL MOMENT            1.687E-14   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.133E-06   AT NODE        187   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.873E-06   AT NODE         17   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -3.809E-06   AT NODE        496   DOF  6
+ LARGEST CORRECTION TO ROTATION    -3.416E-06   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.79     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -4.88     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.92     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -4.72     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.264    
- STEP TIME COMPLETED       2.644E-03,  TOTAL TIME COMPLETED        2.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.266    
+ STEP TIME COMPLETED       2.663E-03,  TOTAL TIME COMPLETED        2.663E-03
 
 
   INCREMENT    51 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2431,32 +2431,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.859E-03   TIME AVG. FORCE       1.091E-02
- LARGEST RESIDUAL FORCE            -1.568E-14   AT NODE        493   DOF  2
+ AVERAGE FORCE                      1.703E-03   TIME AVG. FORCE       1.105E-02
+ LARGEST RESIDUAL FORCE             2.420E-14   AT NODE        496   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.332E-05   AT NODE        169   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.068E-05   AT NODE        168   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.852E-05   AT NODE        173   DOF  2
+ LARGEST CORRECTION TO DISP.        2.746E-05   AT NODE        171   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.402E-02   TIME AVG. MOMENT      6.221E-02
- LARGEST RESIDUAL MOMENT           -1.297E-14   AT NODE        462   DOF  6
+ AVERAGE MOMENT                     4.058E-02   TIME AVG. MOMENT      6.103E-02
+ LARGEST RESIDUAL MOMENT            1.610E-14   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.079E-06   AT NODE        157   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.858E-06   AT NODE         15   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     3.535E-06   AT NODE        496   DOF  6
+ LARGEST CORRECTION TO ROTATION     3.060E-06   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.60     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    4.42     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.73     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    4.28     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.274    
- STEP TIME COMPLETED       2.744E-03,  TOTAL TIME COMPLETED        2.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.276    
+ STEP TIME COMPLETED       2.763E-03,  TOTAL TIME COMPLETED        2.763E-03
 
 
   INCREMENT    52 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2476,32 +2476,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.990E-03   TIME AVG. FORCE       1.074E-02
- LARGEST RESIDUAL FORCE             1.788E-14   AT NODE        488   DOF  2
+ AVERAGE FORCE                      1.793E-03   TIME AVG. FORCE       1.087E-02
+ LARGEST RESIDUAL FORCE            -2.102E-14   AT NODE        490   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.137E-05   AT NODE        161   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.824E-05   AT NODE        160   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.834E-05   AT NODE        164   DOF  2
+ LARGEST CORRECTION TO DISP.        2.630E-05   AT NODE        163   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.523E-02   TIME AVG. MOMENT      6.188E-02
- LARGEST RESIDUAL MOMENT           -1.217E-14   AT NODE        470   DOF  6
+ AVERAGE MOMENT                     4.138E-02   TIME AVG. MOMENT      6.065E-02
+ LARGEST RESIDUAL MOMENT           -9.662E-15   AT NODE         97   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.999E-06   AT NODE         13   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.822E-06   AT NODE        149   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     3.143E-06   AT NODE        491   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.756E-06   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.43     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -3.99     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.55     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -3.87     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.284    
- STEP TIME COMPLETED       2.844E-03,  TOTAL TIME COMPLETED        2.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.286    
+ STEP TIME COMPLETED       2.863E-03,  TOTAL TIME COMPLETED        2.863E-03
 
 
   INCREMENT    53 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2521,32 +2521,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.558E-03   TIME AVG. FORCE       1.057E-02
- LARGEST RESIDUAL FORCE            -2.185E-14   AT NODE        496   DOF  2
+ AVERAGE FORCE                      1.449E-03   TIME AVG. FORCE       1.069E-02
+ LARGEST RESIDUAL FORCE            -1.887E-14   AT NODE        489   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.425E-05   AT NODE        151   DOF  2
+ LARGEST INCREMENT OF DISP.         3.891E-05   AT NODE        127   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.578E-05   AT NODE        155   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.271E-05   AT NODE        136   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.909E-02   TIME AVG. MOMENT      6.145E-02
- LARGEST RESIDUAL MOMENT            1.387E-14   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     3.715E-02   TIME AVG. MOMENT      6.020E-02
+ LARGEST RESIDUAL MOMENT            1.676E-14   AT NODE        488   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.084E-06   AT NODE        140   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.867E-06   AT NODE        139   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -3.024E-06   AT NODE        491   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.409E-06   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.37     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    3.60     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.38     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    3.50     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.294    
- STEP TIME COMPLETED       2.944E-03,  TOTAL TIME COMPLETED        2.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.296    
+ STEP TIME COMPLETED       2.963E-03,  TOTAL TIME COMPLETED        2.963E-03
 
 
   INCREMENT    54 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2566,32 +2566,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.699E-03   TIME AVG. FORCE       1.040E-02
- LARGEST RESIDUAL FORCE             1.535E-14   AT NODE        487   DOF  2
+ AVERAGE FORCE                      1.468E-03   TIME AVG. FORCE       1.052E-02
+ LARGEST RESIDUAL FORCE             1.894E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.874E-05   AT NODE          6   DOF  2
+ LARGEST INCREMENT OF DISP.         5.855E-05   AT NODE        121   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.162E-05   AT NODE        123   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.776E-05   AT NODE        123   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.307E-02   TIME AVG. MOMENT      6.111E-02
- LARGEST RESIDUAL MOMENT           -1.393E-14   AT NODE        493   DOF  6
+ AVERAGE MOMENT                     3.884E-02   TIME AVG. MOMENT      5.981E-02
+ LARGEST RESIDUAL MOMENT           -1.664E-14   AT NODE        458   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.649E-06   AT NODE          9   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.537E-06   AT NODE        133   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.783E-06   AT NODE        492   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.029E-06   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.39     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -3.23     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.40     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -3.15     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.304    
- STEP TIME COMPLETED       3.044E-03,  TOTAL TIME COMPLETED        3.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.306    
+ STEP TIME COMPLETED       3.063E-03,  TOTAL TIME COMPLETED        3.063E-03
 
 
   INCREMENT    55 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2611,32 +2611,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.847E-03   TIME AVG. FORCE       1.025E-02
- LARGEST RESIDUAL FORCE            -2.427E-14   AT NODE        499   DOF  2
+ AVERAGE FORCE                      1.619E-03   TIME AVG. FORCE       1.036E-02
+ LARGEST RESIDUAL FORCE            -3.007E-14   AT NODE        493   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.236E-05   AT NODE        181   DOF  2
+ LARGEST INCREMENT OF DISP.         2.893E-05   AT NODE        180   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.830E-05   AT NODE        120   DOF  2
+ LARGEST CORRECTION TO DISP.       -3.916E-05   AT NODE        119   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.584E-02   TIME AVG. MOMENT      6.083E-02
- LARGEST RESIDUAL MOMENT            1.381E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     4.204E-02   TIME AVG. MOMENT      5.949E-02
+ LARGEST RESIDUAL MOMENT            1.778E-14   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.222E-06   AT NODE        190   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.145E-06   AT NODE        129   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -2.655E-06   AT NODE        492   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.938E-06   AT NODE        129   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.39     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    2.90     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.40     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    2.83     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.314    
- STEP TIME COMPLETED       3.144E-03,  TOTAL TIME COMPLETED        3.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.316    
+ STEP TIME COMPLETED       3.163E-03,  TOTAL TIME COMPLETED        3.163E-03
 
 
   INCREMENT    56 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2656,32 +2656,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.267E-03   TIME AVG. FORCE       1.009E-02
- LARGEST RESIDUAL FORCE             2.500E-14   AT NODE         97   DOF  2
+ AVERAGE FORCE                      4.021E-04   TIME AVG. FORCE       1.018E-02
+ LARGEST RESIDUAL FORCE             1.752E-14   AT NODE        491   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.728E-05   AT NODE        122   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.742E-05   AT NODE        121   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.865E-05   AT NODE        177   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.752E-05   AT NODE        176   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.839E-02   TIME AVG. MOMENT      6.043E-02
- LARGEST RESIDUAL MOMENT           -1.601E-14   AT NODE         98   DOF  6
+ AVERAGE MOMENT                     3.727E-02   TIME AVG. MOMENT      5.909E-02
+ LARGEST RESIDUAL MOMENT           -1.942E-14   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.858E-06   AT NODE        133   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.601E-06   AT NODE        131   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.542E-06   AT NODE        492   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.644E-06   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.38     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -2.59     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -2.54     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.324    
- STEP TIME COMPLETED       3.244E-03,  TOTAL TIME COMPLETED        3.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.326    
+ STEP TIME COMPLETED       3.263E-03,  TOTAL TIME COMPLETED        3.263E-03
 
 
   INCREMENT    57 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2701,32 +2701,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.567E-03   TIME AVG. FORCE       9.939E-03
- LARGEST RESIDUAL FORCE             2.752E-14   AT NODE         97   DOF  2
+ AVERAGE FORCE                      1.396E-03   TIME AVG. FORCE       1.003E-02
+ LARGEST RESIDUAL FORCE             2.992E-14   AT NODE        486   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -6.911E-05   AT NODE        123   DOF  2
+ LARGEST INCREMENT OF DISP.        -6.507E-05   AT NODE          6   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        4.799E-05   AT NODE        120   DOF  2
+ LARGEST CORRECTION TO DISP.        4.581E-05   AT NODE        119   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.867E-02   TIME AVG. MOMENT      6.005E-02
- LARGEST RESIDUAL MOMENT            1.609E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     3.699E-02   TIME AVG. MOMENT      5.870E-02
+ LARGEST RESIDUAL MOMENT           -1.870E-14   AT NODE        488   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.113E-06   AT NODE          4   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.084E-06   AT NODE        112   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -2.353E-06   AT NODE        492   DOF  6
+ LARGEST CORRECTION TO ROTATION    -2.227E-06   AT NODE        129   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.35     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    2.31     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -2.32     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.334    
- STEP TIME COMPLETED       3.344E-03,  TOTAL TIME COMPLETED        3.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.336    
+ STEP TIME COMPLETED       3.363E-03,  TOTAL TIME COMPLETED        3.363E-03
 
 
   INCREMENT    58 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2746,32 +2746,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.497E-03   TIME AVG. FORCE       9.793E-03
- LARGEST RESIDUAL FORCE            -1.921E-14   AT NODE        488   DOF  2
+ AVERAGE FORCE                      1.266E-03   TIME AVG. FORCE       9.877E-03
+ LARGEST RESIDUAL FORCE            -2.741E-14   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.318E-05   AT NODE        157   DOF  2
+ LARGEST INCREMENT OF DISP.        -5.494E-05   AT NODE        132   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.346E-05   AT NODE        155   DOF  2
+ LARGEST CORRECTION TO DISP.        1.763E-05   AT NODE        173   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.997E-02   TIME AVG. MOMENT      5.970E-02
- LARGEST RESIDUAL MOMENT           -1.322E-14   AT NODE        499   DOF  6
+ AVERAGE MOMENT                     3.592E-02   TIME AVG. MOMENT      5.831E-02
+ LARGEST RESIDUAL MOMENT            2.326E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.704E-06   AT NODE         12   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.492E-06   AT NODE        144   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.157E-06   AT NODE        492   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.358E-06   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.31     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -2.06     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    2.17     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.344    
- STEP TIME COMPLETED       3.444E-03,  TOTAL TIME COMPLETED        3.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.346    
+ STEP TIME COMPLETED       3.463E-03,  TOTAL TIME COMPLETED        3.463E-03
 
 
   INCREMENT    59 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2791,32 +2791,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.478E-03   TIME AVG. FORCE       9.652E-03
- LARGEST RESIDUAL FORCE            -1.886E-14   AT NODE         97   DOF  2
+ AVERAGE FORCE                      1.266E-03   TIME AVG. FORCE       9.731E-03
+ LARGEST RESIDUAL FORCE            -2.539E-14   AT NODE         99   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.056E-05   AT NODE        164   DOF  2
+ LARGEST INCREMENT OF DISP.         4.257E-05   AT NODE        162   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        3.342E-05   AT NODE        136   DOF  2
+ LARGEST CORRECTION TO DISP.        3.635E-05   AT NODE        135   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.393E-02   TIME AVG. MOMENT      5.944E-02
- LARGEST RESIDUAL MOMENT           -2.028E-14   AT NODE        486   DOF  6
+ AVERAGE MOMENT                     3.872E-02   TIME AVG. MOMENT      5.798E-02
+ LARGEST RESIDUAL MOMENT           -2.586E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.833E-06   AT NODE        179   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.794E-06   AT NODE        147   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.011E-06   AT NODE        127   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.096E-06   AT NODE        126   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.27     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.83     AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -2.02     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.354    
- STEP TIME COMPLETED       3.544E-03,  TOTAL TIME COMPLETED        3.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.356    
+ STEP TIME COMPLETED       3.563E-03,  TOTAL TIME COMPLETED        3.563E-03
 
 
   INCREMENT    60 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2836,32 +2836,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.417E-03   TIME AVG. FORCE       9.515E-03
- LARGEST RESIDUAL FORCE            -3.742E-14   AT NODE        479   DOF  2
+ AVERAGE FORCE                      1.266E-03   TIME AVG. FORCE       9.590E-03
+ LARGEST RESIDUAL FORCE            -2.010E-14   AT NODE        488   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -3.591E-05   AT NODE         25   DOF  2
+ LARGEST INCREMENT OF DISP.         3.828E-05   AT NODE        168   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.615E-05   AT NODE        169   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.482E-05   AT NODE        167   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.354E-02   TIME AVG. MOMENT      5.917E-02
- LARGEST RESIDUAL MOMENT            1.368E-14   AT NODE        478   DOF  6
+ AVERAGE MOMENT                     3.908E-02   TIME AVG. MOMENT      5.766E-02
+ LARGEST RESIDUAL MOMENT           -1.829E-14   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.548E-06   AT NODE        160   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.655E-06   AT NODE        178   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.768E-06   AT NODE        492   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.436E-06   AT NODE        176   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.21     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.69     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.88     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.364    
- STEP TIME COMPLETED       3.644E-03,  TOTAL TIME COMPLETED        3.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.366    
+ STEP TIME COMPLETED       3.663E-03,  TOTAL TIME COMPLETED        3.663E-03
 
 
   INCREMENT    61 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2881,32 +2881,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.415E-03   TIME AVG. FORCE       9.382E-03
- LARGEST RESIDUAL FORCE             3.029E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.324E-03   TIME AVG. FORCE       9.455E-03
+ LARGEST RESIDUAL FORCE             1.633E-14   AT NODE         99   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.239E-05   AT NODE          9   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.646E-05   AT NODE        200   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.736E-05   AT NODE          9   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.835E-05   AT NODE        133   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.063E-02   TIME AVG. MOMENT      5.887E-02
- LARGEST RESIDUAL MOMENT           -2.094E-14   AT NODE        484   DOF  6
+ AVERAGE MOMENT                     3.908E-02   TIME AVG. MOMENT      5.736E-02
+ LARGEST RESIDUAL MOMENT            1.871E-14   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.510E-06   AT NODE        191   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.502E-06   AT NODE         23   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.681E-06   AT NODE        142   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.704E-06   AT NODE        125   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.16     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.55     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.74     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.374    
- STEP TIME COMPLETED       3.744E-03,  TOTAL TIME COMPLETED        3.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.376    
+ STEP TIME COMPLETED       3.763E-03,  TOTAL TIME COMPLETED        3.763E-03
 
 
   INCREMENT    62 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2926,32 +2926,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.223E-03   TIME AVG. FORCE       9.251E-03
- LARGEST RESIDUAL FORCE             1.441E-14   AT NODE        487   DOF  2
+ AVERAGE FORCE                      1.099E-03   TIME AVG. FORCE       9.320E-03
+ LARGEST RESIDUAL FORCE            -3.085E-14   AT NODE        492   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.440E-05   AT NODE        167   DOF  2
+ LARGEST INCREMENT OF DISP.         3.592E-05   AT NODE        141   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.785E-05   AT NODE        183   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.493E-05   AT NODE        181   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.444E-02   TIME AVG. MOMENT      5.847E-02
- LARGEST RESIDUAL MOMENT           -1.764E-14   AT NODE        481   DOF  6
+ AVERAGE MOMENT                     3.417E-02   TIME AVG. MOMENT      5.698E-02
+ LARGEST RESIDUAL MOMENT            2.067E-14   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.149E-06   AT NODE        155   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.828E-06   AT NODE        154   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.698E-06   AT NODE        174   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.625E-06   AT NODE        172   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
   MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   -1.10     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.42     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.60     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.384    
- STEP TIME COMPLETED       3.844E-03,  TOTAL TIME COMPLETED        3.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.386    
+ STEP TIME COMPLETED       3.863E-03,  TOTAL TIME COMPLETED        3.863E-03
 
 
   INCREMENT    63 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -2971,32 +2971,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.279E-03   TIME AVG. FORCE       9.124E-03
- LARGEST RESIDUAL FORCE             1.863E-14   AT NODE        485   DOF  2
+ AVERAGE FORCE                      1.133E-03   TIME AVG. FORCE       9.190E-03
+ LARGEST RESIDUAL FORCE             2.449E-14   AT NODE        493   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.050E-05   AT NODE        175   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.375E-05   AT NODE         19   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.202E-05   AT NODE        194   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.987E-05   AT NODE        117   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.558E-02   TIME AVG. MOMENT      5.811E-02
- LARGEST RESIDUAL MOMENT           -1.771E-14   AT NODE        484   DOF  6
+ AVERAGE MOMENT                     3.247E-02   TIME AVG. MOMENT      5.659E-02
+ LARGEST RESIDUAL MOMENT           -2.013E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.957E-06   AT NODE        186   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.719E-06   AT NODE        185   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.367E-06   AT NODE        204   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.243E-06   AT NODE        202   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.04     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.30     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS    1.03     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.47     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.394    
- STEP TIME COMPLETED       3.944E-03,  TOTAL TIME COMPLETED        3.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.396    
+ STEP TIME COMPLETED       3.963E-03,  TOTAL TIME COMPLETED        3.963E-03
 
 
   INCREMENT    64 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3016,32 +3016,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.375E-03   TIME AVG. FORCE       9.003E-03
- LARGEST RESIDUAL FORCE            -3.179E-14   AT NODE        477   DOF  2
+ AVERAGE FORCE                      1.170E-03   TIME AVG. FORCE       9.065E-03
+ LARGEST RESIDUAL FORCE             2.973E-14   AT NODE         99   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.255E-05   AT NODE         21   DOF  2
+ LARGEST INCREMENT OF DISP.         4.810E-05   AT NODE        132   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.426E-05   AT NODE        179   DOF  2
+ LARGEST CORRECTION TO DISP.        2.459E-05   AT NODE        177   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.948E-02   TIME AVG. MOMENT      5.782E-02
- LARGEST RESIDUAL MOMENT           -2.354E-14   AT NODE         95   DOF  6
+ AVERAGE MOMENT                     3.452E-02   TIME AVG. MOMENT      5.625E-02
+ LARGEST RESIDUAL MOMENT           -1.389E-14   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.052E-06   AT NODE        194   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.640E-06   AT NODE        191   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.350E-06   AT NODE        170   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.389E-06   AT NODE        169   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.974     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.18     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.972     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.35     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.404    
- STEP TIME COMPLETED       4.044E-03,  TOTAL TIME COMPLETED        4.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.406    
+ STEP TIME COMPLETED       4.063E-03,  TOTAL TIME COMPLETED        4.063E-03
 
 
   INCREMENT    65 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3061,32 +3061,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.394E-03   TIME AVG. FORCE       8.886E-03
- LARGEST RESIDUAL FORCE            -2.514E-14   AT NODE         97   DOF  2
+ AVERAGE FORCE                      1.136E-03   TIME AVG. FORCE       8.943E-03
+ LARGEST RESIDUAL FORCE             2.230E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.743E-05   AT NODE        187   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.169E-05   AT NODE        186   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.626E-05   AT NODE        207   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.243E-05   AT NODE        206   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.184E-02   TIME AVG. MOMENT      5.757E-02
- LARGEST RESIDUAL MOMENT            1.361E-14   AT NODE        485   DOF  6
+ AVERAGE MOMENT                     3.574E-02   TIME AVG. MOMENT      5.593E-02
+ LARGEST RESIDUAL MOMENT           -1.733E-14   AT NODE         96   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.150E-06   AT NODE        201   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.916E-06   AT NODE        198   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.527E-06   AT NODE        199   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.272E-06   AT NODE         25   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.912     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.08     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.910     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.23     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.414    
- STEP TIME COMPLETED       4.144E-03,  TOTAL TIME COMPLETED        4.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.416    
+ STEP TIME COMPLETED       4.163E-03,  TOTAL TIME COMPLETED        4.163E-03
 
 
   INCREMENT    66 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3106,32 +3106,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.506E-03   TIME AVG. FORCE       8.774E-03
- LARGEST RESIDUAL FORCE            -1.842E-14   AT NODE        475   DOF  2
+ AVERAGE FORCE                      1.326E-03   TIME AVG. FORCE       8.827E-03
+ LARGEST RESIDUAL FORCE            -2.178E-14   AT NODE        477   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.516E-05   AT NODE         31   DOF  2
+ LARGEST INCREMENT OF DISP.         4.612E-05   AT NODE        219   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.300E-05   AT NODE        219   DOF  2
+ LARGEST CORRECTION TO DISP.        1.998E-05   AT NODE        234   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.286E-02   TIME AVG. MOMENT      5.735E-02
- LARGEST RESIDUAL MOMENT           -1.516E-14   AT NODE         98   DOF  6
+ AVERAGE MOMENT                     3.751E-02   TIME AVG. MOMENT      5.565E-02
+ LARGEST RESIDUAL MOMENT            2.527E-14   AT NODE        491   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.968E-06   AT NODE         28   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.690E-06   AT NODE        207   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.361E-06   AT NODE        227   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.271E-06   AT NODE        226   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.851     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.977     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.848     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS    1.12     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.424    
- STEP TIME COMPLETED       4.244E-03,  TOTAL TIME COMPLETED        4.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.426    
+ STEP TIME COMPLETED       4.263E-03,  TOTAL TIME COMPLETED        4.263E-03
 
 
   INCREMENT    67 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3151,32 +3151,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.443E-03   TIME AVG. FORCE       8.665E-03
- LARGEST RESIDUAL FORCE            -2.683E-14   AT NODE         97   DOF  2
+ AVERAGE FORCE                      1.257E-03   TIME AVG. FORCE       8.714E-03
+ LARGEST RESIDUAL FORCE            -2.873E-14   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.430E-05   AT NODE        229   DOF  2
+ LARGEST INCREMENT OF DISP.         4.968E-05   AT NODE        227   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.996E-05   AT NODE        247   DOF  2
+ LARGEST CORRECTION TO DISP.        1.882E-05   AT NODE        245   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.549E-02   TIME AVG. MOMENT      5.717E-02
- LARGEST RESIDUAL MOMENT            2.180E-14   AT NODE        479   DOF  6
+ AVERAGE MOMENT                     3.955E-02   TIME AVG. MOMENT      5.541E-02
+ LARGEST RESIDUAL MOMENT            1.875E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.856E-06   AT NODE        241   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.735E-06   AT NODE        238   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.075E-06   AT NODE        197   DOF  6
+ LARGEST CORRECTION TO ROTATION     9.234E-07   AT NODE        237   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.791     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.884     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.788     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   -1.02     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.434    
- STEP TIME COMPLETED       4.344E-03,  TOTAL TIME COMPLETED        4.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.436    
+ STEP TIME COMPLETED       4.363E-03,  TOTAL TIME COMPLETED        4.363E-03
 
 
   INCREMENT    68 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3196,32 +3196,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.442E-03   TIME AVG. FORCE       8.559E-03
- LARGEST RESIDUAL FORCE            -2.410E-14   AT NODE        485   DOF  2
+ AVERAGE FORCE                      1.294E-03   TIME AVG. FORCE       8.605E-03
+ LARGEST RESIDUAL FORCE            -3.784E-14   AT NODE        482   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.870E-05   AT NODE        236   DOF  2
+ LARGEST INCREMENT OF DISP.         4.775E-05   AT NODE        233   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.985E-05   AT NODE        233   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.090E-05   AT NODE        230   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.449E-02   TIME AVG. MOMENT      5.699E-02
- LARGEST RESIDUAL MOMENT           -2.179E-14   AT NODE         97   DOF  6
+ AVERAGE MOMENT                     4.050E-02   TIME AVG. MOMENT      5.519E-02
+ LARGEST RESIDUAL MOMENT            1.786E-14   AT NODE         96   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.871E-06   AT NODE         38   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.719E-06   AT NODE         37   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.153E-06   AT NODE        224   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.162E-06   AT NODE        222   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.733     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.798     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.730     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.925     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.444    
- STEP TIME COMPLETED       4.444E-03,  TOTAL TIME COMPLETED        4.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.446    
+ STEP TIME COMPLETED       4.463E-03,  TOTAL TIME COMPLETED        4.463E-03
 
 
   INCREMENT    69 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3241,32 +3241,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.504E-03   TIME AVG. FORCE       8.456E-03
- LARGEST RESIDUAL FORCE            -2.895E-14   AT NODE        470   DOF  2
+ AVERAGE FORCE                      1.365E-03   TIME AVG. FORCE       8.500E-03
+ LARGEST RESIDUAL FORCE             2.982E-14   AT NODE        481   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.271E-05   AT NODE        270   DOF  2
+ LARGEST INCREMENT OF DISP.         4.153E-05   AT NODE        241   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.976E-05   AT NODE        242   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.911E-05   AT NODE        241   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.266E-02   TIME AVG. MOMENT      5.678E-02
- LARGEST RESIDUAL MOMENT           -2.522E-14   AT NODE        482   DOF  6
+ AVERAGE MOMENT                     3.931E-02   TIME AVG. MOMENT      5.496E-02
+ LARGEST RESIDUAL MOMENT            2.589E-14   AT NODE         96   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.816E-06   AT NODE         40   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.644E-06   AT NODE         39   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.024E-06   AT NODE        251   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.038E-06   AT NODE        249   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.676     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.718     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.674     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.836     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.454    
- STEP TIME COMPLETED       4.544E-03,  TOTAL TIME COMPLETED        4.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.456    
+ STEP TIME COMPLETED       4.563E-03,  TOTAL TIME COMPLETED        4.563E-03
 
 
   INCREMENT    70 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3286,32 +3286,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.373E-03   TIME AVG. FORCE       8.355E-03
- LARGEST RESIDUAL FORCE             3.125E-14   AT NODE        483   DOF  2
+ AVERAGE FORCE                      1.260E-03   TIME AVG. FORCE       8.397E-03
+ LARGEST RESIDUAL FORCE            -3.035E-14   AT NODE        486   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.645E-05   AT NODE         45   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.194E-05   AT NODE        275   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.043E-05   AT NODE        271   DOF  2
+ LARGEST CORRECTION TO DISP.        1.846E-05   AT NODE        268   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.183E-02   TIME AVG. MOMENT      5.657E-02
- LARGEST RESIDUAL MOMENT           -1.671E-14   AT NODE        478   DOF  6
+ AVERAGE MOMENT                     3.881E-02   TIME AVG. MOMENT      5.473E-02
+ LARGEST RESIDUAL MOMENT           -2.031E-14   AT NODE        482   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.816E-06   AT NODE        265   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.648E-06   AT NODE         41   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.179E-06   AT NODE         41   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.039E-06   AT NODE        260   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.623     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.644     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.620     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.753     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.464    
- STEP TIME COMPLETED       4.644E-03,  TOTAL TIME COMPLETED        4.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.466    
+ STEP TIME COMPLETED       4.663E-03,  TOTAL TIME COMPLETED        4.663E-03
 
 
   INCREMENT    71 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3331,32 +3331,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.266E-03   TIME AVG. FORCE       8.255E-03
- LARGEST RESIDUAL FORCE             1.887E-14   AT NODE        495   DOF  2
+ AVERAGE FORCE                      1.150E-03   TIME AVG. FORCE       8.295E-03
+ LARGEST RESIDUAL FORCE            -3.722E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.097E-05   AT NODE        285   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.445E-05   AT NODE         46   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.937E-05   AT NODE        281   DOF  2
+ LARGEST CORRECTION TO DISP.        1.855E-05   AT NODE         45   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.909E-02   TIME AVG. MOMENT      5.632E-02
- LARGEST RESIDUAL MOMENT            1.704E-14   AT NODE        496   DOF  6
+ AVERAGE MOMENT                     3.755E-02   TIME AVG. MOMENT      5.449E-02
+ LARGEST RESIDUAL MOMENT            2.207E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.699E-06   AT NODE        273   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.550E-06   AT NODE         43   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     9.758E-07   AT NODE        272   DOF  6
+ LARGEST CORRECTION TO ROTATION     8.945E-07   AT NODE         43   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.572     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.577     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.569     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.676     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.474    
- STEP TIME COMPLETED       4.744E-03,  TOTAL TIME COMPLETED        4.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.476    
+ STEP TIME COMPLETED       4.763E-03,  TOTAL TIME COMPLETED        4.763E-03
 
 
   INCREMENT    72 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3376,32 +3376,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.285E-03   TIME AVG. FORCE       8.159E-03
- LARGEST RESIDUAL FORCE            -2.045E-14   AT NODE         95   DOF  2
+ AVERAGE FORCE                      1.102E-03   TIME AVG. FORCE       8.195E-03
+ LARGEST RESIDUAL FORCE            -2.969E-14   AT NODE         95   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.340E-05   AT NODE        293   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.529E-05   AT NODE         48   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.092E-05   AT NODE         48   DOF  2
+ LARGEST CORRECTION TO DISP.        1.605E-05   AT NODE        287   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.646E-02   TIME AVG. MOMENT      5.604E-02
- LARGEST RESIDUAL MOMENT           -1.650E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     3.376E-02   TIME AVG. MOMENT      5.420E-02
+ LARGEST RESIDUAL MOMENT           -1.744E-14   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.613E-06   AT NODE        304   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.436E-06   AT NODE         51   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.076E-06   AT NODE         50   DOF  6
+ LARGEST CORRECTION TO ROTATION    -8.862E-07   AT NODE        296   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.523     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.515     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.521     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.605     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.484    
- STEP TIME COMPLETED       4.844E-03,  TOTAL TIME COMPLETED        4.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.486    
+ STEP TIME COMPLETED       4.863E-03,  TOTAL TIME COMPLETED        4.863E-03
 
 
   INCREMENT    73 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3421,32 +3421,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.251E-03   TIME AVG. FORCE       8.064E-03
- LARGEST RESIDUAL FORCE             2.702E-14   AT NODE        488   DOF  2
+ AVERAGE FORCE                      1.109E-03   TIME AVG. FORCE       8.098E-03
+ LARGEST RESIDUAL FORCE            -2.447E-14   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -5.269E-05   AT NODE        300   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.515E-05   AT NODE        297   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.928E-05   AT NODE        298   DOF  2
+ LARGEST CORRECTION TO DISP.        1.562E-05   AT NODE        295   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.472E-02   TIME AVG. MOMENT      5.575E-02
- LARGEST RESIDUAL MOMENT            2.127E-14   AT NODE        489   DOF  6
+ AVERAGE MOMENT                     3.139E-02   TIME AVG. MOMENT      5.389E-02
+ LARGEST RESIDUAL MOMENT           -2.103E-14   AT NODE        469   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.617E-06   AT NODE        312   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.456E-06   AT NODE        309   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.032E-06   AT NODE        307   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.446E-07   AT NODE         52   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.478     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.458     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.475     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.540     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.494    
- STEP TIME COMPLETED       4.944E-03,  TOTAL TIME COMPLETED        4.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.496    
+ STEP TIME COMPLETED       4.963E-03,  TOTAL TIME COMPLETED        4.963E-03
 
 
   INCREMENT    74 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3466,32 +3466,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.359E-03   TIME AVG. FORCE       7.973E-03
- LARGEST RESIDUAL FORCE             1.828E-14   AT NODE        485   DOF  2
+ AVERAGE FORCE                      1.186E-03   TIME AVG. FORCE       8.004E-03
+ LARGEST RESIDUAL FORCE             2.838E-14   AT NODE        488   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.737E-05   AT NODE        307   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.169E-05   AT NODE        305   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.707E-05   AT NODE         52   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.640E-05   AT NODE        323   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.382E-02   TIME AVG. MOMENT      5.546E-02
- LARGEST RESIDUAL MOMENT            1.828E-14   AT NODE         97   DOF  6
+ AVERAGE MOMENT                     3.020E-02   TIME AVG. MOMENT      5.357E-02
+ LARGEST RESIDUAL MOMENT           -2.059E-14   AT NODE         98   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.571E-06   AT NODE        320   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.472E-06   AT NODE         55   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -9.510E-07   AT NODE        317   DOF  6
+ LARGEST CORRECTION TO ROTATION    -8.795E-07   AT NODE        314   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.435     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.412     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.432     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.481     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.504    
- STEP TIME COMPLETED       5.044E-03,  TOTAL TIME COMPLETED        5.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.506    
+ STEP TIME COMPLETED       5.063E-03,  TOTAL TIME COMPLETED        5.063E-03
 
 
   INCREMENT    75 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3511,32 +3511,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.390E-03   TIME AVG. FORCE       7.886E-03
- LARGEST RESIDUAL FORCE             2.381E-14   AT NODE        470   DOF  2
+ AVERAGE FORCE                      1.223E-03   TIME AVG. FORCE       7.914E-03
+ LARGEST RESIDUAL FORCE            -2.278E-14   AT NODE        484   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.185E-05   AT NODE        315   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.907E-05   AT NODE        312   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.654E-05   AT NODE        335   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.695E-05   AT NODE        332   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.490E-02   TIME AVG. MOMENT      5.518E-02
- LARGEST RESIDUAL MOMENT            1.692E-14   AT NODE        474   DOF  6
+ AVERAGE MOMENT                     3.090E-02   TIME AVG. MOMENT      5.327E-02
+ LARGEST RESIDUAL MOMENT           -1.565E-14   AT NODE        488   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.601E-06   AT NODE        329   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.542E-06   AT NODE        325   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -8.663E-07   AT NODE         57   DOF  6
+ LARGEST CORRECTION TO ROTATION    -8.249E-07   AT NODE        323   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.395     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.385     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.392     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.426     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.514    
- STEP TIME COMPLETED       5.144E-03,  TOTAL TIME COMPLETED        5.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.516    
+ STEP TIME COMPLETED       5.163E-03,  TOTAL TIME COMPLETED        5.163E-03
 
 
   INCREMENT    76 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3556,32 +3556,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.456E-03   TIME AVG. FORCE       7.801E-03
- LARGEST RESIDUAL FORCE             2.988E-14   AT NODE        473   DOF  2
+ AVERAGE FORCE                      1.208E-03   TIME AVG. FORCE       7.826E-03
+ LARGEST RESIDUAL FORCE             3.990E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.702E-05   AT NODE        206   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.575E-05   AT NODE        319   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.831E-05   AT NODE        344   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.592E-05   AT NODE        341   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.812E-02   TIME AVG. MOMENT      5.496E-02
- LARGEST RESIDUAL MOMENT           -2.426E-14   AT NODE        479   DOF  6
+ AVERAGE MOMENT                     3.267E-02   TIME AVG. MOMENT      5.300E-02
+ LARGEST RESIDUAL MOMENT            2.141E-14   AT NODE        469   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.600E-06   AT NODE        336   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.455E-06   AT NODE        333   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -8.595E-07   AT NODE        334   DOF  6
+ LARGEST CORRECTION TO ROTATION    -7.680E-07   AT NODE        330   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.358     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.359     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.355     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.377     AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.524    
- STEP TIME COMPLETED       5.244E-03,  TOTAL TIME COMPLETED        5.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.526    
+ STEP TIME COMPLETED       5.263E-03,  TOTAL TIME COMPLETED        5.263E-03
 
 
   INCREMENT    77 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3601,32 +3601,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.440E-03   TIME AVG. FORCE       7.718E-03
- LARGEST RESIDUAL FORCE             2.891E-14   AT NODE        471   DOF  2
+ AVERAGE FORCE                      1.206E-03   TIME AVG. FORCE       7.740E-03
+ LARGEST RESIDUAL FORCE            -2.584E-14   AT NODE        489   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.575E-05   AT NODE        357   DOF  2
+ LARGEST INCREMENT OF DISP.         3.243E-05   AT NODE        209   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.731E-05   AT NODE        352   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.538E-05   AT NODE        349   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.016E-02   TIME AVG. MOMENT      5.477E-02
- LARGEST RESIDUAL MOMENT            2.059E-14   AT NODE        488   DOF  6
+ AVERAGE MOMENT                     3.441E-02   TIME AVG. MOMENT      5.276E-02
+ LARGEST RESIDUAL MOMENT            1.908E-14   AT NODE        488   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.481E-06   AT NODE        344   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.372E-06   AT NODE        341   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     7.755E-07   AT NODE        362   DOF  6
+ LARGEST CORRECTION TO ROTATION     7.162E-07   AT NODE        358   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.323     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.334     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.321     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.336     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.534    
- STEP TIME COMPLETED       5.344E-03,  TOTAL TIME COMPLETED        5.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.536    
+ STEP TIME COMPLETED       5.363E-03,  TOTAL TIME COMPLETED        5.363E-03
 
 
   INCREMENT    78 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3646,32 +3646,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.502E-03   TIME AVG. FORCE       7.639E-03
- LARGEST RESIDUAL FORCE            -2.688E-14   AT NODE        481   DOF  2
+ AVERAGE FORCE                      1.283E-03   TIME AVG. FORCE       7.657E-03
+ LARGEST RESIDUAL FORCE            -2.720E-14   AT NODE        478   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.782E-05   AT NODE        364   DOF  2
+ LARGEST INCREMENT OF DISP.         3.141E-05   AT NODE        360   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.753E-05   AT NODE        361   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.523E-05   AT NODE         65   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.372E-02   TIME AVG. MOMENT      5.462E-02
- LARGEST RESIDUAL MOMENT           -1.408E-14   AT NODE        465   DOF  6
+ AVERAGE MOMENT                     3.731E-02   TIME AVG. MOMENT      5.256E-02
+ LARGEST RESIDUAL MOMENT           -1.938E-14   AT NODE        479   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.463E-06   AT NODE        352   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.228E-06   AT NODE        349   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     8.216E-07   AT NODE        370   DOF  6
+ LARGEST CORRECTION TO ROTATION     7.900E-07   AT NODE        366   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.291     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.289     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
   MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.309     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.544    
- STEP TIME COMPLETED       5.444E-03,  TOTAL TIME COMPLETED        5.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.546    
+ STEP TIME COMPLETED       5.463E-03,  TOTAL TIME COMPLETED        5.463E-03
 
 
   INCREMENT    79 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3691,32 +3691,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.531E-03   TIME AVG. FORCE       7.561E-03
- LARGEST RESIDUAL FORCE             2.464E-14   AT NODE         96   DOF  2
+ AVERAGE FORCE                      1.374E-03   TIME AVG. FORCE       7.577E-03
+ LARGEST RESIDUAL FORCE            -2.660E-14   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.796E-05   AT NODE        372   DOF  2
+ LARGEST INCREMENT OF DISP.         3.246E-05   AT NODE        369   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.660E-05   AT NODE        391   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.400E-05   AT NODE         67   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.543E-02   TIME AVG. MOMENT      5.451E-02
- LARGEST RESIDUAL MOMENT            2.007E-14   AT NODE        471   DOF  6
+ AVERAGE MOMENT                     3.986E-02   TIME AVG. MOMENT      5.240E-02
+ LARGEST RESIDUAL MOMENT            1.577E-14   AT NODE         97   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.402E-06   AT NODE        384   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.160E-06   AT NODE        380   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     8.044E-07   AT NODE        378   DOF  6
+ LARGEST CORRECTION TO ROTATION     7.335E-07   AT NODE        374   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.261     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.285     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.259     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.283     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.554    
- STEP TIME COMPLETED       5.544E-03,  TOTAL TIME COMPLETED        5.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.556    
+ STEP TIME COMPLETED       5.563E-03,  TOTAL TIME COMPLETED        5.563E-03
 
 
   INCREMENT    80 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3736,32 +3736,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.470E-03   TIME AVG. FORCE       7.485E-03
- LARGEST RESIDUAL FORCE            -3.186E-14   AT NODE        485   DOF  2
+ AVERAGE FORCE                      1.345E-03   TIME AVG. FORCE       7.500E-03
+ LARGEST RESIDUAL FORCE            -2.861E-14   AT NODE        478   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.903E-05   AT NODE        428   DOF  2
+ LARGEST INCREMENT OF DISP.         3.556E-05   AT NODE        376   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.582E-05   AT NODE        398   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.424E-05   AT NODE        374   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.393E-02   TIME AVG. MOMENT      5.438E-02
- LARGEST RESIDUAL MOMENT           -2.067E-14   AT NODE        466   DOF  6
+ AVERAGE MOMENT                     3.971E-02   TIME AVG. MOMENT      5.224E-02
+ LARGEST RESIDUAL MOMENT            1.827E-14   AT NODE         92   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.414E-06   AT NODE        416   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.224E-06   AT NODE        389   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     7.898E-07   AT NODE        388   DOF  6
+ LARGEST CORRECTION TO ROTATION     7.017E-07   AT NODE        383   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.234     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.263     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.232     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.259     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.564    
- STEP TIME COMPLETED       5.644E-03,  TOTAL TIME COMPLETED        5.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.566    
+ STEP TIME COMPLETED       5.663E-03,  TOTAL TIME COMPLETED        5.663E-03
 
 
   INCREMENT    81 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3781,32 +3781,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.492E-03   TIME AVG. FORCE       7.411E-03
- LARGEST RESIDUAL FORCE             2.523E-14   AT NODE        474   DOF  2
+ AVERAGE FORCE                      1.334E-03   TIME AVG. FORCE       7.423E-03
+ LARGEST RESIDUAL FORCE             2.670E-14   AT NODE        480   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.976E-05   AT NODE        387   DOF  2
+ LARGEST INCREMENT OF DISP.         3.541E-05   AT NODE        432   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.766E-05   AT NODE        407   DOF  2
+ LARGEST CORRECTION TO DISP.        1.439E-05   AT NODE        404   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.439E-02   TIME AVG. MOMENT      5.425E-02
- LARGEST RESIDUAL MOMENT            2.024E-14   AT NODE         97   DOF  6
+ AVERAGE MOMENT                     4.021E-02   TIME AVG. MOMENT      5.209E-02
+ LARGEST RESIDUAL MOMENT            2.964E-14   AT NODE        463   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.487E-06   AT NODE        399   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.269E-06   AT NODE        419   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -8.666E-07   AT NODE        418   DOF  6
+ LARGEST CORRECTION TO ROTATION     7.287E-07   AT NODE        392   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.209     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.241     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.207     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.236     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.574    
- STEP TIME COMPLETED       5.744E-03,  TOTAL TIME COMPLETED        5.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.576    
+ STEP TIME COMPLETED       5.763E-03,  TOTAL TIME COMPLETED        5.763E-03
 
 
   INCREMENT    82 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3826,32 +3826,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.538E-03   TIME AVG. FORCE       7.340E-03
- LARGEST RESIDUAL FORCE            -3.018E-14   AT NODE        465   DOF  2
+ AVERAGE FORCE                      1.382E-03   TIME AVG. FORCE       7.350E-03
+ LARGEST RESIDUAL FORCE             3.599E-14   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.893E-05   AT NODE        394   DOF  2
+ LARGEST INCREMENT OF DISP.         3.568E-05   AT NODE        441   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.602E-05   AT NODE         79   DOF  2
+ LARGEST CORRECTION TO DISP.        1.469E-05   AT NODE        412   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.563E-02   TIME AVG. MOMENT      5.415E-02
- LARGEST RESIDUAL MOMENT           -2.477E-14   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     4.206E-02   TIME AVG. MOMENT      5.197E-02
+ LARGEST RESIDUAL MOMENT           -2.704E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.327E-06   AT NODE        407   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.225E-06   AT NODE        427   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     7.901E-07   AT NODE        405   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.990E-07   AT NODE        424   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.187     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.221     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.185     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.214     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.584    
- STEP TIME COMPLETED       5.844E-03,  TOTAL TIME COMPLETED        5.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.586    
+ STEP TIME COMPLETED       5.863E-03,  TOTAL TIME COMPLETED        5.863E-03
 
 
   INCREMENT    83 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3871,32 +3871,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.390E-03   TIME AVG. FORCE       7.268E-03
- LARGEST RESIDUAL FORCE            -2.802E-14   AT NODE        474   DOF  2
+ AVERAGE FORCE                      1.336E-03   TIME AVG. FORCE       7.277E-03
+ LARGEST RESIDUAL FORCE            -3.458E-14   AT NODE        492   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.997E-05   AT NODE        452   DOF  2
+ LARGEST INCREMENT OF DISP.         3.861E-05   AT NODE        448   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.660E-05   AT NODE        423   DOF  2
+ LARGEST CORRECTION TO DISP.        1.413E-05   AT NODE        419   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.187E-02   TIME AVG. MOMENT      5.400E-02
- LARGEST RESIDUAL MOMENT           -2.028E-14   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     3.991E-02   TIME AVG. MOMENT      5.182E-02
+ LARGEST RESIDUAL MOMENT           -1.914E-14   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.460E-06   AT NODE        415   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.230E-06   AT NODE        435   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     8.207E-07   AT NODE         79   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.884E-07   AT NODE        430   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.166     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.201     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.164     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.194     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.594    
- STEP TIME COMPLETED       5.944E-03,  TOTAL TIME COMPLETED        5.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.596    
+ STEP TIME COMPLETED       5.963E-03,  TOTAL TIME COMPLETED        5.963E-03
 
 
   INCREMENT    84 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3908,40 +3908,40 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED USER TIME (SEC)      =  0.10000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.309E-03   TIME AVG. FORCE       7.197E-03
- LARGEST RESIDUAL FORCE             2.749E-14   AT NODE        471   DOF  2
+ AVERAGE FORCE                      3.850E-04   TIME AVG. FORCE       7.195E-03
+ LARGEST RESIDUAL FORCE            -3.375E-14   AT NODE        462   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.089E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         4.452E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.608E-05   AT NODE        431   DOF  2
+ LARGEST CORRECTION TO DISP.        1.373E-05   AT NODE        428   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.296E-02   TIME AVG. MOMENT      5.387E-02
- LARGEST RESIDUAL MOMENT           -1.785E-14   AT NODE        453   DOF  6
+ AVERAGE MOMENT                     3.855E-02   TIME AVG. MOMENT      5.167E-02
+ LARGEST RESIDUAL MOMENT            2.081E-14   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.868E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.412E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     8.110E-07   AT NODE        421   DOF  6
+ LARGEST CORRECTION TO ROTATION     6.754E-07   AT NODE        419   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.147     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.183     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.145     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.175     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.604    
- STEP TIME COMPLETED       6.044E-03,  TOTAL TIME COMPLETED        6.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.606    
+ STEP TIME COMPLETED       6.063E-03,  TOTAL TIME COMPLETED        6.063E-03
 
 
   INCREMENT    85 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -3961,32 +3961,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.471E-03   TIME AVG. FORCE       7.130E-03
- LARGEST RESIDUAL FORCE             3.176E-14   AT NODE        482   DOF  2
+ AVERAGE FORCE                      1.361E-03   TIME AVG. FORCE       7.127E-03
+ LARGEST RESIDUAL FORCE             2.941E-14   AT NODE        495   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.732E-05   AT NODE         92   DOF  2
+ LARGEST INCREMENT OF DISP.         3.912E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -2.354E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.780E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.637E-02   TIME AVG. MOMENT      5.378E-02
- LARGEST RESIDUAL MOMENT            2.376E-14   AT NODE        483   DOF  6
+ AVERAGE MOMENT                     4.353E-02   TIME AVG. MOMENT      5.157E-02
+ LARGEST RESIDUAL MOMENT           -2.479E-14   AT NODE        489   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.262E-06   AT NODE        453   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.397E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.332E-06   AT NODE        499   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.003E-07   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.130     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.167     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.128     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.158     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.614    
- STEP TIME COMPLETED       6.144E-03,  TOTAL TIME COMPLETED        6.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.616    
+ STEP TIME COMPLETED       6.163E-03,  TOTAL TIME COMPLETED        6.163E-03
 
 
   INCREMENT    86 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4006,32 +4006,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.231E-03   TIME AVG. FORCE       7.061E-03
- LARGEST RESIDUAL FORCE            -2.806E-14   AT NODE        476   DOF  2
+ AVERAGE FORCE                      1.227E-03   TIME AVG. FORCE       7.058E-03
+ LARGEST RESIDUAL FORCE            -2.635E-14   AT NODE        460   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.943E-05   AT NODE        478   DOF  2
+ LARGEST INCREMENT OF DISP.         3.125E-05   AT NODE        473   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.178E-05   AT NODE        446   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.385E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.020E-02   TIME AVG. MOMENT      5.362E-02
- LARGEST RESIDUAL MOMENT           -1.991E-14   AT NODE        477   DOF  6
+ AVERAGE MOMENT                     4.182E-02   TIME AVG. MOMENT      5.146E-02
+ LARGEST RESIDUAL MOMENT           -2.126E-14   AT NODE         90   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.513E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      8.265E-07   AT NODE        460   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -6.305E-07   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.051E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.115     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.151     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -0.113     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.142     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.624    
- STEP TIME COMPLETED       6.244E-03,  TOTAL TIME COMPLETED        6.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.626    
+ STEP TIME COMPLETED       6.263E-03,  TOTAL TIME COMPLETED        6.263E-03
 
 
   INCREMENT    87 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4051,32 +4051,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      3.213E-04   TIME AVG. FORCE       6.984E-03
- LARGEST RESIDUAL FORCE             2.692E-14   AT NODE        488   DOF  2
+ AVERAGE FORCE                      2.554E-04   TIME AVG. FORCE       6.980E-03
+ LARGEST RESIDUAL FORCE             2.824E-14   AT NODE         90   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.629E-05   AT NODE        482   DOF  2
+ LARGEST INCREMENT OF DISP.         4.952E-05   AT NODE        481   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        2.527E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        1.037E-05   AT NODE        454   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.691E-02   TIME AVG. MOMENT      5.343E-02
- LARGEST RESIDUAL MOMENT           -1.896E-14   AT NODE         97   DOF  6
+ AVERAGE MOMENT                     3.175E-02   TIME AVG. MOMENT      5.123E-02
+ LARGEST RESIDUAL MOMENT            1.671E-14   AT NODE        489   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -3.500E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.469E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.260E-06   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     4.994E-07   AT NODE        445   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   0.101     AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.136     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   9.908E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.128     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.634    
- STEP TIME COMPLETED       6.344E-03,  TOTAL TIME COMPLETED        6.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.636    
+ STEP TIME COMPLETED       6.363E-03,  TOTAL TIME COMPLETED        6.363E-03
 
 
   INCREMENT    88 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4096,32 +4096,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.197E-03   TIME AVG. FORCE       6.918E-03
- LARGEST RESIDUAL FORCE             2.104E-14   AT NODE        474   DOF  2
+ AVERAGE FORCE                      1.039E-03   TIME AVG. FORCE       6.912E-03
+ LARGEST RESIDUAL FORCE             3.855E-14   AT NODE        479   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.083E-05   AT NODE        484   DOF  2
+ LARGEST INCREMENT OF DISP.         4.838E-05   AT NODE        482   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        3.749E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        3.062E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.975E-02   TIME AVG. MOMENT      5.327E-02
- LARGEST RESIDUAL MOMENT           -1.774E-14   AT NODE         92   DOF  6
+ AVERAGE MOMENT                     3.664E-02   TIME AVG. MOMENT      5.106E-02
+ LARGEST RESIDUAL MOMENT            2.979E-14   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.243E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -2.609E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     2.059E-06   AT NODE        499   DOF  6
+ LARGEST CORRECTION TO ROTATION     1.591E-06   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -8.787E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.123     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -8.660E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   0.114     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.644    
- STEP TIME COMPLETED       6.444E-03,  TOTAL TIME COMPLETED        6.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.646    
+ STEP TIME COMPLETED       6.463E-03,  TOTAL TIME COMPLETED        6.463E-03
 
 
   INCREMENT    89 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4141,32 +4141,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.094E-03   TIME AVG. FORCE       6.852E-03
- LARGEST RESIDUAL FORCE            -3.603E-14   AT NODE        489   DOF  2
+ AVERAGE FORCE                      1.047E-03   TIME AVG. FORCE       6.846E-03
+ LARGEST RESIDUAL FORCE             2.660E-14   AT NODE        495   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.763E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         3.830E-05   AT NODE        422   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -9.714E-06   AT NODE         81   DOF  2
+ LARGEST CORRECTION TO DISP.        1.745E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.862E-02   TIME AVG. MOMENT      5.311E-02
- LARGEST RESIDUAL MOMENT            1.879E-14   AT NODE        488   DOF  6
+ AVERAGE MOMENT                     3.755E-02   TIME AVG. MOMENT      5.091E-02
+ LARGEST RESIDUAL MOMENT           -2.759E-14   AT NODE        485   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.448E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.022E-06   AT NODE         78   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -5.325E-07   AT NODE        412   DOF  6
+ LARGEST CORRECTION TO ROTATION     9.936E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   7.726E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.110     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   7.597E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -0.102     AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.654    
- STEP TIME COMPLETED       6.544E-03,  TOTAL TIME COMPLETED        6.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.656    
+ STEP TIME COMPLETED       6.563E-03,  TOTAL TIME COMPLETED        6.563E-03
 
 
   INCREMENT    90 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4186,32 +4186,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.013E-03   TIME AVG. FORCE       6.787E-03
- LARGEST RESIDUAL FORCE            -2.566E-14   AT NODE        461   DOF  2
+ AVERAGE FORCE                      9.711E-04   TIME AVG. FORCE       6.781E-03
+ LARGEST RESIDUAL FORCE            -2.946E-14   AT NODE         91   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         9.604E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         5.979E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.181E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.543E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.255E-02   TIME AVG. MOMENT      5.288E-02
- LARGEST RESIDUAL MOMENT           -2.526E-14   AT NODE        469   DOF  6
+ AVERAGE MOMENT                     3.411E-02   TIME AVG. MOMENT      5.073E-02
+ LARGEST RESIDUAL MOMENT           -1.895E-14   AT NODE        490   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      3.776E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.231E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.809E-06   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION    -9.182E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -6.706E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   9.910E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -6.568E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   9.072E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.664    
- STEP TIME COMPLETED       6.644E-03,  TOTAL TIME COMPLETED        6.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.666    
+ STEP TIME COMPLETED       6.663E-03,  TOTAL TIME COMPLETED        6.663E-03
 
 
   INCREMENT    91 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4231,32 +4231,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      9.442E-04   TIME AVG. FORCE       6.723E-03
- LARGEST RESIDUAL FORCE            -3.394E-14   AT NODE        450   DOF  2
+ AVERAGE FORCE                      3.462E-04   TIME AVG. FORCE       6.710E-03
+ LARGEST RESIDUAL FORCE             3.186E-14   AT NODE        458   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         8.051E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         6.689E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -3.235E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.       -2.762E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.111E-02   TIME AVG. MOMENT      5.264E-02
- LARGEST RESIDUAL MOMENT            2.535E-14   AT NODE         88   DOF  6
+ AVERAGE MOMENT                     3.239E-02   TIME AVG. MOMENT      5.052E-02
+ LARGEST RESIDUAL MOMENT           -2.642E-14   AT NODE         90   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      2.650E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      2.313E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.702E-06   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION    -1.497E-06   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   5.762E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -8.899E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   5.649E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -8.082E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.674    
- STEP TIME COMPLETED       6.744E-03,  TOTAL TIME COMPLETED        6.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.676    
+ STEP TIME COMPLETED       6.763E-03,  TOTAL TIME COMPLETED        6.763E-03
 
 
   INCREMENT    92 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4276,32 +4276,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.114E-03   TIME AVG. FORCE       6.662E-03
- LARGEST RESIDUAL FORCE            -3.800E-14   AT NODE        499   DOF  2
+ AVERAGE FORCE                      3.115E-04   TIME AVG. FORCE       6.641E-03
+ LARGEST RESIDUAL FORCE            -3.988E-14   AT NODE        495   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.632E-05   AT NODE         87   DOF  2
+ LARGEST INCREMENT OF DISP.         5.431E-05   AT NODE        447   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.832E-05   AT NODE        447   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.250E-05   AT NODE        448   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.873E-02   TIME AVG. MOMENT      5.249E-02
- LARGEST RESIDUAL MOMENT           -2.774E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     3.079E-02   TIME AVG. MOMENT      5.031E-02
+ LARGEST RESIDUAL MOMENT            1.825E-14   AT NODE        489   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.713E-06   AT NODE        458   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.669E-06   AT NODE        459   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -9.161E-07   AT NODE         85   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.175E-07   AT NODE        437   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -5.000E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   7.930E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -4.899E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   7.149E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.684    
- STEP TIME COMPLETED       6.844E-03,  TOTAL TIME COMPLETED        6.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.686    
+ STEP TIME COMPLETED       6.863E-03,  TOTAL TIME COMPLETED        6.863E-03
 
 
   INCREMENT    93 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4313,40 +4313,40 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED USER TIME (SEC)      =  0.10000    
        ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.274E-03   TIME AVG. FORCE       6.604E-03
- LARGEST RESIDUAL FORCE             3.264E-14   AT NODE        456   DOF  2
+ AVERAGE FORCE                      1.044E-03   TIME AVG. FORCE       6.581E-03
+ LARGEST RESIDUAL FORCE             2.546E-14   AT NODE        464   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.512E-05   AT NODE        441   DOF  2
+ LARGEST INCREMENT OF DISP.         4.566E-05   AT NODE        444   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.686E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        1.674E-05   AT NODE        469   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.152E-02   TIME AVG. MOMENT      5.237E-02
- LARGEST RESIDUAL MOMENT           -2.123E-14   AT NODE         92   DOF  6
+ AVERAGE MOMENT                     3.460E-02   TIME AVG. MOMENT      5.014E-02
+ LARGEST RESIDUAL MOMENT            2.279E-14   AT NODE        487   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.325E-06   AT NODE        401   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.319E-06   AT NODE        428   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.229E-06   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     9.553E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   4.315E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -7.049E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   4.208E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -6.320E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.694    
- STEP TIME COMPLETED       6.944E-03,  TOTAL TIME COMPLETED        6.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.696    
+ STEP TIME COMPLETED       6.963E-03,  TOTAL TIME COMPLETED        6.963E-03
 
 
   INCREMENT    94 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4366,32 +4366,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.145E-03   TIME AVG. FORCE       6.546E-03
- LARGEST RESIDUAL FORCE            -4.029E-14   AT NODE        446   DOF  2
+ AVERAGE FORCE                      1.100E-03   TIME AVG. FORCE       6.522E-03
+ LARGEST RESIDUAL FORCE            -2.880E-14   AT NODE        484   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.578E-05   AT NODE         94   DOF  2
+ LARGEST INCREMENT OF DISP.         3.418E-05   AT NODE        381   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.450E-05   AT NODE        412   DOF  2
+ LARGEST CORRECTION TO DISP.        1.342E-05   AT NODE        412   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.013E-02   TIME AVG. MOMENT      5.224E-02
- LARGEST RESIDUAL MOMENT            1.857E-14   AT NODE        465   DOF  6
+ AVERAGE MOMENT                     3.559E-02   TIME AVG. MOMENT      4.999E-02
+ LARGEST RESIDUAL MOMENT            2.169E-14   AT NODE         96   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.048E-06   AT NODE         91   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.264E-06   AT NODE        422   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -8.352E-07   AT NODE        422   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.376E-07   AT NODE        422   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -3.662E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   6.283E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -3.556E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   5.602E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.704    
- STEP TIME COMPLETED       7.044E-03,  TOTAL TIME COMPLETED        7.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.706    
+ STEP TIME COMPLETED       7.063E-03,  TOTAL TIME COMPLETED        7.063E-03
 
 
   INCREMENT    95 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4411,32 +4411,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.098E-03   TIME AVG. FORCE       6.489E-03
- LARGEST RESIDUAL FORCE            -4.740E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.091E-03   TIME AVG. FORCE       6.465E-03
+ LARGEST RESIDUAL FORCE            -4.299E-14   AT NODE        463   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.581E-05   AT NODE        472   DOF  2
+ LARGEST INCREMENT OF DISP.         3.643E-05   AT NODE        376   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.429E-05   AT NODE         88   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.227E-05   AT NODE         83   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.718E-02   TIME AVG. MOMENT      5.208E-02
- LARGEST RESIDUAL MOMENT           -3.656E-14   AT NODE        101   DOF  6
+ AVERAGE MOMENT                     3.816E-02   TIME AVG. MOMENT      4.986E-02
+ LARGEST RESIDUAL MOMENT            2.457E-14   AT NODE        465   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.367E-06   AT NODE         90   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.000E-06   AT NODE        362   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -7.927E-07   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION    -8.019E-07   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   3.087E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -5.588E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   3.001E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -4.944E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.714    
- STEP TIME COMPLETED       7.144E-03,  TOTAL TIME COMPLETED        7.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.716    
+ STEP TIME COMPLETED       7.163E-03,  TOTAL TIME COMPLETED        7.163E-03
 
 
   INCREMENT    96 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4456,32 +4456,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.040E-03   TIME AVG. FORCE       6.432E-03
- LARGEST RESIDUAL FORCE             2.464E-14   AT NODE        451   DOF  2
+ AVERAGE FORCE                      9.454E-04   TIME AVG. FORCE       6.408E-03
+ LARGEST RESIDUAL FORCE             2.579E-14   AT NODE        496   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.484E-05   AT NODE        411   DOF  2
+ LARGEST INCREMENT OF DISP.         3.417E-05   AT NODE         94   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.641E-05   AT NODE        417   DOF  2
+ LARGEST CORRECTION TO DISP.        1.140E-05   AT NODE        397   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.689E-02   TIME AVG. MOMENT      5.193E-02
- LARGEST RESIDUAL MOMENT           -2.962E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     3.466E-02   TIME AVG. MOMENT      4.970E-02
+ LARGEST RESIDUAL MOMENT           -2.171E-14   AT NODE        458   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -2.165E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.232E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     8.422E-07   AT NODE        426   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.025E-07   AT NODE        408   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   2.646E-02 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   4.929E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -2.556E-02 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   4.328E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.724    
- STEP TIME COMPLETED       7.244E-03,  TOTAL TIME COMPLETED        7.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.726    
+ STEP TIME COMPLETED       7.263E-03,  TOTAL TIME COMPLETED        7.263E-03
 
 
   INCREMENT    97 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4501,32 +4501,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.197E-03   TIME AVG. FORCE       6.378E-03
- LARGEST RESIDUAL FORCE            -2.514E-14   AT NODE        480   DOF  2
+ AVERAGE FORCE                      9.947E-04   TIME AVG. FORCE       6.352E-03
+ LARGEST RESIDUAL FORCE             2.500E-14   AT NODE        478   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.291E-05   AT NODE        405   DOF  2
+ LARGEST INCREMENT OF DISP.         3.952E-05   AT NODE        408   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.797E-05   AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.        1.439E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.144E-02   TIME AVG. MOMENT      5.182E-02
- LARGEST RESIDUAL MOMENT           -2.815E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     3.101E-02   TIME AVG. MOMENT      4.951E-02
+ LARGEST RESIDUAL MOMENT            1.977E-14   AT NODE        479   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.844E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.837E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     1.066E-06   AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     8.412E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -2.283E-02 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -4.337E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   2.222E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -3.795E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.734    
- STEP TIME COMPLETED       7.344E-03,  TOTAL TIME COMPLETED        7.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.736    
+ STEP TIME COMPLETED       7.363E-03,  TOTAL TIME COMPLETED        7.363E-03
 
 
   INCREMENT    98 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4546,32 +4546,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.328E-03   TIME AVG. FORCE       6.327E-03
- LARGEST RESIDUAL FORCE            -3.557E-14   AT NODE         97   DOF  2
+ AVERAGE FORCE                      1.007E-03   TIME AVG. FORCE       6.297E-03
+ LARGEST RESIDUAL FORCE            -3.647E-14   AT NODE        495   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.463E-05   AT NODE        399   DOF  2
+ LARGEST INCREMENT OF DISP.         4.657E-05   AT NODE        401   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.587E-05   AT NODE         76   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.141E-05   AT NODE        402   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.461E-02   TIME AVG. MOMENT      5.174E-02
- LARGEST RESIDUAL MOMENT            2.309E-14   AT NODE        485   DOF  6
+ AVERAGE MOMENT                     3.282E-02   TIME AVG. MOMENT      4.934E-02
+ LARGEST RESIDUAL MOMENT           -2.873E-14   AT NODE        451   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.597E-06   AT NODE        386   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.277E-06   AT NODE        388   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -7.855E-07   AT NODE        391   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.188E-07   AT NODE        392   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.995E-02 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   3.834E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -2.026E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   3.338E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.744    
- STEP TIME COMPLETED       7.444E-03,  TOTAL TIME COMPLETED        7.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.746    
+ STEP TIME COMPLETED       7.463E-03,  TOTAL TIME COMPLETED        7.463E-03
 
 
   INCREMENT    99 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4591,32 +4591,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.360E-03   TIME AVG. FORCE       6.277E-03
- LARGEST RESIDUAL FORCE            -3.137E-14   AT NODE        482   DOF  2
+ AVERAGE FORCE                      1.096E-03   TIME AVG. FORCE       6.245E-03
+ LARGEST RESIDUAL FORCE            -3.616E-14   AT NODE        467   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.667E-05   AT NODE        393   DOF  2
+ LARGEST INCREMENT OF DISP.         4.515E-05   AT NODE        395   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.290E-05   AT NODE         68   DOF  2
+ LARGEST CORRECTION TO DISP.        1.080E-05   AT NODE        372   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.532E-02   TIME AVG. MOMENT      5.168E-02
- LARGEST RESIDUAL MOMENT            2.440E-14   AT NODE         96   DOF  6
+ AVERAGE MOMENT                     3.598E-02   TIME AVG. MOMENT      4.920E-02
+ LARGEST RESIDUAL MOMENT           -1.730E-14   AT NODE         98   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.635E-06   AT NODE        378   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.493E-06   AT NODE        380   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -6.715E-07   AT NODE        500   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.139E-07   AT NODE        409   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.798E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -3.379E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.856E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -2.918E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.754    
- STEP TIME COMPLETED       7.544E-03,  TOTAL TIME COMPLETED        7.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.756    
+ STEP TIME COMPLETED       7.563E-03,  TOTAL TIME COMPLETED        7.563E-03
 
 
   INCREMENT   100 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4636,32 +4636,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.329E-03   TIME AVG. FORCE       6.227E-03
- LARGEST RESIDUAL FORCE             3.050E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.206E-03   TIME AVG. FORCE       6.194E-03
+ LARGEST RESIDUAL FORCE            -2.448E-14   AT NODE        489   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.380E-05   AT NODE        386   DOF  2
+ LARGEST INCREMENT OF DISP.         3.540E-05   AT NODE        391   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.315E-05   AT NODE        386   DOF  2
+ LARGEST CORRECTION TO DISP.        1.248E-05   AT NODE        367   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.658E-02   TIME AVG. MOMENT      5.163E-02
- LARGEST RESIDUAL MOMENT           -1.824E-14   AT NODE        463   DOF  6
+ AVERAGE MOMENT                     4.022E-02   TIME AVG. MOMENT      4.911E-02
+ LARGEST RESIDUAL MOMENT           -2.104E-14   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.405E-06   AT NODE        371   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.301E-06   AT NODE        375   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     6.584E-07   AT NODE        396   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.704E-07   AT NODE        377   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.641E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   2.951E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.706E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   2.529E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.764    
- STEP TIME COMPLETED       7.644E-03,  TOTAL TIME COMPLETED        7.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.766    
+ STEP TIME COMPLETED       7.663E-03,  TOTAL TIME COMPLETED        7.663E-03
 
 
   INCREMENT   101 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4681,32 +4681,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.291E-03   TIME AVG. FORCE       6.178E-03
- LARGEST RESIDUAL FORCE             3.162E-14   AT NODE        447   DOF  2
+ AVERAGE FORCE                      1.242E-03   TIME AVG. FORCE       6.145E-03
+ LARGEST RESIDUAL FORCE            -2.606E-14   AT NODE        489   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.939E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         3.112E-05   AT NODE        328   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.426E-05   AT NODE        354   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.142E-05   AT NODE         59   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.491E-02   TIME AVG. MOMENT      5.156E-02
- LARGEST RESIDUAL MOMENT           -2.180E-14   AT NODE        474   DOF  6
+ AVERAGE MOMENT                     4.466E-02   TIME AVG. MOMENT      4.907E-02
+ LARGEST RESIDUAL MOMENT           -1.654E-14   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.262E-06   AT NODE        339   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.323E-06   AT NODE         61   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -6.578E-07   AT NODE        365   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.905E-07   AT NODE        345   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.496E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -2.565E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.559E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   2.244E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.774    
- STEP TIME COMPLETED       7.744E-03,  TOTAL TIME COMPLETED        7.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.776    
+ STEP TIME COMPLETED       7.763E-03,  TOTAL TIME COMPLETED        7.763E-03
 
 
   INCREMENT   102 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4726,32 +4726,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.232E-03   TIME AVG. FORCE       6.130E-03
- LARGEST RESIDUAL FORCE            -3.146E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.232E-03   TIME AVG. FORCE       6.097E-03
+ LARGEST RESIDUAL FORCE            -2.767E-14   AT NODE         96   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         6.070E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         3.986E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.116E-05   AT NODE        346   DOF  2
+ LARGEST CORRECTION TO DISP.        1.081E-05   AT NODE        350   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.870E-02   TIME AVG. MOMENT      5.144E-02
- LARGEST RESIDUAL MOMENT           -3.279E-14   AT NODE        499   DOF  6
+ AVERAGE MOMENT                     4.197E-02   TIME AVG. MOMENT      4.900E-02
+ LARGEST RESIDUAL MOMENT           -2.117E-14   AT NODE        458   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.597E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.169E-06   AT NODE        334   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     5.447E-07   AT NODE        334   DOF  6
+ LARGEST CORRECTION TO ROTATION    -5.722E-07   AT NODE         66   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.345E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   2.239E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.403E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -2.054E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.784    
- STEP TIME COMPLETED       7.844E-03,  TOTAL TIME COMPLETED        7.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.786    
+ STEP TIME COMPLETED       7.863E-03,  TOTAL TIME COMPLETED        7.863E-03
 
 
   INCREMENT   103 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4771,32 +4771,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.189E-03   TIME AVG. FORCE       6.082E-03
- LARGEST RESIDUAL FORCE             4.250E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.163E-03   TIME AVG. FORCE       6.049E-03
+ LARGEST RESIDUAL FORCE            -7.298E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         5.588E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         4.801E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.222E-05   AT NODE        339   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.070E-05   AT NODE        319   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.903E-02   TIME AVG. MOMENT      5.131E-02
- LARGEST RESIDUAL MOMENT           -3.274E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     3.806E-02   TIME AVG. MOMENT      4.889E-02
+ LARGEST RESIDUAL MOMENT           -3.867E-14   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.323E-06   AT NODE         50   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.203E-06   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -6.529E-07   AT NODE         63   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.771E-07   AT NODE        330   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.197E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -1.958E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.262E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.877E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.794    
- STEP TIME COMPLETED       7.944E-03,  TOTAL TIME COMPLETED        7.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.796    
+ STEP TIME COMPLETED       7.963E-03,  TOTAL TIME COMPLETED        7.963E-03
 
 
   INCREMENT   104 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4816,32 +4816,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.216E-03   TIME AVG. FORCE       6.035E-03
- LARGEST RESIDUAL FORCE            -6.391E-14   AT NODE        498   DOF  2
+ AVERAGE FORCE                      1.071E-03   TIME AVG. FORCE       6.001E-03
+ LARGEST RESIDUAL FORCE            -6.029E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.842E-05   AT NODE         82   DOF  2
+ LARGEST INCREMENT OF DISP.         4.537E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.171E-05   AT NODE        307   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.064E-05   AT NODE         53   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.232E-02   TIME AVG. MOMENT      5.123E-02
- LARGEST RESIDUAL MOMENT            3.936E-14   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     3.707E-02   TIME AVG. MOMENT      4.878E-02
+ LARGEST RESIDUAL MOMENT           -3.509E-14   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.308E-06   AT NODE        290   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.162E-06   AT NODE        294   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     5.885E-07   AT NODE        318   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.193E-07   AT NODE         56   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.075E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.692E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.145E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -1.724E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.804    
- STEP TIME COMPLETED       8.044E-03,  TOTAL TIME COMPLETED        8.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.806    
+ STEP TIME COMPLETED       8.063E-03,  TOTAL TIME COMPLETED        8.063E-03
 
 
   INCREMENT   105 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4861,32 +4861,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.212E-03   TIME AVG. FORCE       5.989E-03
- LARGEST RESIDUAL FORCE            -5.598E-14   AT NODE        500   DOF  2
+ AVERAGE FORCE                      1.008E-03   TIME AVG. FORCE       5.954E-03
+ LARGEST RESIDUAL FORCE             5.688E-14   AT NODE        496   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.108E-05   AT NODE        422   DOF  2
+ LARGEST INCREMENT OF DISP.         4.239E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.273E-05   AT NODE        298   DOF  2
+ LARGEST CORRECTION TO DISP.        9.824E-06   AT NODE        325   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.582E-02   TIME AVG. MOMENT      5.118E-02
- LARGEST RESIDUAL MOMENT           -2.954E-14   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     3.671E-02   TIME AVG. MOMENT      4.867E-02
+ LARGEST RESIDUAL MOMENT            4.890E-14   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.215E-06   AT NODE        284   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.191E-06   AT NODE        286   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -6.107E-07   AT NODE        288   DOF  6
+ LARGEST CORRECTION TO ROTATION     4.982E-07   AT NODE        314   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   9.693E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.503E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.033E-02 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.578E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.814    
- STEP TIME COMPLETED       8.144E-03,  TOTAL TIME COMPLETED        8.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.816    
+ STEP TIME COMPLETED       8.163E-03,  TOTAL TIME COMPLETED        8.163E-03
 
 
   INCREMENT   106 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4906,32 +4906,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.278E-03   TIME AVG. FORCE       5.945E-03
- LARGEST RESIDUAL FORCE            -3.371E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.078E-03   TIME AVG. FORCE       5.908E-03
+ LARGEST RESIDUAL FORCE             3.962E-14   AT NODE        497   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -3.755E-05   AT NODE        263   DOF  2
+ LARGEST INCREMENT OF DISP.        -4.157E-05   AT NODE         42   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.195E-05   AT NODE        292   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.046E-05   AT NODE        295   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.719E-02   TIME AVG. MOMENT      5.114E-02
- LARGEST RESIDUAL MOMENT           -2.887E-14   AT NODE         99   DOF  6
+ AVERAGE MOMENT                     4.077E-02   TIME AVG. MOMENT      4.859E-02
+ LARGEST RESIDUAL MOMENT            4.117E-14   AT NODE        100   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.143E-06   AT NODE        324   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.120E-06   AT NODE        278   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     6.105E-07   AT NODE        302   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.365E-07   AT NODE         52   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -8.646E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -1.364E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -9.206E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -1.431E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.824    
- STEP TIME COMPLETED       8.244E-03,  TOTAL TIME COMPLETED        8.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.826    
+ STEP TIME COMPLETED       8.263E-03,  TOTAL TIME COMPLETED        8.263E-03
 
 
   INCREMENT   107 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4951,32 +4951,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.381E-03   TIME AVG. FORCE       5.902E-03
- LARGEST RESIDUAL FORCE            -3.962E-14   AT NODE        494   DOF  2
+ AVERAGE FORCE                      1.179E-03   TIME AVG. FORCE       5.864E-03
+ LARGEST RESIDUAL FORCE            -7.132E-14   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -3.406E-05   AT NODE         51   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.634E-05   AT NODE        259   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.205E-05   AT NODE        283   DOF  2
+ LARGEST CORRECTION TO DISP.       -9.788E-06   AT NODE        286   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.728E-02   TIME AVG. MOMENT      5.110E-02
- LARGEST RESIDUAL MOMENT            4.485E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     4.320E-02   TIME AVG. MOMENT      4.854E-02
+ LARGEST RESIDUAL MOMENT            3.733E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.148E-06   AT NODE        315   DOF  6
+ LARGEST INCREMENT OF ROTATION     -9.974E-07   AT NODE        245   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     6.076E-07   AT NODE         49   DOF  6
+ LARGEST CORRECTION TO ROTATION    -5.182E-07   AT NODE        275   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   7.569E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.223E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   8.140E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.289E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.834    
- STEP TIME COMPLETED       8.344E-03,  TOTAL TIME COMPLETED        8.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.836    
+ STEP TIME COMPLETED       8.363E-03,  TOTAL TIME COMPLETED        8.363E-03
 
 
   INCREMENT   108 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -4996,32 +4996,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.406E-03   TIME AVG. FORCE       5.860E-03
- LARGEST RESIDUAL FORCE            -4.169E-14   AT NODE        498   DOF  2
+ AVERAGE FORCE                      1.271E-03   TIME AVG. FORCE       5.821E-03
+ LARGEST RESIDUAL FORCE             4.054E-14   AT NODE        494   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.015E-05   AT NODE        295   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.053E-05   AT NODE        251   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.111E-05   AT NODE        274   DOF  2
+ LARGEST CORRECTION TO DISP.       -8.725E-06   AT NODE         45   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.451E-02   TIME AVG. MOMENT      5.104E-02
- LARGEST RESIDUAL MOMENT            3.242E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     4.203E-02   TIME AVG. MOMENT      4.848E-02
+ LARGEST RESIDUAL MOMENT            3.013E-14   AT NODE        495   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.121E-06   AT NODE        309   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.034E-06   AT NODE         35   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     5.448E-07   AT NODE        287   DOF  6
+ LARGEST CORRECTION TO ROTATION     4.317E-07   AT NODE        290   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -6.644E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -1.098E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -7.225E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -1.164E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.844    
- STEP TIME COMPLETED       8.444E-03,  TOTAL TIME COMPLETED        8.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.846    
+ STEP TIME COMPLETED       8.463E-03,  TOTAL TIME COMPLETED        8.463E-03
 
 
   INCREMENT   109 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5041,32 +5041,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.361E-03   TIME AVG. FORCE       5.819E-03
- LARGEST RESIDUAL FORCE            -4.366E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      1.232E-03   TIME AVG. FORCE       5.779E-03
+ LARGEST RESIDUAL FORCE             6.285E-14   AT NODE        496   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.099E-05   AT NODE         48   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.044E-05   AT NODE        291   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.157E-05   AT NODE        267   DOF  2
+ LARGEST CORRECTION TO DISP.       -9.958E-06   AT NODE         43   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.504E-02   TIME AVG. MOMENT      5.099E-02
- LARGEST RESIDUAL MOMENT            2.609E-14   AT NODE        495   DOF  6
+ AVERAGE MOMENT                     4.120E-02   TIME AVG. MOMENT      4.841E-02
+ LARGEST RESIDUAL MOMENT            4.563E-14   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.207E-06   AT NODE        276   DOF  6
+ LARGEST INCREMENT OF ROTATION     -9.295E-07   AT NODE        231   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     5.735E-07   AT NODE        278   DOF  6
+ LARGEST CORRECTION TO ROTATION    -4.816E-07   AT NODE        259   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   5.896E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   9.945E-03 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   6.417E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   1.054E-02 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.854    
- STEP TIME COMPLETED       8.544E-03,  TOTAL TIME COMPLETED        8.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.856    
+ STEP TIME COMPLETED       8.563E-03,  TOTAL TIME COMPLETED        8.563E-03
 
 
   INCREMENT   110 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5086,32 +5086,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.248E-03   TIME AVG. FORCE       5.777E-03
- LARGEST RESIDUAL FORCE             3.012E-14   AT NODE        473   DOF  2
+ AVERAGE FORCE                      1.141E-03   TIME AVG. FORCE       5.737E-03
+ LARGEST RESIDUAL FORCE             5.215E-14   AT NODE        495   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -3.653E-05   AT NODE        284   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.040E-05   AT NODE        286   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.108E-05   AT NODE        259   DOF  2
+ LARGEST CORRECTION TO DISP.        9.515E-06   AT NODE        239   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.360E-02   TIME AVG. MOMENT      5.092E-02
- LARGEST RESIDUAL MOMENT           -2.787E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     4.193E-02   TIME AVG. MOMENT      4.836E-02
+ LARGEST RESIDUAL MOMENT            3.078E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.118E-06   AT NODE        269   DOF  6
+ LARGEST INCREMENT OF ROTATION     -8.676E-07   AT NODE        223   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -5.268E-07   AT NODE        248   DOF  6
+ LARGEST CORRECTION TO ROTATION    -4.767E-07   AT NODE        250   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -5.217E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   9.057E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -5.703E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -9.518E-03 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.864    
- STEP TIME COMPLETED       8.644E-03,  TOTAL TIME COMPLETED        8.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.866    
+ STEP TIME COMPLETED       8.663E-03,  TOTAL TIME COMPLETED        8.663E-03
 
 
   INCREMENT   111 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5131,32 +5131,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.148E-03   TIME AVG. FORCE       5.736E-03
- LARGEST RESIDUAL FORCE             3.766E-14   AT NODE        494   DOF  2
+ AVERAGE FORCE                      1.074E-03   TIME AVG. FORCE       5.695E-03
+ LARGEST RESIDUAL FORCE            -3.809E-14   AT NODE        495   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.685E-05   AT NODE        463   DOF  2
+ LARGEST INCREMENT OF DISP.         2.989E-05   AT NODE        467   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.119E-05   AT NODE        226   DOF  2
+ LARGEST CORRECTION TO DISP.        1.014E-05   AT NODE        230   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.950E-02   TIME AVG. MOMENT      5.082E-02
- LARGEST RESIDUAL MOMENT           -1.784E-14   AT NODE         90   DOF  6
+ AVERAGE MOMENT                     4.055E-02   TIME AVG. MOMENT      4.828E-02
+ LARGEST RESIDUAL MOMENT           -3.506E-14   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.086E-06   AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION     -9.332E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -5.413E-07   AT NODE        238   DOF  6
+ LARGEST CORRECTION TO ROTATION    -4.727E-07   AT NODE         36   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   4.518E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -8.408E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   4.971E-03 AND OCCURS AT NODE        499 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   8.491E-03 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.874    
- STEP TIME COMPLETED       8.744E-03,  TOTAL TIME COMPLETED        8.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.876    
+ STEP TIME COMPLETED       8.763E-03,  TOTAL TIME COMPLETED        8.763E-03
 
 
   INCREMENT   112 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5176,32 +5176,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.179E-03   TIME AVG. FORCE       5.695E-03
- LARGEST RESIDUAL FORCE            -4.467E-14   AT NODE        489   DOF  2
+ AVERAGE FORCE                      1.086E-03   TIME AVG. FORCE       5.654E-03
+ LARGEST RESIDUAL FORCE             7.302E-14   AT NODE        494   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.608E-05   AT NODE        464   DOF  2
+ LARGEST INCREMENT OF DISP.         3.530E-05   AT NODE        468   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.117E-05   AT NODE        220   DOF  2
+ LARGEST CORRECTION TO DISP.        9.426E-06   AT NODE        224   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.775E-02   TIME AVG. MOMENT      5.070E-02
- LARGEST RESIDUAL MOMENT           -3.768E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     3.779E-02   TIME AVG. MOMENT      4.819E-02
+ LARGEST RESIDUAL MOMENT            4.562E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.060E-06   AT NODE        227   DOF  6
+ LARGEST INCREMENT OF ROTATION     -8.708E-07   AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -5.388E-07   AT NODE        231   DOF  6
+ LARGEST CORRECTION TO ROTATION    -4.961E-07   AT NODE        235   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   4.021E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   7.836E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   4.634E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -7.509E-03 AND OCCURS AT NODE        100 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.884    
- STEP TIME COMPLETED       8.844E-03,  TOTAL TIME COMPLETED        8.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.886    
+ STEP TIME COMPLETED       8.863E-03,  TOTAL TIME COMPLETED        8.863E-03
 
 
   INCREMENT   113 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5221,32 +5221,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.096E-03   TIME AVG. FORCE       5.654E-03
- LARGEST RESIDUAL FORCE             6.759E-14   AT NODE        489   DOF  2
+ AVERAGE FORCE                      1.037E-03   TIME AVG. FORCE       5.613E-03
+ LARGEST RESIDUAL FORCE            -5.489E-14   AT NODE        500   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.615E-05   AT NODE        373   DOF  2
+ LARGEST INCREMENT OF DISP.         3.706E-05   AT NODE        469   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.031E-05   AT NODE        210   DOF  2
+ LARGEST CORRECTION TO DISP.        8.248E-06   AT NODE        215   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.675E-02   TIME AVG. MOMENT      5.058E-02
- LARGEST RESIDUAL MOMENT            4.636E-14   AT NODE         98   DOF  6
+ AVERAGE MOMENT                     3.409E-02   TIME AVG. MOMENT      4.807E-02
+ LARGEST RESIDUAL MOMENT           -4.133E-14   AT NODE        501   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.182E-06   AT NODE        218   DOF  6
+ LARGEST INCREMENT OF ROTATION      8.600E-07   AT NODE        223   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     4.962E-07   AT NODE        200   DOF  6
+ LARGEST CORRECTION TO ROTATION    -4.200E-07   AT NODE        227   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -3.773E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -7.226E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -4.307E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -6.912E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.894    
- STEP TIME COMPLETED       8.944E-03,  TOTAL TIME COMPLETED        8.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.896    
+ STEP TIME COMPLETED       8.963E-03,  TOTAL TIME COMPLETED        8.963E-03
 
 
   INCREMENT   114 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5266,32 +5266,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.164E-03   TIME AVG. FORCE       5.615E-03
- LARGEST RESIDUAL FORCE            -5.751E-14   AT NODE        499   DOF  2
+ AVERAGE FORCE                      9.886E-04   TIME AVG. FORCE       5.572E-03
+ LARGEST RESIDUAL FORCE             4.553E-14   AT NODE        493   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.797E-05   AT NODE        369   DOF  2
+ LARGEST INCREMENT OF DISP.         3.433E-05   AT NODE        466   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.222E-05   AT NODE        203   DOF  2
+ LARGEST CORRECTION TO DISP.        9.604E-06   AT NODE        206   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.661E-02   TIME AVG. MOMENT      5.045E-02
- LARGEST RESIDUAL MOMENT           -3.871E-14   AT NODE        500   DOF  6
+ AVERAGE MOMENT                     3.289E-02   TIME AVG. MOMENT      4.793E-02
+ LARGEST RESIDUAL MOMENT            2.343E-14   AT NODE         98   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.299E-06   AT NODE        212   DOF  6
+ LARGEST INCREMENT OF ROTATION      9.604E-07   AT NODE        216   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -5.726E-07   AT NODE         29   DOF  6
+ LARGEST CORRECTION TO ROTATION     4.665E-07   AT NODE        195   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   3.503E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   6.579E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   3.935E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   6.315E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.904    
- STEP TIME COMPLETED       9.044E-03,  TOTAL TIME COMPLETED        9.044E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.906    
+ STEP TIME COMPLETED       9.063E-03,  TOTAL TIME COMPLETED        9.063E-03
 
 
   INCREMENT   115 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5311,32 +5311,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.370E-03   TIME AVG. FORCE       5.578E-03
- LARGEST RESIDUAL FORCE            -3.121E-14   AT NODE         95   DOF  2
+ AVERAGE FORCE                      1.100E-03   TIME AVG. FORCE       5.533E-03
+ LARGEST RESIDUAL FORCE             6.227E-14   AT NODE        501   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -3.813E-05   AT NODE        191   DOF  2
+ LARGEST INCREMENT OF DISP.         3.345E-05   AT NODE        369   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.097E-05   AT NODE        196   DOF  2
+ LARGEST CORRECTION TO DISP.       -9.316E-06   AT NODE        176   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.213E-02   TIME AVG. MOMENT      5.038E-02
- LARGEST RESIDUAL MOMENT            2.728E-14   AT NODE        436   DOF  6
+ AVERAGE MOMENT                     3.540E-02   TIME AVG. MOMENT      4.782E-02
+ LARGEST RESIDUAL MOMENT           -3.856E-14   AT NODE        500   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.099E-06   AT NODE         27   DOF  6
+ LARGEST INCREMENT OF ROTATION     -9.077E-07   AT NODE        134   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     5.367E-07   AT NODE        185   DOF  6
+ LARGEST CORRECTION TO ROTATION     4.639E-07   AT NODE        188   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -3.234E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -5.987E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -3.621E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -5.818E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.914    
- STEP TIME COMPLETED       9.144E-03,  TOTAL TIME COMPLETED        9.144E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.916    
+ STEP TIME COMPLETED       9.163E-03,  TOTAL TIME COMPLETED        9.163E-03
 
 
   INCREMENT   116 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5356,32 +5356,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.299E-03   TIME AVG. FORCE       5.541E-03
- LARGEST RESIDUAL FORCE            -6.055E-14   AT NODE        498   DOF  2
+ AVERAGE FORCE                      1.121E-03   TIME AVG. FORCE       5.495E-03
+ LARGEST RESIDUAL FORCE            -3.626E-14   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.205E-05   AT NODE        184   DOF  2
+ LARGEST INCREMENT OF DISP.         3.410E-05   AT NODE        368   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.006E-05   AT NODE        187   DOF  2
+ LARGEST CORRECTION TO DISP.       -9.229E-06   AT NODE        168   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.371E-02   TIME AVG. MOMENT      5.032E-02
- LARGEST RESIDUAL MOMENT            5.139E-14   AT NODE        100   DOF  6
+ AVERAGE MOMENT                     3.670E-02   TIME AVG. MOMENT      4.773E-02
+ LARGEST RESIDUAL MOMENT            3.734E-14   AT NODE        496   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      1.063E-06   AT NODE        197   DOF  6
+ LARGEST INCREMENT OF ROTATION     -8.015E-07   AT NODE        176   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     4.748E-07   AT NODE        177   DOF  6
+ LARGEST CORRECTION TO ROTATION     4.536E-07   AT NODE        179   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   3.018E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   5.516E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   3.383E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   5.437E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.924    
- STEP TIME COMPLETED       9.244E-03,  TOTAL TIME COMPLETED        9.244E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.926    
+ STEP TIME COMPLETED       9.263E-03,  TOTAL TIME COMPLETED        9.263E-03
 
 
   INCREMENT   117 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5401,32 +5401,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.155E-03   TIME AVG. FORCE       5.504E-03
- LARGEST RESIDUAL FORCE             4.391E-14   AT NODE        501   DOF  2
+ AVERAGE FORCE                      3.024E-04   TIME AVG. FORCE       5.451E-03
+ LARGEST RESIDUAL FORCE            -3.551E-14   AT NODE        494   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.529E-05   AT NODE        177   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.560E-05   AT NODE        180   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.022E-05   AT NODE         14   DOF  2
+ LARGEST CORRECTION TO DISP.        7.704E-06   AT NODE        183   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.559E-02   TIME AVG. MOMENT      5.028E-02
- LARGEST RESIDUAL MOMENT           -3.214E-14   AT NODE        472   DOF  6
+ AVERAGE MOMENT                     3.529E-02   TIME AVG. MOMENT      4.762E-02
+ LARGEST RESIDUAL MOMENT            3.197E-14   AT NODE         99   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.301E-06   AT NODE        162   DOF  6
+ LARGEST INCREMENT OF ROTATION     -9.496E-07   AT NODE        166   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     4.794E-07   AT NODE        166   DOF  6
+ LARGEST CORRECTION TO ROTATION     3.852E-07   AT NODE        172   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -2.807E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -5.097E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -3.113E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -5.037E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.934    
- STEP TIME COMPLETED       9.344E-03,  TOTAL TIME COMPLETED        9.344E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.936    
+ STEP TIME COMPLETED       9.363E-03,  TOTAL TIME COMPLETED        9.363E-03
 
 
   INCREMENT   118 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5446,32 +5446,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.471E-03   TIME AVG. FORCE       5.469E-03
- LARGEST RESIDUAL FORCE            -3.744E-14   AT NODE         98   DOF  2
+ AVERAGE FORCE                      1.062E-03   TIME AVG. FORCE       5.414E-03
+ LARGEST RESIDUAL FORCE            -5.070E-14   AT NODE        490   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.131E-05   AT NODE        172   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.758E-05   AT NODE        175   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        1.461E-05   AT NODE        123   DOF  2
+ LARGEST CORRECTION TO DISP.        1.217E-05   AT NODE        124   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     5.092E-02   TIME AVG. MOMENT      5.029E-02
- LARGEST RESIDUAL MOMENT           -2.562E-14   AT NODE        501   DOF  6
+ AVERAGE MOMENT                     4.027E-02   TIME AVG. MOMENT      4.756E-02
+ LARGEST RESIDUAL MOMENT           -2.269E-14   AT NODE        499   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.193E-06   AT NODE         15   DOF  6
+ LARGEST INCREMENT OF ROTATION      1.172E-06   AT NODE        136   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -6.837E-07   AT NODE        136   DOF  6
+ LARGEST CORRECTION TO ROTATION    -5.423E-07   AT NODE        137   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   2.583E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   4.650E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   2.819E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   4.584E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.944    
- STEP TIME COMPLETED       9.444E-03,  TOTAL TIME COMPLETED        9.444E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.946    
+ STEP TIME COMPLETED       9.463E-03,  TOTAL TIME COMPLETED        9.463E-03
 
 
   INCREMENT   119 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5491,32 +5491,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.383E-03   TIME AVG. FORCE       5.435E-03
- LARGEST RESIDUAL FORCE            -6.089E-14   AT NODE        485   DOF  2
+ AVERAGE FORCE                      1.307E-03   TIME AVG. FORCE       5.379E-03
+ LARGEST RESIDUAL FORCE             4.754E-14   AT NODE        498   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         3.220E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.        -2.974E-05   AT NODE        171   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -8.674E-06   AT NODE        143   DOF  2
+ LARGEST CORRECTION TO DISP.        1.408E-05   AT NODE          6   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     4.634E-02   TIME AVG. MOMENT      5.026E-02
- LARGEST RESIDUAL MOMENT           -4.485E-14   AT NODE         97   DOF  6
+ AVERAGE MOMENT                     4.568E-02   TIME AVG. MOMENT      4.754E-02
+ LARGEST RESIDUAL MOMENT           -3.762E-14   AT NODE        493   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -7.960E-07   AT NODE        147   DOF  6
+ LARGEST INCREMENT OF ROTATION     -6.638E-07   AT NODE        157   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -4.386E-07   AT NODE        132   DOF  6
+ LARGEST CORRECTION TO ROTATION    -6.281E-07   AT NODE        134   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -2.345E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -4.188E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -2.544E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -4.155E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.954    
- STEP TIME COMPLETED       9.544E-03,  TOTAL TIME COMPLETED        9.544E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.956    
+ STEP TIME COMPLETED       9.563E-03,  TOTAL TIME COMPLETED        9.563E-03
 
 
   INCREMENT   120 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5536,32 +5536,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      9.010E-04   TIME AVG. FORCE       5.397E-03
- LARGEST RESIDUAL FORCE             4.171E-14   AT NODE        495   DOF  2
+ AVERAGE FORCE                      1.099E-03   TIME AVG. FORCE       5.344E-03
+ LARGEST RESIDUAL FORCE            -4.391E-14   AT NODE        490   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -4.201E-05   AT NODE        153   DOF  2
+ LARGEST INCREMENT OF DISP.         2.796E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -9.720E-06   AT NODE        125   DOF  2
+ LARGEST CORRECTION TO DISP.        4.934E-06   AT NODE        234   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.693E-02   TIME AVG. MOMENT      5.015E-02
- LARGEST RESIDUAL MOMENT           -2.529E-14   AT NODE        459   DOF  6
+ AVERAGE MOMENT                     4.254E-02   TIME AVG. MOMENT      4.750E-02
+ LARGEST RESIDUAL MOMENT            4.122E-14   AT NODE        497   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.634E-06   AT NODE        138   DOF  6
+ LARGEST INCREMENT OF ROTATION     -8.407E-07   AT NODE         10   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     4.158E-07   AT NODE        138   DOF  6
+ LARGEST CORRECTION TO ROTATION     2.537E-07   AT NODE        224   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   2.141E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   3.787E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   2.320E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   3.803E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.964    
- STEP TIME COMPLETED       9.644E-03,  TOTAL TIME COMPLETED        9.644E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.966    
+ STEP TIME COMPLETED       9.663E-03,  TOTAL TIME COMPLETED        9.663E-03
 
 
   INCREMENT   121 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5581,32 +5581,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.363E-03
- LARGEST RESIDUAL FORCE            -5.151E-14   AT NODE        487   DOF  2
+ AVERAGE FORCE                      3.104E-04   TIME AVG. FORCE       5.302E-03
+ LARGEST RESIDUAL FORCE             6.376E-14   AT NODE         99   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.311E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.914E-05   AT NODE        151   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.977E-05   AT NODE        122   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.369E-05   AT NODE        122   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.936E-02   TIME AVG. MOMENT      5.006E-02
- LARGEST RESIDUAL MOMENT            3.780E-14   AT NODE        484   DOF  6
+ AVERAGE MOMENT                     3.710E-02   TIME AVG. MOMENT      4.742E-02
+ LARGEST RESIDUAL MOMENT            3.726E-14   AT NODE        494   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -1.624E-06   AT NODE         10   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.613E-06   AT NODE        136   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     8.217E-07   AT NODE        134   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.850E-07   AT NODE        134   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.973E-03 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -3.454E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -2.107E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -3.494E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.974    
- STEP TIME COMPLETED       9.744E-03,  TOTAL TIME COMPLETED        9.744E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.976    
+ STEP TIME COMPLETED       9.763E-03,  TOTAL TIME COMPLETED        9.763E-03
 
 
   INCREMENT   122 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5626,32 +5626,32 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.328E-03
- LARGEST RESIDUAL FORCE             4.563E-14   AT NODE        485   DOF  2
+ AVERAGE FORCE                      1.082E-03   TIME AVG. FORCE       5.267E-03
+ LARGEST RESIDUAL FORCE             4.174E-14   AT NODE        100   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.433E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.        -3.879E-05   AT NODE        156   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -1.030E-05   AT NODE        122   DOF  2
+ LARGEST CORRECTION TO DISP.       -1.675E-05   AT NODE          6   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.724E-02   TIME AVG. MOMENT      4.995E-02
- LARGEST RESIDUAL MOMENT            2.842E-14   AT NODE        498   DOF  6
+ AVERAGE MOMENT                     3.770E-02   TIME AVG. MOMENT      4.734E-02
+ LARGEST RESIDUAL MOMENT            3.502E-14   AT NODE        498   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      9.437E-07   AT NODE        225   DOF  6
+ LARGEST INCREMENT OF ROTATION     -1.240E-06   AT NODE         10   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     3.955E-07   AT NODE        135   DOF  6
+ LARGEST CORRECTION TO ROTATION     6.662E-07   AT NODE          9   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.917E-03 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   3.147E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   1.900E-03 AND OCCURS AT NODE        498 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   3.195E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.984    
- STEP TIME COMPLETED       9.844E-03,  TOTAL TIME COMPLETED        9.844E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.986    
+ STEP TIME COMPLETED       9.863E-03,  TOTAL TIME COMPLETED        9.863E-03
 
 
   INCREMENT   123 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-04
@@ -5671,35 +5671,35 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      1.060E-03   TIME AVG. FORCE       5.294E-03
- LARGEST RESIDUAL FORCE             4.590E-14   AT NODE        482   DOF  2
+ AVERAGE FORCE                      1.087E-03   TIME AVG. FORCE       5.233E-03
+ LARGEST RESIDUAL FORCE             4.525E-14   AT NODE        499   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.         4.453E-05   AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.         3.812E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.       -9.367E-06   AT NODE         22   DOF  2
+ LARGEST CORRECTION TO DISP.       -8.896E-06   AT NODE        186   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.454E-02   TIME AVG. MOMENT      4.983E-02
- LARGEST RESIDUAL MOMENT            3.138E-14   AT NODE        490   DOF  6
+ AVERAGE MOMENT                     3.499E-02   TIME AVG. MOMENT      4.724E-02
+ LARGEST RESIDUAL MOMENT            3.432E-14   AT NODE        489   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -9.018E-07   AT NODE          4   DOF  6
+ LARGEST INCREMENT OF ROTATION      9.492E-07   AT NODE         19   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -4.535E-07   AT NODE        175   DOF  6
+ LARGEST CORRECTION TO ROTATION     3.952E-07   AT NODE        197   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.844E-03 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -2.853E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS  -1.814E-03 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS  -2.900E-03 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.994    
- STEP TIME COMPLETED       9.944E-03,  TOTAL TIME COMPLETED        9.944E-03
+ TIME INCREMENT COMPLETED  1.000E-04,  FRACTION OF STEP COMPLETED  0.996    
+ STEP TIME COMPLETED       9.963E-03,  TOTAL TIME COMPLETED        9.963E-03
 
 
-  INCREMENT   124 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  5.585E-05
+  INCREMENT   124 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  3.741E-05
 
   NUMBER OF EQUATIONS =      3006     NUMBER OF RHS =    1
   NUMBER OF FLOATING PT. OPERATIONS =  8.47E+05
@@ -5716,31 +5716,31 @@
                CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
 
 
- AVERAGE FORCE                      9.939E-04   TIME AVG. FORCE       5.259E-03
- LARGEST RESIDUAL FORCE             4.815E-14   AT NODE        488   DOF  2
+ AVERAGE FORCE                      1.055E-03   TIME AVG. FORCE       5.200E-03
+ LARGEST RESIDUAL FORCE            -3.749E-14   AT NODE        485   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.        -2.478E-05   AT NODE          7   DOF  2
+ LARGEST INCREMENT OF DISP.         1.413E-05   AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.        4.244E-06   AT NODE          6   DOF  2
+ LARGEST CORRECTION TO DISP.        1.071E-06   AT NODE        162   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
- AVERAGE MOMENT                     3.260E-02   TIME AVG. MOMENT      4.969E-02
- LARGEST RESIDUAL MOMENT           -2.750E-14   AT NODE        495   DOF  6
+ AVERAGE MOMENT                     3.458E-02   TIME AVG. MOMENT      4.713E-02
+ LARGEST RESIDUAL MOMENT           -5.155E-14   AT NODE         97   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION     -6.814E-07   AT NODE        114   DOF  6
+ LARGEST INCREMENT OF ROTATION      3.228E-07   AT NODE        233   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION    -1.820E-07   AT NODE        133   DOF  6
+ LARGEST CORRECTION TO ROTATION     5.437E-08   AT NODE        151   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
-  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   6.219E-04 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
-  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   8.751E-04 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT FORCE RESIDUAL IS   3.069E-04 AND OCCURS AT NODE        501 INSTANCE BEAM                                                                            
+  MAXIMUM HALF-INCREMENT MOMENT RESIDUAL IS   4.406E-04 AND OCCURS AT NODE        500 INSTANCE BEAM                                                                            
 
  ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
    0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
 
- TIME INCREMENT COMPLETED  5.585E-05,  FRACTION OF STEP COMPLETED   1.00    
+ TIME INCREMENT COMPLETED  3.741E-05,  FRACTION OF STEP COMPLETED   1.00    
  STEP TIME COMPLETED       1.000E-02,  TOTAL TIME COMPLETED        1.000E-02
 
 
@@ -5767,7 +5767,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =   4.5000    
-       SYSTEM TIME (SEC)    =  0.10000    
-       TOTAL CPU TIME (SEC) =   4.6000    
-       WALLCLOCK TIME (SEC) =          8
+       USER TIME (SEC)      =   3.9000    
+       SYSTEM TIME (SEC)    =  0.30000    
+       TOTAL CPU TIME (SEC) =   4.2000    
+       WALLCLOCK TIME (SEC) =          7

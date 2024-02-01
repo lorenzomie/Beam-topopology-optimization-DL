@@ -50,7 +50,6 @@ class TNN_MULTILABEL(keras.Model):
             x = tf.expand_dims(x, axis=0)
             y_pred = self.classifier(x)
             y = tf.expand_dims(y, axis = 0)
-            tf.print(tf.shape(y), tf.shape(y_pred))
             displacement_loss = keras.losses.mean_squared_error(y_pred[:, 0], y[:, 0])*self.labels_weights[0]
             mass_loss = keras.losses.mean_squared_error(y_pred[:, 1], y[:, 1])*self.labels_weights[1]
             frequency_loss = keras.losses.mean_squared_error(y_pred[:, 2], y[:, 2])*self.labels_weights[2]
@@ -322,7 +321,7 @@ if __name__ == "__main__":
     TEST_SIZE = 0.1
     VALIDATION_SIZE = 0.1
     train_dataset, test_dataset, val_dataset= split_dataset(z, labels_scaled, TEST_SIZE, VALIDATION_SIZE)
-    # plot_dataset(z, labels_scaled)
+    plot_dataset(z, labels_scaled)
     
     # Creating an Early Stopping for regularization (added to dropout in the NN)
     early_stopping = tf.keras.callbacks.EarlyStopping(
@@ -334,8 +333,11 @@ if __name__ == "__main__":
     # Creating the Neural Network for classification
     model_multilabel = TNN_MULTILABEL(labels_shape, LEARNING_RATE_ML, LABELS_WEIGHTS)
     model_multilabel.compile(optimizer = tf.keras.optimizers.Adam(LEARNING_RATE_ML))
+    # model_multilabel.fit(
+    #     train_dataset, epochs=NUM_EPOCHS_ML, batch_size=BATCH_SIZE_ML, 
+    #     validation_data=val_dataset, callbacks=[early_stopping]
+    #     )
     model_multilabel.fit(
-        train_dataset, epochs=NUM_EPOCHS_ML, batch_size=BATCH_SIZE_ML, 
-        validation_data=val_dataset, callbacks=[early_stopping]
+        train_dataset, epochs=NUM_EPOCHS_ML, batch_size=BATCH_SIZE_ML
         )
     save_weights_on_user_input(model_multilabel, output_weights_path)

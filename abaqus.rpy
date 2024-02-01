@@ -2,7 +2,7 @@
 #
 # Abaqus/CAE Release 2020 replay file
 # Internal Version: 2019_09_13-19.49.31 163176
-# Run by Lorenzo Miele on Wed Jan 31 15:01:12 2024
+# Run by Lorenzo Miele on Wed Jan 31 22:36:02 2024
 #
 
 # from driverUtils import executeOnCaeGraphicsStartup
