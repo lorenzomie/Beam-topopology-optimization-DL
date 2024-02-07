@@ -27,24 +27,26 @@ class VAE_WITH_LABEL(keras.Model):
         train_step
         compile_and_train(data, num_epochs, batch_size): Compile and train the VAE.
     """
-    def __init__(self, input_shape, kl_weight, learning_rate, latent_dim=2):
+    def __init__(self, input_shape, kl_weight, svd_weight, learning_rate, latent_dim=2):
         super().__init__()
         self.latent_dim = latent_dim
         self.encoder = self.build_encoder(input_shape, latent_dim)
         self.decoder = self.build_decoder(input_shape)
         self.kl_weight = kl_weight
+        self.svd_weight = svd_weight
         self.learning_rate = learning_rate
         self.total_loss_tracker = keras.metrics.Mean(name="total_loss")
         self.reconstruction_loss_tracker = keras.metrics.Mean(
             name="reconstruction_loss"
         )
         self.kl_loss_tracker = keras.metrics.Mean(name="kl_loss")
+        self.svd_loss_tracker = keras.metrics.Mean(name="svd_loss")
 
     def build_encoder(self, input_shape, latent_dim):
         encoder_inputs = keras.Input(shape = (input_shape,))
-        x = layers.Dense(128, activation = 'silu')(encoder_inputs)
-        x = layers.Dense(64, activation = 'silu')(x)
-        x = layers.Dense(16, activation="silu")(x)
+        x = layers.Dense(64, kernel_initializer='random_uniform', activation = 'relu')(encoder_inputs)
+        # x = layers.Dense(32, kernel_initializer='random_uniform', activation="relu")(x)
+        # x = layers.Dense(16, kernel_initializer='random_uniform', activation="relu")(x)
         z_mean = layers.Dense(latent_dim, name = "z_mean")(x)
         z_log_var = layers.Dense(latent_dim, name = "z_log_var")(x)
         z = self.sampling([z_mean, z_log_var])
@@ -61,10 +63,11 @@ class VAE_WITH_LABEL(keras.Model):
     def build_decoder(self, input_shape):
         # shape accepts a tuple of dimension
         decoder_inputs = keras.Input(shape = (self.latent_dim,))
-        x = layers.Dense(16, activation = "silu")(decoder_inputs)
-        x = layers.Dense(64, activation="silu")(x)
-        x = layers.Dense(128, activation = "silu")(x)
-        decoder_outputs = layers.Dense(input_shape, activation = "sigmoid")(x)
+        x = layers.Dense(16, kernel_initializer='random_uniform', activation = "relu")(decoder_inputs)
+        # x = layers.Dense(32, kernel_initializer='random_uniform', activation="relu")(x)
+        # x = layers.Dense(64, kernel_initializer='random_uniform', activation="relu")(x)
+        decoder_outputs = layers.Dense(input_shape, activation = "relu")(x)
+        decoder_outputs = CustomActivation(0.5, 0.55)(decoder_outputs)
         decoder = keras.Model(decoder_inputs, decoder_outputs, name = "DEC")
         return decoder
 
@@ -79,26 +82,56 @@ class VAE_WITH_LABEL(keras.Model):
             self.total_loss_tracker,
             self.reconstruction_loss_tracker,
             self.kl_loss_tracker,
+            self.svd_loss_tracker,
         ]
 
-    def train_step(self, data):
+    def train_step(self, batch_data):
         with tf.GradientTape() as tape:
+            data, labels = batch_data
+            labels = tf.cast(labels, dtype=tf.float32)
+            # Check if a single label is input
+            if labels.ndim == 1:
+                labels = tf.expand_dims(labels, axis = 1)
             z_mean, z_log_var, z = self.encoder(data)
             reconstruction = self.decoder(z)
-            reconstruction_loss = keras.losses.mse(data, reconstruction)
+            # tf.print(data, reconstruction)
+            reconstruction_loss = keras.losses.mean_squared_error(data, reconstruction)
             kl_loss = -0.5 * (1 + z_log_var - tf.square(z_mean) - tf.exp(z_log_var))
-            kl_loss = tf.reduce_mean(tf.reduce_sum(kl_loss, axis=1))
-            total_loss = reconstruction_loss + kl_loss
+            kl_loss = tf.reduce_mean(tf.reduce_sum(kl_loss, axis=1))*self.kl_weight
+            data_svd = tf.concat([z_mean, labels], axis=1)
+            data_mean = tf.reduce_mean(data_svd, axis=0)
+            data_reshaped = tf.reshape(data_svd - data_mean, [tf.shape(data)[0], -1]) 
+            dd = tf.linalg.diag_part(tf.linalg.matmul(data_reshaped, data_reshaped, transpose_a=True))
+            svd_loss = tf.reduce_sum(dd[1:] / dd[0])*self.svd_weight
+            total_loss = reconstruction_loss + kl_loss + svd_loss
         grads = tape.gradient(total_loss, self.trainable_weights)
         self.optimizer.apply_gradients(zip(grads, self.trainable_weights))
         self.total_loss_tracker.update_state(total_loss)
         self.reconstruction_loss_tracker.update_state(reconstruction_loss)
         self.kl_loss_tracker.update_state(kl_loss)
+        self.svd_loss_tracker.update_state(svd_loss)
         return {
             "loss": self.total_loss_tracker.result(),
             "reconstruction_loss": self.reconstruction_loss_tracker.result(),
             "kl_loss": self.kl_loss_tracker.result(),
+            "svd_loss": self.svd_loss_tracker.result(),
         }
+class CustomActivation(tf.keras.layers.Layer):
+    def __init__(self, threshold_1, threshold_2, **kwargs):
+        super(CustomActivation, self).__init__(**kwargs)
+        self.supports_masking = True
+        self.threshold_1 = tf.constant(threshold_1, dtype = tf.float32)
+        self.threshold_2 = tf.constant(threshold_2, dtype = tf.float32)
+
+    def call(self, inputs):
+        def element_activation(x):
+            condition_1 = tf.math.less(x, self.threshold_1)
+            condition_2 = tf.math.less(x, self.threshold_2)
+            result = tf.where(condition_1, tf.constant(0.333333333, dtype = tf.float32), 
+                            tf.where(condition_2, tf.constant(0.6666666666, dtype = tf.float32),
+                                     tf.constant(1, dtype = tf.float32)))
+            return result
+        return tf.map_fn(element_activation, inputs)
 
 def get_data_from_dataset(dataset_path):
     """
@@ -123,12 +156,13 @@ def get_data_from_dataset(dataset_path):
     with open(dataset_path, 'r') as file:
         lines = file.readlines()
 
+    # The first line is the header, the counter starts after that
     for line in lines[1:]:
         row = line.split(';')
         vectors.append(np.array(row[:100], dtype=float))
         mass.append(np.array(row[100], dtype=float))
         stress.append(np.array(row[101], dtype=float))
-        # The string is "[0, f1, f1, ..., f5, f5]" alike 
+        # The frequency string is "[0, f1, f1, ..., f5, f5]" alike 
         frequencies_values = row[102].strip('[]').split(', ')[1::2] 
         frequencies.append(np.array(frequencies_values, dtype=float))
         wave_time.append(np.array(row[103][:-2], dtype=float )) # delete the endline \n
@@ -195,7 +229,7 @@ def data_scaling(dataset):
     
     return normalized_dataset, array_min, array_max
 
-def min_max_scaling(array, axis=0):
+def min_max_scaling(array, axis_custom=0):
     """
     Scales the input array using min-max scaling along the specified axis.
 
@@ -219,9 +253,9 @@ def min_max_scaling(array, axis=0):
 
     elif array.shape[0] > 1 and array.shape[1] > 1:
         # manage a matrix case doing scaling along a column
-        array_max = np.max(array, axis=axis)
-        array_min = np.min(array, axis=axis)
-
+        array_max = np.max(array, axis=axis_custom)
+        array_min = np.min(array, axis=axis_custom)
+        print("multidimensional array detected")
         scaled_array = np.zeros_like(array)
 
         for i in range(len(array_max)):
@@ -249,6 +283,7 @@ def split_dataset(vectors, labels, test_size, val_size, batch_size, shuffle=True
         train_dataset (tf.data.Dataset): Training dataset.
         test_dataset (tf.data.Dataset): Test dataset.
     """
+
     # Calculate the size of the test set
     num_samples = len(vectors)
     num_test_samples = int(test_size * num_samples)
@@ -259,22 +294,24 @@ def split_dataset(vectors, labels, test_size, val_size, batch_size, shuffle=True
 
     # Check if the Frequencies are an array or a single value (User choice)
     if all(len(elem) > 1 for elem in labels[2]):
+        print("frequency are more than one")
         new_labels = labels[0:2]
         aux_labels = np.reshape(labels[2], (np.shape(labels[2])[1], np.shape(labels[2])[0]))
         for elem in aux_labels:
             new_labels.append(np.vstack(elem))
         new_labels.append(labels[3])
         labels = new_labels
+
     labels = np.concatenate(labels, axis=1)
-    dataset = np.hstack((vectors, labels))
-    tf_dataset = tf.convert_to_tensor(dataset)
+    
+    tf_dataset = tf.convert_to_tensor(vectors)
     
     # Create a TensorFlow dataset for the data and labels
-    dataset = tf.data.Dataset.from_tensor_slices(tf_dataset)
+    dataset = tf.data.Dataset.from_tensor_slices((tf_dataset, labels))
 
     # Shuffle the dataset if requested
     if shuffle:
-        dataset = dataset.shuffle(buffer_size=num_samples, seed=seed)
+        dataset = dataset.shuffle(buffer_size=num_samples//10, seed=seed)
 
     # Split the dataset into training and test sets
     train_dataset = dataset.skip(num_test_samples+num_val_samples).batch(batch_size)
@@ -292,15 +329,13 @@ def save_weights_on_user_input(model, output_weight_path):
 
 def plot_latent_space_2D(vae_model, vectors, labels):
     z_axis = ["displacement","mass","frequency","wave_time"]
-    labels_dataset = np.concatenate(labels, axis=1)
-    dataset = np.hstack((vectors, labels_dataset))
-    tf_dataset = tf.convert_to_tensor(dataset)
-    _, _, z = vae_model.encoder(tf_dataset)
-    cmap = plt.get_cmap('viridis')
+    tf_dataset = tf.convert_to_tensor(vectors)
+    z_mean, _, z = vae_model.encoder(tf_dataset)
+    cmap = plt.get_cmap('cividis')
     for idx, label in enumerate(labels):
         label_colors = [cmap(label_value) for label_value in label]
         fig = plt.figure()
-        plt.scatter(z[:, 0], z[:, 1], c=label_colors)
+        plt.scatter(z_mean[:, 0], z_mean[:, 1], c=label_colors)
         plt.colorbar()
         plt.xlabel('z_x')
         plt.ylabel('z_y')
@@ -311,36 +346,41 @@ if __name__ == "__main__":
 
     ### PATH MANAGEMENT ###
     file_Path = os.path.dirname(os.path.abspath(__file__))
-    dataset_path = os.path.join(file_Path, "..", "..", "data", "training", "multilabel_dataset.txt")
+    dataset_path = os.path.join(file_Path, "..", "..", "data", "training", "multilabel_dataset_2.txt")
     output_weights_path = os.path.join(file_Path, "..", "..", "models", "VAE_WITH_LABEL", "vae_with_labels.weights.h5")
 
     ### HYPERPARAMETER TUNING ###
-    NUM_EPOCHS = 50
-    BATCH_SIZE = 8
-    KL_WEIGHT = 0.05
-    LEARNING_RATE = 0.005
-    
+    NUM_EPOCHS = 100
+    BATCH_SIZE = 50
+    KL_WEIGHT = 0.001
+    SVD_WEIGHT = 0.1
+    LEARNING_RATE = 0.01
+
     ### MODEL TRAINING ###
     # Retrieve data from abaqus dataset txt file
     vectors, labels = get_data_from_dataset(dataset_path)
-    
+    vectors = vectors[:,0::4]
+    print(vectors)
+
     # Select the frequencies of interest from the interval [1, 5]
     natural_frequencies = [1]
     labels[2] = select_frequencies(labels[2], natural_frequencies)
-    
+
     # Scale to [0, 1] interval the labels, vectors are scaled previously
     labels_scaled, labels_min, labels_max = data_scaling(labels)
-    input_shape = len(vectors) + len(labels)
+    input_shape = np.shape(vectors)[1]
+    # print(labels_min, labels_max)
 
     # Create an unsupervised dataset
-    TEST_SIZE = 0.1
-    VALIDATION_SIZE = 0.1
+    TEST_SIZE = 0
+    VALIDATION_SIZE = 0
     train_dataset, test_dataset, val_dataset = split_dataset(
         vectors, labels_scaled, TEST_SIZE, VALIDATION_SIZE, BATCH_SIZE, shuffle=True, seed=None
         )
-    
+
+    # print(train_dataset)
     # Create the VAE model
-    vae_with_label = VAE_WITH_LABEL(input_shape, KL_WEIGHT, LEARNING_RATE)
+    vae_with_label = VAE_WITH_LABEL(input_shape, KL_WEIGHT, SVD_WEIGHT, LEARNING_RATE)
 
     # Display summaries of the encoder and decoder
     print("Encoder Summary:")
@@ -351,9 +391,9 @@ if __name__ == "__main__":
     # Compile and train the VAE model
     vae_with_label.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=LEARNING_RATE))
     vae_with_label.fit(train_dataset, epochs=NUM_EPOCHS, batch_size=BATCH_SIZE)
-    
-    plot_latent_space_2D(vae_with_label, vectors, labels_scaled)
-    
-    save_weights_on_user_input(vae_with_label, output_weights_path)
 
-    
+    for i in range(10):
+        print( "vector", vectors[i,:], vae_with_label(vectors[i:i+1,:]))
+    # plot_latent_space_2D(vae_with_label, vectors, labels_scaled)
+
+    save_weights_on_user_input(vae_with_label, output_weights_path)

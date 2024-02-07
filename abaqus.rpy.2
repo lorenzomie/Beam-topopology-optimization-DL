@@ -2,7 +2,7 @@
 #
 # Abaqus/CAE Release 2020 replay file
 # Internal Version: 2019_09_13-19.49.31 163176
-# Run by Lorenzo Miele on Wed Jan 31 22:35:40 2024
+# Run by Lorenzo Miele on Sun Feb  4 21:11:30 2024
 #
 
 # from driverUtils import executeOnCaeGraphicsStartup
@@ -10,8 +10,8 @@
 #: Executing "onCaeGraphicsStartup()" in the site directory ...
 from abaqus import *
 from abaqusConstants import *
-session.Viewport(name='Viewport: 1', origin=(1.11979, 1.12269), width=164.833, 
-    height=111.37)
+session.Viewport(name='Viewport: 1', origin=(1.23438, 1.25), width=181.7, 
+    height=124)
 session.viewports['Viewport: 1'].makeCurrent()
 from driverUtils import executeOnCaeStartup
 executeOnCaeStartup()
@@ -33,26 +33,26 @@ execfile(
 #: {'MyFrequencyStep': 'OdbStep object'}
 #: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Increment      0: Base State', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 0, 'frameValue': 0.0, 'frequency': 0.0, 'incrementNumber': 0, 'isImaginary': False, 'loadCase': None, 'mode': 0})
 #: [0.0]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         1: Value =   233.60     Freq =   2.4325     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 1.0, 'frequency': 2.4325, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 1})
-#: [0.0, 2.4325]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         2: Value =   233.60     Freq =   2.4325     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 2.0, 'frequency': 2.4325, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 2})
-#: [0.0, 2.4325, 2.4325]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         3: Value =   9290.0     Freq =   15.340     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 3.0, 'frequency': 15.34, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 3})
-#: [0.0, 2.4325, 2.4325, 15.34]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         4: Value =   9290.0     Freq =   15.340     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 4.0, 'frequency': 15.34, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 4})
-#: [0.0, 2.4325, 2.4325, 15.34, 15.34]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         5: Value =   73513.     Freq =   43.152     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 5.0, 'frequency': 43.152, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 5})
-#: [0.0, 2.4325, 2.4325, 15.34, 15.34, 43.152]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         6: Value =   73513.     Freq =   43.152     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 6.0, 'frequency': 43.152, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 6})
-#: [0.0, 2.4325, 2.4325, 15.34, 15.34, 43.152, 43.152]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         7: Value =  2.83522E+05 Freq =   84.745     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 7.0, 'frequency': 84.745, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 7})
-#: [0.0, 2.4325, 2.4325, 15.34, 15.34, 43.152, 43.152, 84.745]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         8: Value =  2.83522E+05 Freq =   84.745     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 8.0, 'frequency': 84.745, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 8})
-#: [0.0, 2.4325, 2.4325, 15.34, 15.34, 43.152, 43.152, 84.745, 84.745]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         9: Value =  7.75424E+05 Freq =   140.15     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 9.0, 'frequency': 140.15, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 9})
-#: [0.0, 2.4325, 2.4325, 15.34, 15.34, 43.152, 43.152, 84.745, 84.745, 140.15]
-#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode        10: Value =  7.75424E+05 Freq =   140.15     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 10.0, 'frequency': 140.15, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 10})
-#: [0.0, 2.4325, 2.4325, 15.34, 15.34, 43.152, 43.152, 84.745, 84.745, 140.15, 140.15]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         1: Value =   237.65     Freq =   2.4535     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 1.0, 'frequency': 2.4535, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 1})
+#: [0.0, 2.4535]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         2: Value =   237.65     Freq =   2.4535     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 2.0, 'frequency': 2.4535, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 2})
+#: [0.0, 2.4535, 2.4535]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         3: Value =   9516.4     Freq =   15.526     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 3.0, 'frequency': 15.526, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 3})
+#: [0.0, 2.4535, 2.4535, 15.526]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         4: Value =   9516.4     Freq =   15.526     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 4.0, 'frequency': 15.526, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 4})
+#: [0.0, 2.4535, 2.4535, 15.526, 15.526]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         5: Value =   76058.     Freq =   43.893     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 5.0, 'frequency': 43.893, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 5})
+#: [0.0, 2.4535, 2.4535, 15.526, 15.526, 43.893]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         6: Value =   76058.     Freq =   43.893     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 6.0, 'frequency': 43.893, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 6})
+#: [0.0, 2.4535, 2.4535, 15.526, 15.526, 43.893, 43.893]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         7: Value =  2.87624E+05 Freq =   85.356     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 7.0, 'frequency': 85.356, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 7})
+#: [0.0, 2.4535, 2.4535, 15.526, 15.526, 43.893, 43.893, 85.356]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         8: Value =  2.87624E+05 Freq =   85.356     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 8.0, 'frequency': 85.356, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 8})
+#: [0.0, 2.4535, 2.4535, 15.526, 15.526, 43.893, 43.893, 85.356, 85.356]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode         9: Value =  8.16585E+05 Freq =   143.82     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 9.0, 'frequency': 143.82, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 9})
+#: [0.0, 2.4535, 2.4535, 15.526, 15.526, 43.893, 43.893, 85.356, 85.356, 143.82]
+#: ({'associatedFrame': None, 'cyclicModeNumber': None, 'description': 'Mode        10: Value =  8.16585E+05 Freq =   143.82     (cycles/time)', 'domain': MODAL, 'fieldOutputs': 'Repository object', 'frameId': 1, 'frameValue': 10.0, 'frequency': 143.82, 'incrementNumber': 1, 'isImaginary': False, 'loadCase': None, 'mode': 10})
+#: [0.0, 2.4535, 2.4535, 15.526, 15.526, 43.893, 43.893, 85.356, 85.356, 143.82, 143.82]
 #: File Modified:C:\Users\dell\Tesi\Reverse_Topology_DL\data\temporary\output_results.txt
 #* Exit code: 0
 #* File 

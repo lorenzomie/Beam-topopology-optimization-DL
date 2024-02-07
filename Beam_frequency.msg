@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 31-Jan-2024   Time 22:35:56
+   Abaqus 2020                                  Date 04-Feb-2024   Time 21:11:37
    For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -52,7 +52,7 @@
   
  NUMBER OF EQUATIONS                                                        3006
  NUMBER OF UNRESTRAINED DEGREES OF FREEDOM                                  2970
- HEURISTIC SCALE FOR THE FIRST NONZERO EIGENVALUES (PROBLEM SCALE)   6.20501e+04
+ HEURISTIC SCALE FOR THE FIRST NONZERO EIGENVALUES (PROBLEM SCALE)   6.12676e+04
  INITIAL SHIFT VALUE                                                 0.00000e+00
   
  NUMBER OF CPUS USED BY DIRECT SOLVER     1
@@ -72,12 +72,11 @@
  LANCZOS RUN TERMINATED. NUMBER OF STEPS:    8
  ALL THE EIGENVALUES REQUESTED ON THIS LANCZOS RUN ARE FOUND
   
- NUMBER OF ACCEPTED EIGENVALUES   13
+ NUMBER OF ACCEPTED EIGENVALUES   12
   
  ACCEPTED EIGENVALUES
-   2.33598e+02  2.33598e+02  9.29005e+03  9.29005e+03  7.35131e+04  7.35131e+04
-   2.83522e+05  2.83522e+05  7.75424e+05  7.75424e+05  1.72571e+06  1.73534e+06
-   5.59050e+06
+   2.37647e+02  2.37647e+02  9.51644e+03  9.51644e+03  7.60576e+04  7.60576e+04
+   2.87624e+05  2.87624e+05  8.16585e+05  8.16585e+05  1.73949e+06  5.64353e+06
   
  FACTORIZATION WITH NEW SHIFT VALUE IS REQUIRED
   
@@ -98,13 +97,13 @@
  NUMBER OF EIGENVALUES NEEDED IN THE PRIMARY TRUST INTERVAL   10
   
  NUMBER OF MODES FORMING SENTINEL TO THE RIGHT   11
- SHIFT RIGHT         1.25057e+06
+ SHIFT RIGHT         1.27804e+06
   
  NUMBER OF MODES FORMING SENTINEL TO THE LEFT     0
  SHIFT LEFT          0.00000e+00
   
  SHIFTING TO THE RIGHT DIRECTION
- NEW SHIFT           1.25057e+06
+ NEW SHIFT           1.27804e+06
   
  NUMBER OF NEGATIVE EIGENVALUES    10
  NUMBER OF POSITIVE EIGENVALUES  2996
@@ -120,14 +119,14 @@
  |      ENDS OF INTERVAL     |     ENDS OF SENTINEL      |   COMPUTATIONAL INTERVAL  |
  -------------------------------------------------------------------------------------
  |  +  |     10 |        0       10 |     0     0 |     0     0 |      0     0       |
- | -3.95574e+37  1.25057e+06 | -3.95574e+37  1.25057e+06 | -3.95574e+37  1.25057e+06 |
+ | -3.95574e+37  1.27804e+06 | -3.95574e+37  1.27804e+06 | -3.95574e+37  1.27804e+06 |
  -------------------------------------------------------------------------------------
   
  FIRST EIGENVALUE REQUESTED BY THE USER     1
   
  EIGENVALUES REQUESTED BY THE USER
-   2.33598e+02  2.33598e+02  9.29005e+03  9.29005e+03  7.35131e+04  7.35131e+04
-   2.83522e+05  2.83522e+05  7.75424e+05  7.75424e+05
+   2.37647e+02  2.37647e+02  9.51644e+03  9.51644e+03  7.60576e+04  7.60576e+04
+   2.87624e+05  2.87624e+05  8.16585e+05  8.16585e+05
   
  EIGENVALUE EXTRACTION USING THE LANCZOS EIGENSOLVER IS COMPLETE
  NUMBER OF LANCZOS RUNS       :   1
@@ -137,9 +136,9 @@
 
      CHECK POINT  END OF SOLVER       
 
-       ELAPSED USER TIME (SEC)      =   0.0000    
-       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
-       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.20000    
        ELAPSED WALLCLOCK TIME (SEC) =          0
 
 
@@ -166,7 +165,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =  0.20000    
-       SYSTEM TIME (SEC)    =   0.0000    
-       TOTAL CPU TIME (SEC) =  0.20000    
+       USER TIME (SEC)      =  0.30000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =  0.40000    
        WALLCLOCK TIME (SEC) =          1

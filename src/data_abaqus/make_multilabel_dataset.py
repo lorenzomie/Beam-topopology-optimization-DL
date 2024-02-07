@@ -51,6 +51,20 @@ def generate_constrained_vector(length, max_value, max_unique_numbers=3):
     normalized_vector = random_vector / max_value
     return random_vector, normalized_vector
 
+def generate_constrained_by_group_vector(length, max_value, max_unique_numbers=3, group_length=4):
+    num_groups = length // group_length
+    if max_unique_numbers > max_value:
+        raise ValueError("The maximum number of unique numbers cannot exceed the maximum value.")
+
+    unique_numbers = np.random.choice(max_value, size=min(max_unique_numbers, max_value), replace=False)
+    random_vector_interim = np.random.choice(np.arange(1, max_value + 1), size=num_groups, replace=True)
+    random_vector = []
+    for item in random_vector_interim:
+        random_vector.extend([item]*4)
+    random_vector = np.array(random_vector)
+    normalized_vector = random_vector / max_value
+    return random_vector, normalized_vector
+    
 def write_array_to_txt(array, array_file):
     """
     Write a NumPy array to a text file.
@@ -79,7 +93,7 @@ def create_dataset(dimension):
     """
     dataset = []
     for i in range(dimension): 
-        array, norm_array = generate_constrained_vector(ARRAY_LENGTH, MATERIALS_NUMBER)
+        array, norm_array = generate_constrained_by_group_vector(ARRAY_LENGTH, MATERIALS_NUMBER)
         dataset.append((array, norm_array))
     return dataset
 

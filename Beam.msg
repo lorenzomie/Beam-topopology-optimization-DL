@@ -1,6 +1,6 @@
 1
 
-   Abaqus 2020                                  Date 31-Jan-2024   Time 22:35:37
+   Abaqus 2020                                  Date 04-Feb-2024   Time 21:11:27
    For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
 
                                                                                  
@@ -122,20 +122,20 @@
 
 
  AVERAGE FORCE                      0.330       TIME AVG. FORCE       0.330    
- LARGEST RESIDUAL FORCE            -2.955E-09   AT NODE        442   DOF  2
+ LARGEST RESIDUAL FORCE            -3.270E-09   AT NODE        482   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF DISP.          137.       AT NODE        101   DOF  2
+ LARGEST INCREMENT OF DISP.          138.       AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO DISP.         137.       AT NODE        101   DOF  2
+ LARGEST CORRECTION TO DISP.         138.       AT NODE        101   DOF  2
    INSTANCE: BEAM                                                                            
           THE FORCE     EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
  AVERAGE MOMENT                      163.       TIME AVG. MOMENT       163.    
- LARGEST RESIDUAL MOMENT           -3.205E-09   AT NODE        468   DOF  6
+ LARGEST RESIDUAL MOMENT            3.452E-09   AT NODE        460   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST INCREMENT OF ROTATION      0.206       AT NODE        101   DOF  6
+ LARGEST INCREMENT OF ROTATION      0.208       AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
- LARGEST CORRECTION TO ROTATION     0.206       AT NODE        101   DOF  6
+ LARGEST CORRECTION TO ROTATION     0.208       AT NODE        101   DOF  6
    INSTANCE: BEAM                                                                            
           THE MOMENT    EQUILIBRIUM RESPONSE WAS LINEAR IN THIS INCREMENT
 
@@ -169,7 +169,7 @@
 
 
      JOB TIME SUMMARY
-       USER TIME (SEC)      =   0.0000    
+       USER TIME (SEC)      =  0.10000    
        SYSTEM TIME (SEC)    =   0.0000    
-       TOTAL CPU TIME (SEC) =   0.0000    
+       TOTAL CPU TIME (SEC) =  0.10000    
        WALLCLOCK TIME (SEC) =          0
